@@ -1,0 +1,2 @@
+cnpj;matricula;cpf;documento_id;motivo_id;hospital_clinica;nome_colaborador;data_saida;data_retorno;qtde_dias_atestado;hora_saida;hora_retorno;cid;especialidade_id;emissor_id;profissional;num_crm;tipo_absenteismo_id;situacao
+12685155000198;19803404;48006131082;ATESTADO;CONSULTA;SÃO FRANCISCO SAUDE - HOSPITAL BAURU;JOAO TESTE;10/03/2023;;7;;;I821;VASCULAR;PLANO DE SAÚDE;JULIANO GARCIA;176937;Entre 3 e 15 dias de afastamento;Ativo

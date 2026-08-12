@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>jQuery Vertical Tabbed Content Sections</title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://designm.ag/favicon.ico">
+  <link rel="icon" href="http://designm.ag/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min.css">
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+</head>
+
+<body>
+  <div id="w" class="clearfix">
+    <ul id="sidemenu">
+      <li>
+        <a href="#home-content" class="open"><i class="icon-home icon-large"></i><strong>Home</strong></a>
+      </li>
+
+      <li>
+        <a href="#about-content"><i class="icon-info-sign icon-large"></i><strong>About</strong></a>
+      </li>
+      
+      <li>
+        <a href="#ideas-content"><i class="icon-lightbulb icon-large"></i><strong>Ideas</strong></a>
+      </li>
+      
+      <li>
+        <a href="#contact-content"><i class="icon-envelope icon-large"></i><strong>Contact</strong></a>
+      </li>
+    </ul>
+    
+    <div id="content">
+        <div id="home-content" class="contentblock">
+          <h1>The Main Page!</h1>
+          <p>I swear this has some really great stuff. Content is courtesy of <a href="http://bluthipsum.com/">Bluth Ipsum</a>.</p>
+          
+          <p>Smack of ham. What is she doing at a beauty pageant? Is she running the lights or something? She's always got to wedge herself in the middle of us so that she can control everything. Yeah. Mom's awesome.</p>
+          
+          <p>Probably out there without a flipper, swimming around in a circle, freaking out his whole family.</p>
+          
+          <p>Fun and failure both start out the same way.</p>
+        </div><!-- @end #home-content -->
+        
+        
+        <div id="about-content" class="contentblock hidden">
+          <h1>About This Site</h1>
+          <p>She keeps saying that God is going to show me a sign. The... something of my ways. Wisdom? It's probably wisdom.</p>
+          
+          <p><center><img src="images/annveal.png" alt="Ann Veal"></center></p>
+        </div><!-- @end #about-content -->
+        
+        <div id="ideas-content" class="contentblock hidden">
+          <h1>Boilerplate Ideas</h1>
+          
+          <p>Well, yeah you've gotta lock that down. No, I was ashamed to be SEEN with you. I like being with you.</p>
+          
+          <p>Yes, he's like the steel man from The Wizard From Oz.</p>
+          
+          <p>You can always tell a Milford man.</p>
+          
+          <p>Perhaps an attic shall I seek.</p>
+          
+          <p>After all, why should you go to jail for a crime somebody else noticed?</p>
+        </div><!-- @end #ideas-content -->
+        
+        <div id="contact-content" class="contentblock hidden">
+          <h1>Contact Info</h1>
+          
+          <p>We're super easy to get in touch with. Just send us a quick message and we will try our best to respond hastily.</p>
+          <br><br>
+          <form id="contactform">
+            <input type="text" name="name" id="name" class="bigtxtfield" placeholder="Your name">
+            
+            <textarea id="msg" name="msg" class="bigtxtarea" placeholder="Message..."></textarea>
+          </form>
+        </div><!-- @end #contact-content -->
+    </div><!-- @end #content -->
+  </div><!-- @end #w -->
+<script type="text/javascript">
+$(function(){
+  $('#sidemenu a').on('click', function(e){
+    e.preventDefault();
+
+    if($(this).hasClass('open')) {
+      // do nothing because the link is already open
+    } else {
+      var oldcontent = $('#sidemenu a.open').attr('href');
+      var newcontent = $(this).attr('href');
+      
+      $(oldcontent).fadeOut('fast', function(){
+        $(newcontent).fadeIn().removeClass('hidden');
+        $(oldcontent).addClass('hidden');
+      });
+      
+     
+      $('#sidemenu a').removeClass('open');
+      $(this).addClass('open');
+    }
+  });
+});
+</script>
+</body>
+</html>

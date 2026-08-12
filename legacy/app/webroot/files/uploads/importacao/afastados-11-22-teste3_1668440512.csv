@@ -1,0 +1,45 @@
+nome_colaborador;pis;cpf;data_nascimento;nome_mae;cargo;data_inicio_afastamento;data_fim_afastamento;cid;tipo_afastamento;assistencia_medica;plano_assitencia_medica;logradouro;rua;num;complemento;bairro;cidade;uf;cep;telefone;telefone1;telefone2;situacao
+Adriana De Morais Diniz Vitos;12403015387;13280815835;09/04/1969;Corina De Morais Diniz;Coordenador De Operacoes;11/10/2006;;;32;;;;;;;;;;;;;;A
+Aline Carvalho Peixoto;12641992029;65206312215;13/11/1979;Vera Lucia De Carvalho Martins;Operador De Veiculos;05/06/2015;;M541;32;;;;;;;;;;;;92991167005;92981237017;A
+Antonio Eduardo Dos Santos Conte;12332896564;11217516875;17/06/1971;Geralda Lopes Dos Santos Conte;Analista De Credito Varejo I;24/06/2014;;N180;31;;;;;;;;;;;;;987576164;A
+Cintia Gomes Carvalho;12905922852;80374131520;23/12/1981;Antonia Da Silva Gomes;Operador De Veiculos;19/04/2018;;M169;31;;;;;;;;;;;;71983553653;71983553653;A
+Cristiano Augusto Goncalves De Paula;12649300126;02890296601;07/11/1977;Vera Lucia Goncalves De Paula;Operador De Veiculos;17/05/2017;;S832;31;;;;;;;;;;;;31998427080;;A
+Daniela Batista De Souza Machado;12811223098;70231060149;05/09/1981;Maria Aparecida Oliveira Silva;;09/09/2017;;M332;31;;;;;;;;;;;;;;A
+Debora Calana Goncalves Santos;12857315645;05297164613;05/12/1981;Maria Das Gracas G Santos;Consultor Comercial Jr;30/03/2012;;F412;31;;;;;;;;;;;;32984038102;;A
+Edson Pires Galdino;12242771282;45775478568;01/01/1967;Inocente Pires Galdino;Consultor Comercial Jr;26/08/2015;;M659;31;;;;;;;;;;;;71988498940;71987730732;A
+Heraldo Lopes Martinez;12101507449;09213313802;12/07/1968;Diva Martins Lopes;Assistente Administrativo Ii;14/06/2006;;;32;;;;;;;;;;;;25015195;;A
+Isac Cirilo De Almeida;12211475630;14321222826;19/12/1970;Maria De Lourdes Cirilo De Almeida;Analista Monitoria Credito Varejo Ii;07/08/2014;;;32;;;;;;;;;;;;;;A
+Liegem Araujo Figueredo;12321723043;48030686587;25/10/1966;Jeneci Mota De Araujo;Operador De Veiculos;21/04/2015;;I608;31;;;;;;;;;;;;75991317003;75988127164;A
+Mariana Resende Da Silva;13023828341;07967644689;16/10/1985;Floriza Resende Da Silva;Consultor Comercial;24/03/2018;;F412;91;;;;;;;;;;;;32988191779;;A
+Michele Aparecida Domingues Da Silva;12680624248;29306878869;03/01/1982;Hilda Maria Domingues Da Silva;Consultor Comercial Pl;10/11/2015;;M79;31;;;;;;;;;;;;12991337994;12991337994;A
+Simone Garcia Dos Santos;12382145708;13979569845;17/11/1973;Dirce Garcia Dos Santos;Analista De Operacoes I;08/03/2016;;;32;;;;;;;;;;;;;;A
+Sonia Regina Calado;12383754864;13604654807;08/09/1973;Zoraide Maria Izabel Calado;Consultor Comercial Jr;20/02/2015;;M170;31;;;;;;;;;;;;973556218;951577189;A
+Elisabete Leao Pinto;12784088776;31841231894;16/02/1983;Esmeralda Dos Reis ;Consultor Comercial;26/01/2020;;R17;31;;;;;;;;;;;;992143657;991677776;A
+Veriberto Vieira Aines;12523359814;00074634488;14/06/1974;Vera Lucia Vieia Aines;Assistente Administrativo I;12/03/2020;;F33;31;;;;;;;;;;;;61981869145;61985512197;A
+Josilene Dos Santos Andrade;16266563097;73224170115;10/03/1987;Carmelita Francsico Dos Santos Pereira;Consultor Comercial;02/09/2020;;F41;31;;;;;;;;;;;;6130271272;;A
+Mercia Cristina Almeida Da Silva;12764627426;16509553830;27/02/1974;Maria Thereza Almeida Da Silva;Operador De Veiculos;23/08/2020;;F412;91;;;;;;;;;;;;982351729;;A
+Bruna Natalia Ekert Monteiro Silva;20114759779;35743991898;20/08/1988;Sandra Cristina Macedo Ekert Da Silva;Analista De Credito Varejo I;28/08/2020;;M073 ;31;;;;;;;;;;;;991644928;;A
+"Jessica Dias Rodrigues Braga De Moura
+";20195904693;15151215779;15/01/1991;Ketrim Aparecida Dias;Assistente Administrativo I;30/10/2020;;G821;31;;;;;;;;;;;;24992538031;;A
+Deise Luce Da Silva Gomes Reis;;27925667877;08/09/1978;;Consultor Comercial;14/06/2022;;S934;31;;;;;;;;;;;;11940124923;;A
+A Ntonio Jose Sanches Antunes Amaro;;84404620772;11/06/1962;Martina Sanches Coelho;;;;F411;91;;;;;;;;;;;;;;A
+Adilson Oliveira De Carvalho;;03320659790;17/08/1972;Mar Ia Aparec Ida Oliveira;;;;M23;31;;;;;;;;;;;;;;A
+Elisabeth Costa Sousa;;27838750806;17/10/1976;Juracicosta Sousa;;;;F431;31;;;;;;;;;;;;;;A
+Andressa Barreto Dos Anjos Carvalho;;82857482191;10/04/1978;Maria Oe Fatima Barreto Dosanjos;;;;F42;31;;;;;;;;;;;;;;A
+Jeane Araujo Andre;;33809404888;12/02/1983;;;03/02/2022;;G552;31;;;;;;;;;;;;;;A
+Marlene Augusta Da Silva De Almeida;;58463208134;26/03/1974;;;05/04/2021;;;31;;;;;;;;;;;;;;A
+Andre Pino Lopes;;27799100893;15/06/1980;;;19/04/2021;;;31;;;;;;;;;;;;;;A
+Renata Dias Moreira Da Costa;;29858057830;29/04/1982;;;07/04/2021;;;31;;;;;;;;;;;;;;A
+Andreia Cristina Alves De Souza;13355823855;36086691835;13/09/1987;Noelia Alves De Souza;Consultor Comercial;05/04/2022;;F411;31;;;;;;;;;;;;18997694774;;A
+Anna Paula Muniz Costa De Andrade;13363689895;31940843804;13/11/1984;Maria Nazare Muniz Costa Andrade;Especialista Em Usabilidade;11/04/2022;;M54;31;;;;;;;;;;;;11982577257;;A
+Bianca Matos Couto;20215239150;04285784548;08/09/1990;Digmar Pereira Matos Couto;Consultor Comercial;24/04/2022;;M179;31;;;;;;;;;;;;;;A
+Flavyane Batista Querino Egidio;13134364408;01878585193;26/05/1990;Eunice Conceicao Batista Querino;Consultor Comercial;10/05/2022;;F412;31;;;;;;;;;;;;;;A
+Marcus Vicente Varotto Da Silva;;25216989897;09/09/1976;;;09/08/2022;;F411;31;;;;;;;;;;;;;;A
+Ubirata Domingos Avila ;;00563988088;;;;08/08/2022;;N189;31;;;;;;;;;;;;;;A
+Iaritssa Ianca De Lima;;38801237804;09/12/2000;;;15/08/2022;;;31;;;;;;;;;;;;11 945674444;;A
+Joao Henrique Dos Santos;;32493658825;24/09/1985;;;;;F41;31;;;;;;;;;;;;11 952696914;;A
+Rita De Cassia Alves Soares Brito;;00176952101;18/11/1979;;;20/09/2022;;N840;31;;;;;;;;;;;;17 981003597;;A
+Rosangela Aparecida Ortolani Silva;;14597606890;04/01/1971;;;13/09/2022;;S522;31;;;;;;;;;;;;11 982285496;;A
+Vitor Hugo Okudaira Petrone;;30334235820;16/06/1982;;;25/08/2022;;I50;31;;;;;;;;;;;;11 981591918;;A
+Paola Nogaroto Taddeo;;33601886839;10/02/1987;;;30/09/2022;;F411;31;;;;;;;;;;;;12 981047497;;A
+Rafael Dantas Carvalho;;94896402200;12/10/1988;;;22/09/2022;;F322;31;;;;;;;;;;;;91 984125232;;A

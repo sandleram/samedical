@@ -1,0 +1,4 @@
+nome_colaborador;cnpj;pis;cpf;data_nascimento;nome_mae;cargo;data_inicio_afastamento;data_fim_afastamento;cid;tipo_afastamento;assistencia_medica;plano_assitencia_medica;logradouro;rua;num;complemento;bairro;cidade;uf;cep;telefone;telefone1;telefone2;situacao
+João teste 4;12685155000198;2545854;48006131082;21/04/2000;Maria Luc;;25/01/2022;05/04/2022;F43;31;;;;;;;;;;;11963880938;11963880938;11963880938;RT
+ANDRE PINO LOPES;93017849000159;;10626440009;15/06/1980;;Gerente de Eng Software;25/01/2022;;F43;31;;;;;;;;;;;11993810020;11993810020;11993810020;A
+Teste Novo Emp e Benef;13541871000164;;48464053541;13/09/1987;;Consultor Comercial;05/04/2022;;F411;91;;;;;;;;;;;11983874841;11983874840;11983874844;A

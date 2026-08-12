@@ -1,0 +1,181 @@
+<?php
+/**
+ *
+ *
+ * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
+ * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ *
+ * Licensed under The MIT License
+ * For full copyright and license information, please see the LICENSE.txt
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * @link          http://cakephp.org CakePHP(tm) Project
+ * @package       app.Config
+ * @since         CakePHP(tm) v 2.0.0
+ * @license       http://www.opensource.org/licenses/mit-license.php MIT License
+ * http://book.cakephp.org/2.0/en/core-utility-libraries/email.html
+ * http://book.cakephp.org/1.3/pt/The-Manual/Core-Components/Email.html
+ * habilitar php.ini openssl
+ * Check ssl_module in the Apache modules.
+ * Check php_openssl in the PHP extensions.
+ * Em caso de looping $this->Email->reset()
+ * 
+ */
+
+/**
+ * This is email configuration file.
+ *
+ * Use it to configure email transports of CakePHP.
+ *
+ * Email configuration class.
+ * You can specify multiple configurations for production, development and testing.
+ *
+ * transport => The name of a supported transport; valid options are as follows:
+ *  Mail - Send using PHP mail function
+ *  Smtp - Send using SMTP
+ *  Debug - Do not send the email, just return the result
+ *
+ * You can add custom transports (or override existing transports) by adding the
+ * appropriate file to app/Network/Email. Transports should be named 'YourTransport.php',
+ * where 'Your' is the name of the transport.
+ *
+ * from =>
+ * The origin email. See CakeEmail::from() about the valid values
+ *
+ */
+#
+class EmailConfig {
+
+    public $default = array(
+        'transport' => 'Smtp',
+        'from' => array('contato@samed.app.br' => 'No reply'),
+        'host' => 'email-ssl.com.br', //localhost
+        'port' => 587,
+        'timeout' => 30,
+        'username' => 'contato@samed.app.br',
+        'password' => 'sam@cont21S',
+        'client' => null,
+        'log' => false,
+        //'tls' => true
+        //'charset' => 'utf-8',
+        //'headerCharset' => 'utf-8',
+    );
+
+    /*
+	public $default = array(
+		'transport' => 'Mail',
+		'from' => 'contato@samed.app.br',//sacademico.contato@gmail.com
+		//'charset' => 'utf-8',
+		//'headerCharset' => 'utf-8',
+	);
+
+
+
+
+    public $gmail = array(
+            'host' => 'smtp.gmail.com',
+            'port' => 587,
+            'username' => 'samedapp@gmail.com', //sacademico.contato@gmail.com
+            'password' => '@Cloud2017@#58',  // senha12@
+            'className' => 'Smtp',
+            'tls' => true
+        );
+    public $samed = array(
+            'host' => 'smtp.gmail.com',
+            'port' => 587,
+            'username' => 'contato@samed.app.br',
+            'password' => 'eky!run_bvf2CBZ8bun',
+            'className' => 'Smtp',
+            'tls' => true
+        );
+
+        */
+//    public $gmail = array(
+//            'host' => 'ssl://smtp.gmail.com',
+//            'timeout'=>'30',
+//            'port' => 465,
+//            'from'=>'sacademico.contato@gmail.com',
+//            'username' => 'sacademico.contato@gmail.com',
+//            'password' => 'senha12@',
+//            'transport' => 'Smtp',
+//            'log' => true
+//            
+//        );
+
+    
+    
+    
+
+//     public $gmail = array(
+//        'transport' => 'Smtp',
+//        'from' => array('sacademico.contato@gmail.com' => 'test'),
+//        'host' => 'mail.gmail.com',
+//        'port' => 80,
+//        'timeout' => 60,
+//        'username' => 'sacademico.contato@gmail.com',
+//        'password' => 'senha12@',
+//        'client' => null,
+//        'log' => false,
+//        //'charset' => 'utf-8',
+//        //'headerCharset' => 'utf-8',
+//    );
+
+
+
+
+//        public $gmail = array(
+//            'host' => 'ssl://smtp.gmail.com',
+//            'port' => 465,
+//            'from'=>'sandler@i9jobs.com.br',
+//            'username' => 'sandler@i9jobs.com.br',
+//            'password' => 'senha12@',
+//            'transport' => 'Smtp'
+//        );
+        
+//	public $smtp = array(
+//		'transport' => 'Smtp',
+//		'from' => array('sandler@i9jobs.com.br' => 'Litoral Verde'),
+//		'host' => 'smtp.i9jobs.com.br',//localhost
+//		'port' => 25,
+//		'timeout' => 30,
+//		'username' => 'sandler@i9jobs.com.br',
+//		'password' => 'senha12@',
+//		'client' => null,
+//		'log' => false,
+//		//'charset' => 'utf-8',
+//		//'headerCharset' => 'utf-8',
+//	);
+//
+//	public $fast = array(
+//		'from' => 'sandler@i9jobs.com.br',
+//		'sender' => null,
+//		'to' => null,
+//		'cc' => null,
+//		'bcc' => null,
+//		'replyTo' => null,
+//		'readReceipt' => null,
+//		'returnPath' => null,
+//		'messageId' => true,
+//		'subject' => null,
+//		'message' => null,
+//		'headers' => null,
+//		'viewRender' => null,
+//		'template' => false,
+//		'layout' => false,
+//		'viewVars' => null,
+//		'attachments' => null,
+//		'emailFormat' => null,
+//		'transport' => 'Smtp',
+//		'host' => 'smtp.i9jobs.com.br',
+//		'port' => 25,
+//		'timeout' => 30,
+//		'username' => 'sandler@i9jobs.com.br',
+//		'password' => 'senha12@',
+//		'client' => null,
+//		'log' => true,
+//		//'charset' => 'utf-8',
+//		//'headerCharset' => 'utf-8',
+//	);
+
+}

@@ -1,0 +1,4 @@
+cnpj;razao_social;filial;grupo;subgrupo;matricula;nome;cpf;data_nascimento;turno;profissao;ocupacao;pessoa_politicamente_exposta;realiza_alguma_atividade_perigosa_na_profissao;possui_deficiencia;rg;estado_civil;sexo;email;telefone;telefone1;telefone2;situacao
+12685155000198;Dev;dev;;;212121;Maria teste 3;50578102005;11/11/1983;;;;;;;;;F;maria1@gmail.com;11968680101;11968680101;11968680101;Ativo
+93017849000159;Dev Teste;Dev Teste ;;;222222;João teste 4;48006131082;21/04/2000;;;;;;;;;M;joao1@gmail.com;11966884455;11966884455;11966884455;Inativo
+12685155000198;Dev;Dev;;;10101;teste 2 (existe);"13141755051	";21/05/2000;;;;;;;;;M;jaexiste@gamil.com;11988848488;11988848488;11988848488;Ativo

@@ -1,0 +1,19 @@
+1786328558
+s:907:"<!-- SHORTCUT AREA : With large tiles (activated via clicking user name tag)
+Note: These tiles are completely responsive,
+you can add as many as you like
+-->
+<div id="shortcut">
+        <ul>
+                <li>
+                    <a href="/samed/admin" title="Dashboard" class="jarvismetro-tile big-cubes  bg-color-blueLight">Dashboard<span class="iconbox"> <i class="fa fa-coffee fa-4x"></i> <span> Dashboard </span> </span></a>
+                </li>
+                <li>
+                    <a href="/samed/admin/usuario/add/1" title="Editar Perfil" class="jarvismetro-tile big-cubes  bg-color-pinkDark">Editar Perfil<span class="iconbox"> <i class="fa fa-user fa-4x"></i> <span> Editar Perfil </span> </span></a>                </li>
+<!--                <li>
+                                    </li>-->
+                                
+        </ul>
+</div>
+<!-- END SHORTCUT AREA -->
+";

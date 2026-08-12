@@ -1,0 +1,611 @@
+nome_colaborador;cnpj;pis;cpf;data_nascimento;nome_mae;cargo;data_inicio_afastamento;data_fim_afastamento;cid;tipo_afastamento;assistencia_medica;plano_assitencia_medica;logradouro;rua;num;complemento;bairro;cidade;uf;cep;telefone;telefone1;telefone2;situacao
+Adalberto Rodrigues Santiago;61079117016443;;05549723441;19/05/1984;Maria De Fatima Araujo Rodrigues ;Oper Corte/Montagem/Acaba;28/05/2022;;;31;;;;;;;;;;;;;;A
+Adalberto Soares Nascimento Farias;61079117016443;;70053756452;29/09/1995;Veronica Soares Nascimento Farias;Oper Mistura ;27/09/2022;;F32 ;31;;;;;;;;;;;;;;A
+Adao Alves Ferreira ;61079117010917;;09698570632;18/07/1987;Adelice Alves De Oliveira Ferreira ;Mecanico ;29/08/2022;;C159;31;;;;;;;;;;;;;;A
+Adeilson Pereira Da Silva ;61079117016443;;01650658427;28/10/1991;Celia Maria Lopes Da Silva ;Oper Injetoras Injetados ;31/12/2022;;T93 ;31;;;;;;;;;;;;;;A
+Adelson Benedito Mendes ;61079117025604;;01183724403;20/10/1981;Maria Jose Mendes;Aux Acabamento 1T;01/07/2019;;A46 ;91;;;;;;;;;;;;;;A
+Adenildo Bezerra De Mendonca;61079117016443;;01449528740;25/09/1969;Severina Correia De Mendonca ;Oper Injetoras ;10/08/2022;;M77 ;31;;;;;;;;;;;;;;A
+Adenilza Maria Da Silva ;61079117025604;;04691878408;28/09/1982;Severina Maria Da Silva;Aux Programação;23/05/2019;;Z98 ;31;;;;;;;;;;;;;;A
+Adolfo Alves De Souza Neto;61079117014580;;70551712457;18/11/1997;Maria Das Dores Rodrigues De Lima;Oper. Mont. H.S 4 2 T;01/10/2020;;M708;91;;;;;;;;;;;;;;A
+Adonias Jose Da Silva De Araujo ;61079117016443;;47189757864;27/07/1998;Maria De Fatima Da Silva De Araujo ;Oper Corte/Montagem/Acaba;13/12/2022;;K27 ;31;;;;;;;;;;;;;;A
+Adriana Ferreira Da Silva ;61079117014580;;05767265402;02/03/1982;Maria Raimunda Silva ;Injeção Termoplástico_Ope;12/01/2023;;M659;31;;;;;;;;;;;;;;A
+Adriana Goncalves Silva ;61079117010917;;05567239610;21/05/1978;Maria De Fatima Goncalves Silva;Op Serigrafia 2ºt;29/01/2023;;F33 ;31;;;;;;;;;;;;;;A
+Adriana Pereira Da Silva;61079117016443;;10314036474;22/07/1991;Joselha Pereira Da Silva ;Oper Corte/Montagem/Acaba;24/12/2022;;;31;;;;;;;;;;;;;;A
+Adriane Rodrigues Dias;61079117010917;;11589573609;02/12/1991;Delza Rodrigues Da Silva ;Op Serigrafia 3ºt;24/08/2022;;R599;31;;;;;;;;;;;;;;A
+Adriano De Farias Moura ;61079117016443;;02810083452;21/02/1980;Joselita De Farias Moura ;Conferente ;21/03/2017;;;31;;;;;;;;;;;;;;A
+Agnaldo Honorio Dias;61079117014580;;09014625430;23/01/1999;Rita Dias Correia;Oper.Mont.H.S 5.2 3T ;09/12/2022;;D129;31;;;;;;;;;;;;;;A
+Agnaldo Teodosio De Souza ;61079117016443;;02591573417;28/07/1975;Maria Teodosio De Souza;Oper Veiculos Industriais;08/08/2017;;;31;;;;;;;;;;;;;;A
+Ailton Ferreira De Lima ;61079117016443;;01864003499;01/03/1975;Neuza Ferreira De Lima ;Oper Corte/Mont/Acab (Ade;11/03/2016;;;31;;;;;;;;;;;;;;A
+Alan Figueiredo Sousa ;61079117010917;;03717814699;18/03/1978;Maria Dalva Figueiredo Sousa ;Op Peneiras 3ºt;14/07/2022;;;31;;;;;;;;;;;;;;A
+Alan Meneses De Sousa ;61079117016443;;09958462435;11/11/1997;Maria Do Socorro Meneses De Sousa;Oper Corte/Montagem/Acaba;14/09/2021;;M659;31;;;;;;;;;;;;;;A
+Alan Pereira Ramos;61079117016443;;02784776409;19/10/1978;Maria De Lourdes Santos Pereir ;Mecanico Especializado ;06/01/2015;;;31;;;;;;;;;;;;;;A
+Alberto Rene Da Silva ;61079117025604;;11709123460;24/08/1993;Maria Das Graças Da Silva;Oper Maq Acabamento 1T ;03/11/2022;;M791;31;;;;;;;;;;;;;;A
+Alberto Santos Silva;61079117010917;;03487668661;25/11/1978;Reinildes Santos Silva ;Op Corte/Mont/Acab 2Tur;01/05/2019;;M232;31;;;;;;;;;;;;;;A
+Aldair Silva Ferreira ;61079117016443;;03051513717;02/09/1974;Maria Da Gloria Da Silva Ferreira;Oper Corte/Montagem/Acaba;29/09/2021;;M513;31;;;;;;;;;;;;;;A
+Aldemir Gomes Ribeiro ;61079117010917;;07569304640;17/06/1980;Maria Da Conceicao Gomes Ribeiro ;Op Corte/Mont/Acab 1ºt ;10/08/2022;;S835;31;;;;;;;;;;;;;;A
+Aleandra Maria Marcelino;61079117016443;;03995679412;12/11/1978;Maria Jose Alexandre ;Oper Corte/Montagem/Acaba;06/12/2022;;;31;;;;;;;;;;;;;;A
+Alesson Ravel Da Costa Silva;61079117014580;;70349607478;12/06/1998;Rosemere Da Costa Barbosa Silva;Oper Prensa Vacuo 1T ;01/12/2021;;S67 ;91;;;;;;;;;;;;;;A
+Alex Alberto Belo ;61079117016443;;07004578445;14/10/1985;Maria Do Socorro Targino Belo;Oper Injetoras ;19/07/2022;;M54 ;31;;;;;;;;;;;;;;A
+Alex Bruno Klostermann Da Silva ;61079117014580;;10776949462;21/01/1992;Cristianne Filgueiras Klostermann;Oper.Mont.H.S 5.3 3T ;23/12/2022;;M654;31;;;;;;;;;;;;;;A
+Alex Herculano Da Silva ;61079117014580;;08663387482;29/06/1988;Maria Betania Da Conceicao ;Pan Stone 1;25/01/2022;;F412;31;;;;;;;;;;;;;;A
+Alex Oliveira Caldeira;61079117010917;;12764467648;31/12/1995;Maria Rosane Oliveira Caldeira ;Conferente 1º T;17/08/2018;;G82 ;91;;;;;;;;;;;;;;A
+Alexandra Da Conceicao De Sousa ;61079117014580;;05069748475;29/03/1983;Severina Da Conceicao Cavalcanti ;Oper.Injetora/Havaianas 1;22/08/2019;;G404;31;;;;;;;;;;;;;;A
+Alexandra Josefa Da Silva Duarte;61079117016443;;06066155474;17/06/1986;Josefa Joana Da Silva;Oper Corte/Montagem/Acaba;28/10/2021;;B349;31;;;;;;;;;;;;;;A
+Alexandre Basilio Da Silva;61079117016443;;02301553400;26/12/1975;Maria Helena Goncalves Da Silva;Oper Corte/Montagem/Acaba;19/12/2017;;;31;;;;;;;;;;;;;;A
+Alexandre Silvino Dos Santos;61079117016443;;70575717475;17/10/1996;Rosilda Clementino Dos Santos;Oper Prensa;04/12/2022;;S42 ;31;;;;;;;;;;;;;;A
+Alexsandra Gomes Da Silva ;61079117014580;;01265953481;18/01/1983;Maria Lucia Da Silva Ferreira;Oper. Mont. H.S. 8 2T;06/12/2022;;M75 ;31;;;;;;;;;;;;;;A
+Alexsandra Maria Da Silva ;61079117014580;;04785996412;02/02/1983;Maria Zelia Dos Santos ;Oper. Mont. H.S4 1T;16/09/2022;;;31;;;;;;;;;;;;;;A
+Alexsandro Aynes Olival ;61079117016443;;02523297400;30/08/1976;Gilvaneide Aynes Olival;Oper Mistura ;04/11/2021;;B34 ;91;;;;;;;;;;;;;;A
+Alisson Silvestre Da Silva;61079117014580;;11132127483;18/03/1995;Ivanilda Marques Da Silva;Oper. Mont. H.S4 1T;01/10/2022;;S821;91;;;;;;;;;;;;;;A
+Allana Cardoso Duarte ;61079117010917;;70017311616;14/08/1999;Valsemira Cardoso Da Silva ;Op Corte/Mont/Acab 2Tur;23/11/2022;;F41 ;31;;;;;;;;;;;;;;A
+Allyson De Lucena Alves ;61079117016443;;06729965452;19/06/1987;Regina Marta De Oliveira Lucena;Mecanico Especializado ;10/08/2017;;M51 ;31;;;;;;;;;;;;;;A
+Allysson Pereira Ramos;61079117016443;;04022802456;04/08/1980;Maria De Lourdes S Pereira ;Mecanico Especializado ;22/07/2022;;M51 ;91;;;;;;;;;;;;;;A
+Almir Alves Da Silva;61079117030276;;00805438475;13/04/1981;Iracema Alves Da Silva ;Operador Cd Dvv;07/12/2022;;M54 ;31;;;;;;;;;;;;;;A
+Almir Ferreira Marques;61079117030276;;13320600486;01/11/1997;Luciana Ferreira Da Silva;Operador Cd Dvv;13/08/2017;;;31;;;;;;;;;;;;;;A
+Alvaro Luiz Alexandrino Da Silva Junior ;61079117010917;;09173091626;05/07/1987;Gislene Ribeiro Alexandrino Da Silva ;Op Corte/Mont/Acab ;11/08/2022;;;31;;;;;;;;;;;;;;A
+Alzira Paiva Chaves ;61079117014580;;76011127487;12/09/1971;Maria Bernadete Lelis;Oper. Mont. H.S4 1T;01/02/2023;;;91;;;;;;;;;;;;;;A
+Amanda Karine Rodrigues Soares;61079117010917;;10510544606;17/06/1989;Aracy Rodrigues Soares ;Op Corte/Mont/Acab 2Tur;01/02/2023;;E66 ;31;;;;;;;;;;;;;;A
+Amauri Da Silva Vieira;61079117016443;;06982206416;06/05/1985;Maria Jose Da Silva Vieira ;Oper Veiculos Industriais;02/02/2022;;;31;;;;;;;;;;;;;;A
+Amilton Lopes Goncalves ;61079117010917;;04013807696;17/03/1979;Maria Luzia Lopes Goncalves;Op Corte/Mont/Acab 2Tur;30/04/2022;;M750;31;;;;;;;;;;;;;;A
+Ana Claudia Nunes De Franca Alves ;61079117014580;;91698219415;03/04/1975;Maria De Lourdes Nunes De Fran ;Oper. Mont. Gaspea 1ºt ;11/11/2022;;M75 ;31;;;;;;;;;;;;;;A
+Ana Flavia Oliveira ;61079117010917;;06495211619;03/01/1983;Sabina Vilma Ferreira De Oliveira;Op Customizacao Mto 3ºt;17/09/2022;;M255;31;;;;;;;;;;;;;;A
+Ana Karoline Evangelista Fonseca;61079117010917;;12175037657;29/10/1994;Maria Natalicia Evangelista Fonseca;Op Injetora 2Tur ;01/11/2022;;G560;31;;;;;;;;;;;;;;A
+Ana Lucia Pereira Da Silva;61079117016443;;99166690404;19/06/1975;Maria Izabel Da Silva;Oper Corte/Montagem/Acaba;21/01/2020;;M51 ;31;;;;;;;;;;;;;;A
+Ana Lucia Pinheiro Borges ;61079117010917;;06916339675;25/08/1983;Senhora Da Conceicao Borges;Op Customizacao Mto 1ºt;01/08/2022;;M541;91;;;;;;;;;;;;;;A
+Ana Maria Veloso Maciel ;61079117010917;;07679058652;22/06/1982;Rosita Gomes Veloso Silva;Op Corte/Mont/Acab 2Tur;01/04/2020;;;31;;;;;;;;;;;;;;A
+Ana Paula Nunes Maia;61079117010917;;11468693638;27/03/1991;Noeme Alves Nunes Maia ;Op Corte/Mont/Acab 2Tur;05/12/2022;;F41 ;31;;;;;;;;;;;;;;A
+Anderson Evair Belarmino De Souza ;61079117016443;;11349403431;06/11/1993;Maria Gorete De Souza Santos ;Oper Serigrafia;04/01/2022;;S82 ;31;;;;;;;;;;;;;;A
+Anderson Leandro Da Silva Oliveira;61079117010917;;01531927637;19/11/1982;Idalina C Da Silva Oliveira;Operador Cd 2ºt;03/04/2020;;M75 ;31;;;;;;;;;;;;;;A
+Anderson Santos Rocha ;61079117010917;;10759916683;20/04/1991;Maria Geralda Santos Peixoto ;Op Customizacao Mto 3ºt;15/12/2022;;T93 ;31;;;;;;;;;;;;;;A
+Anderson Silva Santos ;61079117010917;;06155667667;13/11/1983;Ana Lucia Silvia Santos;Op Peneiras 3ºt;01/10/2022;;M222;31;;;;;;;;;;;;;;A
+Andeson Monteiro Gomes;61079117016443;;09438208470;17/11/1991;Maria Das Neves Monteiro Gomes ;Oper Mistura ;18/08/2022;;M51 ;31;;;;;;;;;;;;;;A
+Andre Abreu Mendonca;61079117010917;;02384823752;25/04/1972;Maria Angelita Abreu Mendonca;Spv Seg Patrimonial;30/10/2019;;M543;31;;;;;;;;;;;;;;A
+Andre Soares Morais ;61079117016443;;70212532499;28/10/1995;Janaina Soares Gomes Morais;Oper Serigrafia;01/08/2022;;M75 ;91;;;;;;;;;;;;;;A
+Andressa Pereira Americo;61079117014580;;70526587474;06/01/1997;Ana Patricia Pereira Americo ;Oper. Mont. H.S 4 2 T;11/09/2020;;F412;31;;;;;;;;;;;;;;A
+Andreza De Farias Albuquerque ;61079117030276;;02796025454;14/09/1976;Ana Lucia De Farias Albuquerque;Aux Programacao;21/02/2015;;;31;;;;;;;;;;;;;;A
+Aneli Cosme De Morais ;61079117010917;;07362335636;27/09/1984;Maria Jose Pereira ;Op Customizacao Mto 1ºt;01/02/2023;;M75 ;31;;;;;;;;;;;;;;A
+Anielly Pimenta De Quadros;61079117010917;;11426869657;17/02/1994;Bertolina Pimenta De Quadros ;Op Customizacao Mto 3ºt;13/12/2022;;;31;;;;;;;;;;;;;;A
+Anne Karoline Barbosa Santos;61079117010917;;11476138699;20/03/1994;Cleonice Da Silva Santos ;Op Corte/Mont/Acab 2Tur;16/03/2022;;D432;31;;;;;;;;;;;;;;A
+Anselmo Teofilo Correia ;61079117016443;;07519014401;05/09/1984;Bernadete Teofilo Bezerra;Oper Corte/Montagem/Acaba;03/01/2023;;M51 ;31;;;;;;;;;;;;;;A
+Antonina Alessandra Rodrigues Soares;61079117010917;;06854665663;21/12/1980;Aracy Rodrigues Soares ;Op Corte/Mont/Acab 3Tur;01/03/2022;;M542;31;;;;;;;;;;;;;;A
+Antonio Cosmo De Andrade;61079117014580;;57117497491;13/06/1967;Jarmilina Maria De Andrade ;Operador Cd 2°Turno;26/09/2014;;M542;31;;;;;;;;;;;;;;A
+Antonio Marcos De Oliveira;61079117025604;;09427450436;29/04/1989;Lucilene Goncalves Da Silva Oliveira ;Oper Maq Transfer Silk 1T;01/12/2015;;J450;91;;;;;;;;;;;;;;A
+Antonio Wesllen Da Silva Teles;61079117016443;;10637997409;12/05/1994;Edjane Alves Teles ;Oper Prensa;05/04/2022;;M75 ;31;;;;;;;;;;;;;;A
+Ariston Pereira Silva ;61079117016443;;70072403489;16/05/1995;Neusa Pereira Candido;Oper Serigrafia;01/08/2017;;;91;;;;;;;;;;;;;;A
+Arlisson Da Silva ;61079117016443;;71448358400;04/01/2000;Josefa Da Paz Silva;Oper Corte/Montagem/Acaba;25/12/2022;;M75 ;31;;;;;;;;;;;;;;A
+Aroldo Raimundo Da Silva;61079117016443;;92973922453;29/01/1971;Maria Jose Ferreira Da Silva ;Serralheiro;24/01/2023;;M22 ;31;;;;;;;;;;;;;;A
+Arthur Braz Vieira;61079117016443;;09003969469;14/05/1991;Eliane Braz Vieira ;Oper Mistura ;01/06/2022;;M751;91;;;;;;;;;;;;;;A
+Arthur Marques Da Silva ;61079117016443;;09170061432;25/04/1992;Rosilda Cruz Da Silva;Oper Serigrafia;20/09/2022;;M75 ;31;;;;;;;;;;;;;;A
+Assusena Malaquias De Araujo;61079117014580;;01776458494;17/01/1995;Ilda Malaquias De Araujo ;Oper.Mont.H.S 5.3 2T ;16/10/2022;;;31;;;;;;;;;;;;;;A
+Bartolomeu Cavalcanti Soares;61079117016443;;02439613401;22/11/1975;Maria Da Guia C Soares ;Oper Corte/Montagem/Acaba;09/06/2015;;;91;;;;;;;;;;;;;;A
+Benita Cristina Da Silva;61079117014580;;04000010476;23/05/1981;Maria Ivonete Da Silva ;Oper. Mont. H.S4 1T;25/02/2022;;;31;;;;;;;;;;;;;;A
+Bianca Rodrigues De Oliveira;61079117010917;;12250035636;11/10/1994;Nagila Rodrigues De Oliveira ;Op Customizacao Mto 1ºt;10/11/2022;;;31;;;;;;;;;;;;;;A
+Bruna Cristina Silva Maia Jorge ;61079117010917;;13909211666;26/03/1995;Maria Ione Silva Maia;Op Corte/Mont/Acab 3Tur;01/10/2022;;M75 ;91;;;;;;;;;;;;;;A
+Bruno Dos Santos Barbosa;61079117016443;;01586867482;25/12/1990;Maria Gorettidos Santos Barbosa;Oper Mistura ;08/02/2023;;M51 ;31;;;;;;;;;;;;;;A
+Bruno Germano De Sousa;61079117010917;;12080703633;03/05/1991;Vanilda Ferreira Oliva ;Operador Cd 2ºt;15/12/2022;;F323;31;;;;;;;;;;;;;;A
+Caio Cesar Da Silva ;61079117016443;;70092291473;06/08/1994;Terezinha Da Silva ;Oper Mistura ;19/12/2022;;M77 ;31;;;;;;;;;;;;;;A
+Camillo Camelo Silva;61079117016443;;70256208409;21/07/1993;Maria De Fatima Da Silva ;Oper Prensa;26/01/2023;;;31;;;;;;;;;;;;;;A
+Carla Caroline Ferreira Santos;61079117010917;;02308899646;07/03/1999;Shirley Ferreira Costa Santo ;Op Serigrafia 2ºt;17/11/2022;;Z35 ;31;;;;;;;;;;;;;;A
+Carla Daniela Rodrigues Da Silva;61079117010917;;07342077607;11/04/1980;Brasilina Rodrigues Ramos;Op Corte/Mont/Acab 2Tur;12/12/2018;;M654;31;;;;;;;;;;;;;;A
+Carlito Duraes Oliveira ;61079117010917;;30858966867;25/09/1982;Julia De Oliveira Duraes ;Op Corte/Mont/Acab 3Tur;10/09/2022;;F29 ;31;;;;;;;;;;;;;;A
+Carlos Alberto De Lima Macario;61079117016443;;02587552451;04/09/1977;Josefa De Lima Macario ;Oper Prensa;08/08/2021;;M501;31;;;;;;;;;;;;;;A
+Carlos Antonio Almeida Santos ;61079117016443;;99667380459;11/03/1973;Lindalva Almeida Santos;Op Empilhadeira;09/09/2022;;M43 ;31;;;;;;;;;;;;;;A
+Carlos Henrique Barbosa Fonseca Homem ;61079117010917;;04641099650;02/12/1980;Rita De Cassia Barbosa Fonseca ;Op Corte/Mont/Acab 2Tur;07/05/2018;;;31;;;;;;;;;;;;;;A
+Carlos Roberto Da Silva Barbosa ;61079117016443;;06255751481;23/01/1986;Severina Da Silva Barbosa;Oper Prensa;19/01/2023;;M75 ;31;;;;;;;;;;;;;;A
+Cassia Fabiola Oliveira ;61079117010917;;10725948620;09/03/1991;Maria De Jesus Oliveira Lopes;Op Extrusora Brasil 3ºt;27/01/2023;;Z54 ;31;;;;;;;;;;;;;;A
+Castilho Pereira Dos Santos ;61079117010917;;03754896652;23/07/1974;Pedrelina Alves Dos Santos ;Op Serigrafia 2ºt;01/10/2021;;M751;31;;;;;;;;;;;;;;A
+Cilene Soares De Almeida;61079117016443;;02937448402;05/02/1975;Maria Soares Da Silva;Oper Corte/Montagem/Acaba;24/01/2023;;Z54 ;31;;;;;;;;;;;;;;A
+Clarpton Lourenco Martins ;61079117016443;;01740488407;05/12/1993;Maria Do Carmo Lourenco;Oper Injetoras ;17/11/2022;;S43 ;31;;;;;;;;;;;;;;A
+Claudia Serafim Dos Santos;61079117014580;;06852739465;29/06/1987;Josefa Serafim ;Oper. Injetora/Havaianas ;11/10/2022;;F410;31;;;;;;;;;;;;;;A
+Claudileia Ferreira Cordeiro;61079117010917;;07656174630;10/07/1982;Maria De Lourdes Pereira ;Op Customizacao Mto 2ºt;20/07/2020;;M531;31;;;;;;;;;;;;;;A
+Cleiser Pastirik De Moraes;61079117016443;;14585552839;28/07/1974;Elizabeth Pastirik De Moraes ;Oper Corte/Montagem/Acaba;30/07/2020;;M23 ;31;;;;;;;;;;;;;;A
+Clenira Bezerra Do Nascimento ;61079117025604;;03034820445;26/07/1974;Maria Vitoria Bezerra De Brito ;Aux Transfer Silk 1T ;01/11/2019;;;91;;;;;;;;;;;;;;A
+Cleoene Bruchell De Souza Oliveira;61079117025604;;03034822499;21/07/1979;Josefa Germano De Souza;Operador Cd;01/10/2019;;G56 ;91;;;;;;;;;;;;;;A
+Clewerton Michel Pereira Da Silva ;61079117016443;;10933564481;25/02/1994;Hosana Maria Pereira ;Oper Corte/Montagem/Acaba;01/11/2022;;G56 ;91;;;;;;;;;;;;;;A
+Clewton Antunes Figueredo ;61079117010917;;06513933617;29/04/1984;Maria Da Conceicao Antunes Figueredo ;Op Injetoras ;12/07/2016;;S827;31;;;;;;;;;;;;;;A
+Cleyton Jonhy Almeida Silva ;61079117016443;;70783154488;12/02/2000;Jeseane Almeida Silva;Oper Corte/Montagem/Acaba;29/10/2022;;M65 ;31;;;;;;;;;;;;;;A
+Clovis Andre Ferreira Goncalves Brandao ;61079117010917;;02320624635;20/05/1999;Maria De Fatima Ferreira Dos Reis;Op Injetora 3Tur ;13/11/2022;;S835;31;;;;;;;;;;;;;;A
+Cosmo De Sousa Franca ;61079117016443;;11731075413;09/09/1994;Josefa Maria De Sousa Franca ;Oper Mistura ;11/01/2021;;M511;31;;;;;;;;;;;;;;A
+Cristiane Ferreira De Oliveira;61079117014580;;05976242405;15/06/1982;Maria Da Penha Ferreira Pereir ;Oper. Mont. H.S1 1T;01/04/2021;;M75 ;91;;;;;;;;;;;;;;A
+Cristovao Fonseca Dias;61079117010917;;06551066690;11/06/1984;Maria Fernandes Da Fonseca Dias;Op Serigrafia 2ºt;15/06/2016;;M255;31;;;;;;;;;;;;;;A
+Damiana Aline Gregorio;61079117000440;;06778773405;12/04/1985;Maria Do Socorro Do Nascimento Gregorio;Saint Tropez Mog_Operacio;24/11/2022;;F341;31;;;;;;;;;;;;;;A
+Damiany Thais Souza Rodrigues ;61079117010917;;08971312661;20/04/1988;Lucimere Aparecida Souza Rodrigues ;Op Serigrafia 3ºt;26/05/2022;;Z00 ;31;;;;;;;;;;;;;;A
+Damiao De Sousa Franca;61079117016443;;11731051409;09/09/1994;Josefa Maria De Sousa Franca ;Oper Mistura ;11/01/2021;;M511;31;;;;;;;;;;;;;;A
+Daniel Amorim De Almeida;61079117016443;;13469705488;08/02/2001;Jackeline Ferreira De Amorim ;Aprendiz Administrativo;08/08/2022;;;31;;;;;;;;;;;;;;A
+Daniel Da Silva Duraes;61079117010917;;07209579664;24/01/1985;Maria Angelica Da Silva Duraes ;Op Prensa 3Tur ;15/11/2017;;F251;31;;;;;;;;;;;;;;A
+Daniel Da Silva Guedes;61079117016443;;12026632499;20/12/1997;Eliane Da Silva Guedes ;Oper Serigrafia;11/01/2023;;;31;;;;;;;;;;;;;;A
+Daniel De Souza Pontes;61079117014580;;05584998486;23/03/1990;Maria Dalva Souza Pontes ;Oper. Mont. H.S1 1T;04/12/2021;;;31;;;;;;;;;;;;;;A
+Daniel Joseph Pereira Dantas;61079117016443;;04779172403;07/11/1984;Dejacir Pereira Dantas ;Oper Corte/Mont/Acab (Ade;15/11/2022;;S922;31;;;;;;;;;;;;;;A
+Daniela Alexandre Dos Santos;61079117016443;;12165880408;29/10/1997;Erinalda Alexandre Da Silva;Oper Corte/Montagem/Acaba;17/06/2022;;M65 ;31;;;;;;;;;;;;;;A
+Daniele Gomes Moreira Silva ;61079117010917;;09009652661;05/03/1987;Janice Maria Gomes ;Op Injetora 2Tur ;19/09/2020;;M511;31;;;;;;;;;;;;;;A
+Daniella Silva Dias ;61079117014580;;07203340473;19/06/1986;Maria De Fatima Silva Dias ;Oper. Mont. H.S2 1T;08/12/2022;;M542;31;;;;;;;;;;;;;;A
+Danielle Gomes;61079117014580;;01266418466;20/05/1983;Maria Jose Gomes ;Oper. Mont. H.S4 1T;26/01/2023;;;31;;;;;;;;;;;;;;A
+Darlania Viviane Pereira;61079117010917;;05112759607;04/11/1977;Maria Da Gracas Pereira;Op Corte/Mont/Acab 1ºt ;04/02/2022;;M542;31;;;;;;;;;;;;;;A
+Dartanhan Da Silva Barbosa;61079117016443;;07769216494;14/06/1990;Vania Solange Belo Da Silva Barbosa;Oper Serigrafia;01/06/2022;;M751;91;;;;;;;;;;;;;;A
+Davi Da Silva Rodrigues ;61079117016443;;70010124403;23/09/1994;Severina Maria Da Silva Rodrigues;Oper Corte/Montagem/Acaba;25/06/2018;;F23 ;31;;;;;;;;;;;;;;A
+David Goncalves Ramos ;61079117010917;;08024873605;28/12/1987;Maria Aparecida Goncalves;Op Customizacao Mto 2ºt;12/02/2021;;F192;31;;;;;;;;;;;;;;A
+David Henrique Rodrigues Santana;61079117014580;;01725869411;09/07/1994;Patricia Da Silva Rodrigues;Oper. Mont. H.S4 1T;24/07/2014;;;31;;;;;;;;;;;;;;A
+Dayana Kelly Barros Silva Ferreira;61079117030276;;11755713428;26/01/1995;Chirlene Dos Santos Silva;Operador Cd Dvv;02/11/2022;;M75 ;31;;;;;;;;;;;;;;A
+Dayse Fabiane Franca Da Silva ;61079117014580;;08344376432;15/08/1988;Elenilda Luiz De Franca;Oper. Mont. H.S4 1T;03/06/2022;;M7551 ;91;;;;;;;;;;;;;;A
+Daywson Souza Pereira ;61079117014580;;36029899848;30/05/1988;Maria Dalva Souza Pereira;Afastados Satelites Pb_Li;12/02/2018;;I64 ;31;;;;;;;;;;;;;;A
+Debora Karine Dias Santos ;61079117010917;;01644662663;27/05/1988;Berenice Aparecida Dias Santos ;Op Serigrafia 3ºt;18/08/2022;;F411;31;;;;;;;;;;;;;;A
+Deivisson Pereira Dos Anjos ;61079117010917;;01663182647;10/11/1987;Libania Pereira Dos Anjos;Op Serigrafia 3ºt;28/04/2022;;F410;31;;;;;;;;;;;;;;A
+Denis Wagner De Castro Santos ;61079117014580;;03992238431;06/10/1979;Delzuita De Castro Santos;Borracha Final_Operaciona;13/08/2022;;S835;31;;;;;;;;;;;;;;A
+Diana Graciela Souza Farias ;61079117010917;;09614773693;23/11/1989;Ivanete De Souza Nascimento;Op Injetora 3Tur ;02/02/2023;;S93 ;31;;;;;;;;;;;;;;A
+Diego Da Silva Almeida;61079117030276;;08085345480;28/08/1988;Raimunda Iris Bernardo Da Silva;Operador Cd Dvv;10/10/2022;;L03 ;31;;;;;;;;;;;;;;A
+Djair Da Silva Guimaraes;61079117016443;;09529316488;14/12/1997;Denise De Fatima Ferreira Da Silva ;Oper Prensa;22/09/2022;;M75 ;31;;;;;;;;;;;;;;A
+Djair Santos De Lima;61079117016443;;70107624494;04/05/1993;Maria Carneiro Dos Santos Filha;Oper Prensa;11/01/2023;;M75 ;31;;;;;;;;;;;;;;A
+Donizete De Melo Ferreira ;61079117014580;;85194956487;17/11/1973;Eulalia De Melo Ferreira ;Afast. N.Cruz Mod;06/04/2017;;M182;31;;;;;;;;;;;;;;A
+Donizete De Melo Ferreira ;61079117014580;;85194956487;17/11/1973;Eulalia De Melo Ferreira ;Afast. N.Cruz Mod;06/04/2017;;M182;31;;;;;;;;;;;;;;A
+Douglas Menezes ;61079117030276;;11233100416;26/08/1996;Patricia Meneses De Farias ;Operador Cd Dvv;02/07/2021;;M751;31;;;;;;;;;;;;;;A
+Douglas Santos Nascimento ;61079117016443;;71081464445;14/10/1997;Valeria Santos Silva ;Oper Serigrafia;25/11/2022;;S83 ;31;;;;;;;;;;;;;;A
+Durval Oliveira Filho ;61079117010917;;10934762651;18/07/1990;Elizabeth Soares Oliveira;Op Corte/Mont/Acab 1ºt ;11/01/2022;;M255;31;;;;;;;;;;;;;;A
+Dyego Borges Valente;61079117016443;;11809756774;04/03/1998;Maria Izabel Valente De Azevedo Solidade ;Oper Corte/Montagem/Acaba;21/10/2022;;S42 ;31;;;;;;;;;;;;;;A
+Edielton Ferreira Dos Santos;61079117014580;;04524868402;04/11/1981;Durvalina Ferreira Dos Santos;Oper. Mont. H.S 4 2 T;01/10/2018;;M199;31;;;;;;;;;;;;;;A
+Edilson Da Silva Costa;61079117016443;;80449581420;23/02/1971;Elisa Da Silva Costa ;Oper Injetoras ;13/12/2022;;K40 ;31;;;;;;;;;;;;;;A
+Edinaldo De Sousa Batista ;61079117016443;;02830557409;05/03/1977;Antonia Paulino De Sousa Batista ;Oper Injetoras ;08/02/2022;;;31;;;;;;;;;;;;;;A
+Edivan Duarte Pereira ;61079117010917;;09576025613;22/01/1989;Marcelina Duarte Pereira ;Operador Cd 2ºt;06/04/2022;;Z00 ;31;;;;;;;;;;;;;;A
+Edivan Lopes De Freitas ;61079117025604;;40490831400;16/05/1963;Severina Gomes De Freitas;Eletricista;26/04/2013;;M511;31;;;;;;;;;;;;;;A
+Ednaldo Terto De Santana;61079117025604;;06513065402;18/05/1982;Maria Solange De Santana ;Oper Maq Semi-Final 1T ;24/02/2022;;D329;31;;;;;;;;;;;;;;A
+Ednalva Maria Da Silva;61079117014580;;08116368443;06/12/1988;Maria Do Carmo Andrade Silva ;Oper. Mont. H.S3 1T;25/12/2020;;Z540;31;;;;;;;;;;;;;;A
+Eduardo Da Costa Araujo ;61079117016443;;05994022454;26/12/1986;Elenira Da Costa Araujo;Oper Corte/Montagem/Acaba;15/11/2022;;S69 ;31;;;;;;;;;;;;;;A
+Eduardo Sabino Da Silva ;61079117014580;;08214502470;10/07/1988;Maria Das Neves Alves De Moura ;Eletricista Espec. Planej;16/12/2022;;M796;31;;;;;;;;;;;;;;A
+Eduardo Vinicius Sousa Holanda;61079117016443;;70267870477;02/12/2000;Maria Rosinalva De Sousa ;Oper Prensa;26/04/2022;;F411;31;;;;;;;;;;;;;;A
+Edvaldo Do Nascimento ;61079117030276;;73866342420;18/04/1969;Querubina Rodriuges De Azevedo ;Operador Cd Operacao Mc;01/06/2019;;M511;91;;;;;;;;;;;;;;A
+Edvaldo Pereira De Jesus;61079117010917;;80218334672;26/02/1970;Almendina Pereira De Souza ;Op Peneiras 3ºt;12/10/2019;;I73 ;31;;;;;;;;;;;;;;A
+Edvanilson Querino Da Silva ;61079117016443;;04533974414;20/08/1981;Celia Querino Da Silva ;Oper Prensa;11/10/2020;;M545;31;;;;;;;;;;;;;;A
+Efraim Silva Andrade;61079117016443;;12519854405;18/04/1997;Veronica Silva De Andrade;Oper Mistura ;09/03/2021;;M511;31;;;;;;;;;;;;;;A
+Elionaldo Tadeo Dos Anjos ;61079117030276;;05937753410;12/07/1988;Sonia Maria Dos Anjos;Operador Cd Dvv;03/01/2023;;M51 ;31;;;;;;;;;;;;;;A
+Elisabete Costa Araujo;61079117016443;;83910492487;16/08/1970;Rita Maria Costa ;Oper Serigrafia;10/06/2020;;E119;31;;;;;;;;;;;;;;A
+Elizangela Lima Leal;61079117016443;;02943637777;31/08/1977;Edileusa Lima Leal ;Oper Corte/Montagem/Acaba;16/12/2021;;;31;;;;;;;;;;;;;;A
+Elizete Teixeira Dos Reis Araujo;61079117010917;;74640968604;20/09/1971;Graciana Francisca Dos Reis;Op Serigrafia 3ºt;01/04/2022;;M75 ;91;;;;;;;;;;;;;;A
+Ellen Gelda Pereira De Freitas;61079117010917;;09500164620;08/07/1990;Rosilene Pereira Ruas;Op Serigrafia 2ºt;01/06/2022;;;91;;;;;;;;;;;;;;A
+Emanuel Deyvdson Do Bomfim;61079117016443;;09530607482;08/06/1994;Josefa Maria Braz;Oper Corte/Montagem/Acaba;19/11/2022;;M77 ;31;;;;;;;;;;;;;;A
+Emanuely Silva De Moura ;61079117016443;;08162025405;20/12/1997;Maria Zilda Moura Da Silva ;Oper Corte/Montagem/Acaba;22/09/2022;;M75 ;31;;;;;;;;;;;;;;A
+Emerson Alves De Oliveira ;61079117010917;;04377213610;09/05/1978;Elvira Alves De Oliveira ;Op Customizacao Mto 1ºt;25/01/2022;;M659;31;;;;;;;;;;;;;;A
+Emerson Felipe Ferreira De Menezes;61079117010917;;02144422680;01/07/1994;Maria Valdirene Ferreira De Menezes;Op Corte/Mont/Acab 3Tur;30/08/2021;;;31;;;;;;;;;;;;;;A
+Emilio De Medeiros Ferreira ;61079117030276;;02315393477;07/02/1976;Maria Helena Medeiros Ferreira ;Operador Cd Operacao Mc;04/11/2022;;G70 ;31;;;;;;;;;;;;;;A
+Erica Fernandes Raimundo;61079117016443;;08159847408;03/03/1989;Evani Fernandes Da Silva Raimundo;Oper Corte/Montagem/Acaba;22/09/2022;;;31;;;;;;;;;;;;;;A
+Erick Jhonatan Do Nascimento Silva;61079117016443;;70391988433;14/03/1998;Elisangela Do Nascimento Silva ;Oper Mistura ;27/09/2022;;M51 ;31;;;;;;;;;;;;;;A
+Ericles Wesley Oliveira De Sousa Silva;61079117016443;;70171137485;31/10/1995;Marcia Maria Silva Oliveira;Oper Serigrafia;30/07/2022;;M235;31;;;;;;;;;;;;;;A
+Erico Venicius Guedes Montalvao ;61079117010917;;01246468670;03/05/1983;Maria Do Carmo Montalvao ;Op Serigrafia 3ºt;25/07/2021;;M541;31;;;;;;;;;;;;;;A
+Erinaldo Alves Nunes;61079117016443;;08854109479;06/06/1987;Maria De Lourdes Alves Da Silva;Oper Mistura ;14/12/2022;;;31;;;;;;;;;;;;;;A
+Eudo Martiniano Da Silva;61079117016443;;82618135415;26/02/1972;Rita Bizerra Filha ;Spv Pla Contr Producao ;06/08/2022;;K40 ;31;;;;;;;;;;;;;;A
+Eva Eliene Soares Da Rocha;61079117010917;;25815290831;24/03/1977;Joaquina Soares Pereira Rocha;Op Serigrafia 1ºt;22/06/2021;;M75 ;31;;;;;;;;;;;;;;A
+Evandro Batista De Souza;61079117016443;;09640679437;08/12/1991;Josefa Batista De Souza;Oper Prensa;06/12/2022;;M65 ;31;;;;;;;;;;;;;;A
+Evandro Dos Santos Rocha;61079117016443;;03481933436;30/11/1975;Maria Dos Santos Rocha ;Oper Corte/Montagem/Acaba;23/09/2017;;;31;;;;;;;;;;;;;;A
+Evanildo Rocha;61079117010917;;52017443620;23/12/1964;Maria Helena Rocha ;Op Serigrafia 3ºt;06/10/2022;;F411;31;;;;;;;;;;;;;;A
+Everton Oliveira Da Nobrega ;61079117016443;;14352899437;27/06/2001;Gerlandia Oliveira Santos;Oper Serigrafia;30/01/2023;;;31;;;;;;;;;;;;;;A
+Ewerton Fernando Da Silva Santos;61079117016443;;08517409442;02/06/1999;Gilsandra Da Silva Santos;Oper Corte/Montagem/Acaba;21/05/2022;;M54 ;31;;;;;;;;;;;;;;A
+Fabiano Sabino Da Silva ;61079117016443;;06069934440;02/04/1987;Lucia De Fatima Da Silva ;Oper Mistura ;01/06/2016;;;91;;;;;;;;;;;;;;A
+Fabio De Oliveira Ferreira;61079117016443;;01047707403;01/09/1980;Maria Dalva De Oliveira;Oper Serigrafia;28/09/2022;;;31;;;;;;;;;;;;;;A
+Fabio Juneo Barbosa Dos Santos;61079117010917;;14412129659;30/01/1999;Maria De Fatima Barbosa Da Silva ;Op Customizacao Mto 3ºt;06/09/2022;;S836;31;;;;;;;;;;;;;;A
+Fabiola Freire Dos Santos ;61079117010917;;08430865640;27/08/1986;Dilse De Jesus Freire Dos Santos ;Op Serigrafia 2ºt;22/06/2021;;M545;31;;;;;;;;;;;;;;A
+Fabricio Alves Tito ;61079117016443;;05140027437;11/06/1982;Maria Do Socorro Alves Tito;Oper Serigrafia;01/08/2021;;M503;91;;;;;;;;;;;;;;A
+Fabricio Cruz Campos;61079117010917;;41567916880;12/01/1991;Sonia Maria Cruz ;Op Prensa 3Tur ;18/11/2022;;M54 ;31;;;;;;;;;;;;;;A
+Fabricio Lima Santos;61079117016443;;05597556436;20/02/1983;Maria Das Graças Lima Santos ;Oper Prensa;25/09/2022;;F19 ;31;;;;;;;;;;;;;;A
+Fabricio Soares Pessoa;61079117014580;;08555276411;01/03/1990;Veronica Soares Da Silva ;Oper. Mont. H.S 4 2 T;23/12/2022;;K071;31;;;;;;;;;;;;;;A
+Farley Adriano Almeida Silva;61079117010917;;02758381613;09/02/1975;Elisabeth Almeida Silva;Op Serigrafia 3ºt;01/11/2022;;;91;;;;;;;;;;;;;;A
+Felipe Aleff Silva Braz ;61079117016443;;11197204431;24/01/1995;Cleidivone Silva Braz;Oper Injetoras Injetados ;22/10/2018;;M541;31;;;;;;;;;;;;;;A
+Fernanda Barbosa De Souza ;61079117010917;;10565119664;21/04/1984;Rita De Cassia Barbosa De Souza;Op Injetoras ;02/02/2018;;M75 ;31;;;;;;;;;;;;;;A
+Fernanda De Souza ;61079117010917;;06131485682;28/06/1983;Rosemary De Souza;Op Customizacao Mto 3ºt;01/01/2023;;M54 ;91;;;;;;;;;;;;;;A
+Fernanda Santos Carvalho Pereira;61079117010917;;07637786641;09/04/1983;Margarete Da Conceicao Santos Carvalho ;Op Corte/Mont/Acab 1ºt ;03/09/2022;;M545;31;;;;;;;;;;;;;;A
+Fernando Antonio Meireles Junior;61079117010917;;74856367668;08/01/1970;Maria Jose Santos Meireles ;Op Serigrafia 3ºt;27/01/2021;;F411;31;;;;;;;;;;;;;;A
+Fernando Ferreira Souza ;61079117016443;;07429741460;26/08/1988;Maria Jose Ferreira De Souza ;Oper Corte/Mont/Acab (Ade;20/12/2022;;;31;;;;;;;;;;;;;;A
+Fernando Luiz De Oliveira ;61079117010917;;05189374610;20/07/1981;Plascida Maria De Oliveira ;Op Mistura 3Tur;01/08/2021;;F410;31;;;;;;;;;;;;;;A
+Filonila De Sousa Neta;61079117016443;;71448845491;17/03/1971;Rita Alves De Freitas;Oper Corte/Montagem/Acaba;12/11/2004;;;91;;;;;;;;;;;;;;A
+Flavio Cirino Dos Santos;61079117030276;;01578150485;30/11/1988;Marlene Cirino Dos Santos;Operador Cd Dvv;31/01/2023;;M65 ;31;;;;;;;;;;;;;;A
+Flavio Do Nascimento Cassemiro;61079117016443;;10765159406;14/01/1993;Maria De Lourdes Do Nascimento ;Oper Serigrafia;05/12/2019;;I691;31;;;;;;;;;;;;;;A
+Flavio Fernandes De Abreu ;61079117010917;;10972495657;30/07/1989;Maria Aparecida Fernandes De Abreu ;Op Corte/Mont/Acab 2Tur;01/10/2022;;F410;91;;;;;;;;;;;;;;A
+Flavio Mendes Xavier;61079117010917;;82344337687;10/05/1971;Maria Do Carmo Xavier;Op Prensa 3Tur ;10/08/2016;;M54 ;31;;;;;;;;;;;;;;A
+Flavio Miller De Oliveira ;61079117030276;;01576449440;24/11/1988;Marinete Flor De Oliveira;Operador Cd Dvv;03/06/2021;;C218;31;;;;;;;;;;;;;;A
+Flavio Sao Paulo Sardinha ;61079117010917;;05668488640;17/06/1982;Maria Luzenete Sardinha;Op Serigrafia 2ºt;02/12/2022;;M751;31;;;;;;;;;;;;;;A
+Florisvaldo Sales De Jesus Araujo ;61079117010917;;00156677580;11/07/1970;Florzinha Sales De Jesus Araujo;Op Prensa 3Tur ;28/12/2021;;M751;31;;;;;;;;;;;;;;A
+Francinalda Da Silva Lima ;61079117000440;;10799514403;25/05/1995;Francisca Do Carmo Silva Lima;Preparação Hav Mog_Operac;06/10/2014;;S723;31;;;;;;;;;;;;;;A
+Francinalda Da Silva Lima ;61079117000440;;10799514403;25/05/1995;Francisca Do Carmo Silva Lima;Preparação Hav Mog_Operac;06/10/2014;;S723;31;;;;;;;;;;;;;;A
+Francisco Cesar De Sousa Silva;61079117016443;;04322566448;29/07/1982;Severina De Souza Silva;Eletricista Especializado;11/01/2023;;M51 ;31;;;;;;;;;;;;;;A
+Francisco De Assis Marinho;61079117014580;;49196120444;25/04/1966;Maria Amelia De Araujo Marinho ;Oper. Mont. H.S4 1T;25/11/2022;;C15 ;31;;;;;;;;;;;;;;A
+Francisco De Assis Marques Da Silva ;61079117016443;;04459907402;06/11/1980;Iracema Barbosa Da Silva ;Oper Mistura ;04/09/2022;;S82 ;31;;;;;;;;;;;;;;A
+Francisco De Assis Rufino De Almeida;61079117016443;;05473561454;09/07/1993;Maria De Fatima Rufino ;Oper Prensa;25/12/2022;;S62 ;31;;;;;;;;;;;;;;A
+Francisco Erronady Do Nascimento;61079117016443;;02583900420;12/11/1973;Lindalva Dantas Do Nascimento;Oper Veiculos Industriais;28/12/2022;;;31;;;;;;;;;;;;;;A
+Gabriel Fonseca Soares;61079117010917;;02311751670;31/03/1999;Claudiene Rodrigues Fonseca;Operador Cd 3ºt;17/01/2023;;T05 ;31;;;;;;;;;;;;;;A
+Geisi Kely Rodrigues De Oliveira;61079117010917;;10788893688;29/08/1990;Durvalina Rodrigues De Oliveira;Op Customizacao Mto 1ºt;23/06/2022;;M659;31;;;;;;;;;;;;;;A
+Genesis Da Silva Pereira Miranda;61079117016443;;11905105452;07/07/1997;Laudinete Da Silva Pereira Miranda ;Oper Serigrafia;17/12/2021;;M511;31;;;;;;;;;;;;;;A
+Geniele Erminio Do Amaral ;61079117016443;;10596076460;04/10/1991;Ana Erminio Do Amaral;Oper Corte/Montagem/Acaba;19/10/2021;;S72 ;31;;;;;;;;;;;;;;A
+Gerson De Lucena Barbosa;61079117016443;;04701600474;09/08/1983;Daura Dias Barbosa ;Oper Veiculos Industriais;29/12/2022;;M51 ;31;;;;;;;;;;;;;;A
+Gerson Farias De Barros ;61079117016443;;03771227429;12/12/1980;Maria De Fatima Farias Costa ;Oper Prensa;20/04/2022;;M511;31;;;;;;;;;;;;;;A
+Gesney Costa De Andrade ;61079117016443;;70556594428;28/02/1997;Severina Do Ramo Andrade ;Oper Corte/Montagem/Acaba;27/02/2022;;N35 ;31;;;;;;;;;;;;;;A
+Gilberto Guimaraes De Macedo;61079117016443;;11148202455;08/12/1997;Creuza Guimaraes De Macedo ;Oper Serigrafia;09/09/2022;;M51 ;31;;;;;;;;;;;;;;A
+Gilmar Ribeiro Costa;61079117016443;;06713519407;25/10/1986;Marlene Ribeiro Costa;Oper Mistura ;12/10/2022;;M50 ;31;;;;;;;;;;;;;;A
+Gilnei Monteiro Pajau ;61079117016443;;06007102467;05/09/1984;Maria Regiane Monteiro Pajau ;Oper Corte/Montagem/Acaba;19/10/2020;;M233;31;;;;;;;;;;;;;;A
+Gilvan Alves De Araujo;61079117016443;;03976492400;13/07/1981;Maria Neta De Araujo ;Oper Lider Ii;08/03/2018;;G560;91;;;;;;;;;;;;;;A
+Gilvana Cardoso De Oliveira ;61079117010917;;09154751624;07/08/1985;Antonia Rosa Cardoso De Oliveira ;Op Corte/Mont/Acab 2Tur;01/06/2021;;G560;31;;;;;;;;;;;;;;A
+Gilvania Fernandes De Araujo;61079117016443;;80602649404;14/03/1974;Maria Luizete Pereira Araujo ;Oper Corte/Mont/Acab (Ade;28/05/2009;;;31;;;;;;;;;;;;;;A
+Giovani Barbosa Figueiredo;61079117016443;;11977340407;25/02/1996;Maria Santana Barbosa;Oper Serigrafia;03/03/2022;;;31;;;;;;;;;;;;;;A
+Gisely Soares Da Silva;61079117014580;;09893374480;03/12/1990;Giselia Soares Da Rocha;Oper. Mont. H.S4 1T;01/06/2017;;M751;91;;;;;;;;;;;;;;A
+Givanilson Silva De Freitas ;61079117030276;;70727398407;01/06/1997;Inaldete Silva De Freitas;Operador Cd Operacao Mc;02/01/2023;;G56 ;91;;;;;;;;;;;;;;A
+Graciele Oliveira Freitas Silva ;61079117010917;;06885872679;07/04/1984;Edith De Jesus Cardoso Oliveira;Inspetor Qualidade 2º Tur;01/02/2023;;I84 ;31;;;;;;;;;;;;;;A
+Guilherme Andrade De Moraes ;61079117016443;;09640826405;21/01/2004;Maria De Lourdes Souza De Andrade;Aprendiz-Manutencao;17/01/2023;;;31;;;;;;;;;;;;;;A
+Gustavo Costa Oliveira Cruz ;61079117010917;;12779297697;17/11/1995;Evanir Costa De Oliveira Cruz;Op Serigrafia 2ºt;01/12/2022;;M544;91;;;;;;;;;;;;;;A
+Heitor Vieira Da Silva;61079117016443;;09770612480;20/09/1991;Ana Cristina Vieira Da Silva ;Oper Corte/Montagem/Acaba;13/07/2022;;F32 ;31;;;;;;;;;;;;;;A
+Helenice Da Silva Costa ;61079117010917;;03113093643;23/10/1974;Rosalia Maria Da Silva Costa ;Op Customizacao Mto 1ºt;01/04/2022;;M541;91;;;;;;;;;;;;;;A
+Heleno Simoes De Araujo ;61079117016443;;69107556420;21/11/1968;Alzira Maria De Araujo ;Oper Veiculos Industriais;07/01/2023;;S82 ;31;;;;;;;;;;;;;;A
+Heli Bezerra Lino ;61079117025604;;04607326410;30/11/1981;Lindalva Maria Lino Da Silva ;Oper Maq Vulcanização 1T ;22/10/2016;;G551;31;;;;;;;;;;;;;;A
+Helio De Alburquerque Brito ;61079117016443;;05694577426;29/07/1983;Juracy Sirania Albuquerque Brito ;Oper Mistura ;20/06/2021;;;31;;;;;;;;;;;;;;A
+Helio Ribeiro Da Silva;61079117010917;;80300383649;26/10/1969;Flora Ferreira Ribeiro ;Op Serigrafia 1ºt;01/02/2021;;M75 ;91;;;;;;;;;;;;;;A
+Hemanuelles Zilton De Franca E Silva;61079117025604;;10770693407;09/05/1993;Josefa Maria Da Conceicao;Oper Maq Acabamento 1T ;11/10/2021;;S828;31;;;;;;;;;;;;;;A
+Huementon Tavares Nascimento;61079117016443;;13632614440;06/12/2000;Marta Lucia Tavares Alves;Oper Prensa;09/11/2022;;F21 ;31;;;;;;;;;;;;;;A
+Idelbrando Soares Nunes ;61079117010917;;11420576666;22/04/1992;Maria Do Socorro Soares Nunes;Op Serigrafia;01/07/2022;;;91;;;;;;;;;;;;;;A
+Igor Da Silva Araujo;61079117016443;;10559301405;04/08/1994;Ivonete Jose Da Silva Araujo ;Oper Injetoras ;12/08/2022;;F32 ;31;;;;;;;;;;;;;;A
+Igor Elias Da Cruz;61079117016443;;08535781412;05/03/1995;Zileide Albino Da Cruz ;Oper Corte/Montagem/Acaba;01/08/2022;;M75 ;91;;;;;;;;;;;;;;A
+Igor Pereira De Souza ;61079117010917;;08322319673;15/10/1985;Maria De Lourdes Pereira De Souza;Op Prensa 3Tur ;06/09/2019;;M54 ;31;;;;;;;;;;;;;;A
+Igor Roberto Do Nascimento Mota ;61079117016443;;02965237470;28/11/1979;Maria Sonaite Do Nascimento;Oper Injetoras ;02/01/2023;;;31;;;;;;;;;;;;;;A
+Igor Samuel Morais;61079117016443;;13254886402;29/11/1998;Gelma Morais ;Oper Prensa;01/11/2022;;C10 ;31;;;;;;;;;;;;;;A
+Ilza Cristina Barbosa Souza ;61079117030276;;03350831451;03/01/1978;Maria Lourdes Firme Barbosa;Operador Cd Preparcao;01/11/2018;;Q66 ;31;;;;;;;;;;;;;;A
+Ingrid Rayane Rodrigues Dos Santos;61079117010917;;13045279643;16/12/1993;Dilma Rodrigues De Jesus ;Op Serigrafia 2ºt;28/09/2022;;M549;31;;;;;;;;;;;;;;A
+Iosman Oliveira Da Silva;61079117016443;;10393122417;23/03/1995;Rosicleide Maria Da Silva;Oper Serigrafia;14/10/2022;;M51 ;31;;;;;;;;;;;;;;A
+Isabel Barbosa Lima ;61079117010917;;03818177686;12/05/1975;Maria Da Conceicao Barbosa Lima;Op Corte/Mont/Acab 2Tur;26/08/2022;;M791;31;;;;;;;;;;;;;;A
+Italo Raniere Ferreira Do Nascimento;61079117016443;;06003607416;10/03/1987;Suenia Kerhle Ferreira Do Nascimento ;Mecanico ;28/01/2023;;S63 ;31;;;;;;;;;;;;;;A
+Ivan Gabrielcig ;61079117010917;;01772088641;18/12/1968;Cecilia Loddo;Op Injetoras 3ºt ;22/12/2021;;M659;31;;;;;;;;;;;;;;A
+Ivandeilton Oliveira De Lima;61079117016443;;08304906473;22/03/1991;Rosa De Lima Silva Oliveira;Oper Serigrafia;01/08/2018;;M511;31;;;;;;;;;;;;;;A
+Ivanessa Nunes Santos ;61079117010917;;10493299610;16/03/1993;Ivana De Jesus Nunes Santos;Op Customizacao Mto 3ºt;01/10/2022;;Z540;31;;;;;;;;;;;;;;A
+Ivanete Lourdes Pasolin Nadal ;61079117010402;;41420870025;04/08/1961;Joanna Nodari Pasolin;Operador Iii - Montagem;22/01/2008;;;31;;;;;;;;;;;;;;A
+Ivanete Lourdes Pasolin Nadal ;61079117010402;;41420870025;04/08/1961;Joanna Nodari Pasolin;Operador Iii - Montagem;22/01/2008;;;31;;;;;;;;;;;;;;A
+Ivanildo Batista Da Silva ;61079117030276;;64374556400;23/09/1968;Josefa Regina Da Conceicao ;Operador Cd Operacao Mc;20/01/2023;;M51 ;31;;;;;;;;;;;;;;A
+Izabel Silva Severino ;61079117010917;;06935221609;03/10/1984;Antonia Martins Da Silva ;Op Customizacao Mto 1ºt;24/10/2022;;M545;31;;;;;;;;;;;;;;A
+Izac Domingos Andrade ;61079117030276;;09609582400;27/09/1999;Zelia Domingos Andrade ;Operador Cd Dvv;12/10/2022;;S82 ;31;;;;;;;;;;;;;;A
+Jaciane Andrade Pessoa;61079117014580;;04814211490;23/03/1985;Maria Das Neves Da Silva Andra ;Oper. Mont. H.S 4 3T ;01/11/2022;;M75 ;31;;;;;;;;;;;;;;A
+Jaciel Claudino Feitosa ;61079117014580;;02788393474;26/10/1977;Alaide Claudino Feitosa;Oper. Lider I Injetora/Ha;25/07/2022;;;31;;;;;;;;;;;;;;A
+Jacilene Fernandes Leal ;61079117010917;;03558085604;02/05/1979;Ana Alves De Oliveira Fernandes;Op Mistura 2Tur;29/01/2023;;M79 ;31;;;;;;;;;;;;;;A
+Jackson Luiz Da Silva ;61079117014580;;03427786170;19/03/1988;Maria Vicente Da Silva ;Oper. Mont. H.S1 1T;10/10/2018;;M751;91;;;;;;;;;;;;;;A
+Jader Alan Souza Costa;61079117010917;;03203138670;14/11/1975;Terezinha Da Cruz Souza;Op Injetora 2Tur ;23/02/2022;;M771;31;;;;;;;;;;;;;;A
+Jailson De Lima Silva ;61079117014580;;40668568453;20/11/1964;Marlene De Lima Silva;Corte C11 1T ;08/11/2022;;M501;31;;;;;;;;;;;;;;A
+Jailson De Lira Rocha ;61079117030276;;02910325407;24/07/1979;Luzinete De Lira Rocha ;Operador Cd Operacao Mc;01/06/2022;;M53 ;91;;;;;;;;;;;;;;A
+Jailson Marques Maia;61079117010917;;04070931686;17/03/1979;Maria Do Rosario Marques Maia;Op Prensa;09/02/2022;;M511;31;;;;;;;;;;;;;;A
+Jailton Da Nobrega Firmino;61079117030276;;08419389463;27/11/1987;Fatima Lucia Da Nobrega Firmino;Conferente Preparacao;01/01/2022;;I61 ;31;;;;;;;;;;;;;;A
+Jair Almeida De Souza ;61079117016443;;08413993440;17/03/1989;Maria Jose Almeida De Souza;Oper Prensa;22/12/2022;;M501;31;;;;;;;;;;;;;;A
+Janaina Nunes Da Silva Nepomuceno Almeida ;61079117010917;;06236011680;09/10/1982;Enedina Nunes Cordeiro Dos Santos;Op Serigrafia 1ºt;10/08/2022;;G560;31;;;;;;;;;;;;;;A
+Janaise Aquino Da Silva Moreira ;61079117016443;;05424641440;18/05/1984;Jeilza De Aquino Costa ;Oper Injetoras ;31/10/2022;;G56 ;31;;;;;;;;;;;;;;A
+Janio Nascimento Dos Santos ;61079117016443;;03468426461;12/05/1979;Maria Nascimento Dos Santos;Oper Corte/Mont/Acab (Ade;13/12/2018;;S701;31;;;;;;;;;;;;;;A
+Jany Cleber Souto Silva Ramos ;61079117030276;;70091178452;04/01/1995;Rosanea Cristina Da Silva Souto;Operador Cd Operacao Mc;24/03/2022;;;31;;;;;;;;;;;;;;A
+Jaqueline Alves Barbosa ;61079117010917;;06396090660;02/10/1982;Angelina Alves Barbosa ;Op Serigrafia 1ºt;01/11/2022;;M23 ;91;;;;;;;;;;;;;;A
+Jaqueline Alves Gomes ;61079117014580;;00982280483;03/03/1980;Tereza Alves Gomes ;Oper. Mont. H.S2 1T;01/12/2022;;G560;91;;;;;;;;;;;;;;A
+Jean Carlo Garcia Ribeiro ;61079117010917;;04653651671;02/08/1979;Iris Dalva Garcia Ribeiro;Op Serigrafia;14/12/2021;;M722;91;;;;;;;;;;;;;;A
+Jean Carlos Dos Santos;61079117016443;;10361977433;26/11/1992;Maria Do Socorro De Maria;Oper Corte/Mont/Acab (Ade;10/02/2014;;;31;;;;;;;;;;;;;;A
+Jeane Aparecida Costa Silva ;61079117010917;;06547994660;10/08/1982;Sonia Getulio Costa;Op Serigrafia 2ºt;29/01/2023;;I83 ;31;;;;;;;;;;;;;;A
+Jefferson Moura De Vasconcelos;61079117016443;;04714354493;16/04/1983;Ivanize Maria De Vasconcelos ;Oper Injetoras ;10/12/2022;;M54 ;31;;;;;;;;;;;;;;A
+Jefferson Rodrigues Almeida ;61079117016443;;11781569401;15/01/2000;Maria Jose Rodrigues Almeida ;Oper Injetoras Injetados ;06/10/2021;;F41 ;31;;;;;;;;;;;;;;A
+Jesiel Figueira Da Silva;61079117025604;;06969990486;14/02/1985;Eliane Figueira Da Silva ;Aux Transfer Silk 1T ;16/10/2013;;F322;31;;;;;;;;;;;;;;A
+Jesse Silva Correia ;61079117016443;;06237902465;15/04/1986;Maria Da Conceicao Silva ;Oper Serigrafia;18/10/2020;;M659;31;;;;;;;;;;;;;;A
+Jessica Karla Alves Da Silva;61079117014580;;11615720405;03/10/1996;Jaqueline Alves Gomes;Oper. Mont. H.S4 1T;17/02/2016;;S723;31;;;;;;;;;;;;;;A
+Jhonatan Rodrigues Dos Santos ;61079117010917;;15058028654;01/09/1995;Vilma Aparecida Ferreira Dos Santos;Op Injetora 3Tur ;12/12/2022;;S835;31;;;;;;;;;;;;;;A
+Joacy Alves De Lima ;61079117014580;;98104942468;10/07/1973;Severina Alves De Lima ;Oper. Mont. H.S 4 2 T;04/02/2023;;S634;31;;;;;;;;;;;;;;A
+Joao Henrique Da Silva Vieira ;61079117016443;;71030260419;27/08/1997;Janaina Alana Pereira Da Silva ;Oper Corte/Montagem/Acaba;02/01/2023;;M51 ;91;;;;;;;;;;;;;;A
+Joao Maria De Oliveira Junior ;61079117016443;;06073733429;26/06/1983;Maria Elizabeth Pereira Guerra ;Oper Mistura ;28/11/2020;;G560;31;;;;;;;;;;;;;;A
+Joao Victor Aguiar De Lima;61079117016443;;70641074492;26/08/2001;Vania Maria Aguiar De Lima ;Oper Corte/Montagem/Acaba;12/01/2023;;;31;;;;;;;;;;;;;;A
+Joao Vitor Matias Gonzaga ;61079117016443;;12612882464;17/06/1999;Maria Jose Matias Gonzaga;Oper Corte/Montagem/Acaba;17/01/2023;;M65 ;31;;;;;;;;;;;;;;A
+Joaquina Martins Do Carmo ;61079117010917;;02561667650;07/09/1974;Otacila Maria Dos Santos ;Op Injetora 2Tur ;01/10/2022;;M751;91;;;;;;;;;;;;;;A
+Joel Fernandes Da Silva ;61079117016443;;10259966401;11/12/1992;Maria Jocelia Fernades Da Silva;Oper Serigrafia;01/05/2022;;S62 ;91;;;;;;;;;;;;;;A
+Joelisson Nascimento Souza;61079117030276;;71582917400;04/01/1999;Jaciara Do Nascimento Souza;Operador Cd Operacao Mc;15/01/2023;;S82 ;31;;;;;;;;;;;;;;A
+Joelma Gomes Moreira;61079117010917;;08930456677;13/03/1985;Janice Maria Gomes ;Op Corte/Mont/Acab 2Tur;01/03/2022;;M709;31;;;;;;;;;;;;;;A
+Joelson Barbosa De Albuquerque;61079117016443;;99672804415;17/07/1973;Cleonice Vicente Da Silva;Oper Corte/Mont/Acab (Ade;12/02/2013;;;31;;;;;;;;;;;;;;A
+Joelson De Oliveira Baracho ;61079117014580;;01542562422;11/09/1985;Celia Maria De Oliveira;Oper. Mont. H.S. 7 1T;19/01/2023;;N201;31;;;;;;;;;;;;;;A
+John Pereira De Lima;61079117016443;;09043880426;15/09/1989;Maria Do Socorro S Pereira ;Oper Corte/Montagem/Acaba;06/01/2022;;;31;;;;;;;;;;;;;;A
+Jordana Da Silva Sousa;61079117016443;;07443375425;14/07/1985;Maria Do Socorro Da Silva Sousa;Oper Corte/Montagem/Acaba;27/03/2022;;;31;;;;;;;;;;;;;;A
+Jorge Vinicius Santos Ferraz;61079117010917;;11108857680;03/02/1995;Maria Geralda Da Anunciacao Santos Vieira;Operador Cd 2ºt;10/08/2016;;S068;31;;;;;;;;;;;;;;A
+Jose Ailton De Lima ;61079117016443;;02264776498;16/12/1976;Maria Das Neves De Lima;Oper Serigrafia;26/11/2022;;M51 ;31;;;;;;;;;;;;;;A
+Jose Ailton Oliveira;61079117010917;;04355593622;23/09/1972;Marta Da Luz Costa ;Op Prensa 2 Tur;03/09/2016;;J949;31;;;;;;;;;;;;;;A
+Jose Almir De Souza Silva ;61079117016443;;03853171400;14/12/1981;Maria Das Neves De Souza Silva ;Oper Prensa;26/01/2023;;M51 ;31;;;;;;;;;;;;;;A
+Jose Anderson Gomes Da Silva;61079117025604;;09286852410;20/05/1990;Maria De Lourdes Gomes Da Silva;Oper Maq Acabamento 1T ;05/01/2023;;S42 ;31;;;;;;;;;;;;;;A
+Jose Antonio De Lima Filho;61079117025604;;02400563454;11/12/1975;Maria Berlamina De Souza Lima;Aux Vulcanização 1T;22/04/2019;;M545;31;;;;;;;;;;;;;;A
+Jose Antonio Honorato De Melo ;61079117014580;;09103273431;16/06/1994;Maria Lucia Honorato De Melo ;Oper Injetora/Peletizador;25/10/2022;;S620;31;;;;;;;;;;;;;;A
+Jose Aparecido Ramos;61079117016443;;37380303449;04/03/1963;Luzia Monteiro Ramos ;Oper Corte/Mont/Acab (Ade;10/03/2022;;;31;;;;;;;;;;;;;;A
+Jose Arlecio Barbosa Da Silva ;61079117016443;;70062035460;25/07/1999;Valquiria Barbosa Da Silva ;Oper Mistura ;23/01/2023;;M75 ;31;;;;;;;;;;;;;;A
+Jose Armando Pereira Da Silva ;61079117016443;;82622531400;10/10/1971;Eurides Guilhermina Bastos Da Silva;Eletricista Especializado;15/05/2021;;M232;31;;;;;;;;;;;;;;A
+Jose Aroldo Mendes Nogueira ;61079117010917;;62394258691;23/11/1966;Leticia Ribeiro Sobral ;Op Corte/Mont/Acab 2Tur;01/12/2019;;M544;31;;;;;;;;;;;;;;A
+Jose Batista Neto ;61079117016443;;07807781467;01/02/1985;Maria Batista Da Silva ;Oper Prensa;06/09/2022;;M50 ;31;;;;;;;;;;;;;;A
+Jose Bernardo Rosa De Souza ;61079117010917;;68974884615;28/09/1970;Maria Geni De Souza;Op Customizacao Mto 1ºt;01/05/2022;;M659;31;;;;;;;;;;;;;;A
+Jose Carlos Candido Dos Santos Junior ;61079117016443;;05401230486;11/05/1983;Maria De Fatima Da Silva Santos;Oper Prensa;22/07/2022;;S82 ;91;;;;;;;;;;;;;;A
+Jose Carlos Goncalves Da Costa;61079117030276;;58694617404;30/12/1968;Marcionila Goncalves Da Costa;Operador Cd Preparcao;27/01/2023;;;31;;;;;;;;;;;;;;A
+Jose Carlos Lima De Almeida ;61079117016443;;10344696499;15/01/1991;Valcira Vieira De Almeida;Oper Corte/Montagem/Acaba;29/07/2022;;M511;31;;;;;;;;;;;;;;A
+Jose Carlos Roberto Dos Santos;61079117016443;;10392285428;02/12/1991;Maria Das Gracas Banqueiro Da Silva;Oper Corte/Montagem/Acaba;12/01/2023;;M54 ;31;;;;;;;;;;;;;;A
+Jose De Arimatea Ferreira Da Silva;61079117014580;;08003341400;28/07/1986;Rosilda Ferreira Da Silva;Oper. Mont. H.S. 7 1T;01/01/2023;;;91;;;;;;;;;;;;;;A
+Jose De Souza Lima Filho;61079117016443;;01295612402;08/09/1993;Maria Luciana Galdino;Oper Mistura ;02/01/2023;;G56 ;91;;;;;;;;;;;;;;A
+Jose Dias Matias Da Cruz;61079117030276;;70141469471;17/06/1996;Maria Sandra Matias Da Cruz;Operador Cd Operacao Mc;13/06/2020;;S72 ;31;;;;;;;;;;;;;;A
+Jose Franco Dos Santos Junior ;61079117016443;;70030397456;08/01/1999;Edileuza Luiz Da Silva ;Oper Corte/Montagem/Acaba;26/08/2022;;M51 ;31;;;;;;;;;;;;;;A
+Jose Higino Pereira Neto Junior ;61079117016443;;70508642426;23/06/1997;Valdenice Da Costa Santos;Oper Corte/Montagem/Acaba;03/02/2023;;M16 ;31;;;;;;;;;;;;;;A
+Jose Iago Dos Santos Porto;61079117016443;;14235155440;01/01/2003;Maria Jose Dos Santos Porto;Oper Serigrafia;20/01/2023;;;31;;;;;;;;;;;;;;A
+Jose Jorge Medeiros ;61079117016443;;88461238400;24/12/1972;Maria Do Carmo Medeiros;Controlador De Processos ;18/03/2022;;;31;;;;;;;;;;;;;;A
+Jose Lindenbergue De Lima ;61079117016443;;08626440464;09/12/1989;Luciana Maria De Lima;Oper Lider I ;02/01/2023;;M51 ;91;;;;;;;;;;;;;;A
+Jose Maciel Ramos ;61079117025604;;06380535446;14/03/1986;Maria Josefa Ramos ;Oper Maq Final 1T;01/07/2019;;S82 ;91;;;;;;;;;;;;;;A
+Jose Marcone Da Silva ;61079117016443;;02348702495;10/10/1978;Severina Maria Da Silva;Oper Prensa;01/10/2022;;M65 ;91;;;;;;;;;;;;;;A
+Jose Mateus Ribeiro Da Silva;61079117030276;;11131252411;28/04/1997;Terezinha De Jesus Ribeiro ;Operador Cd Dvv;03/02/2023;;;31;;;;;;;;;;;;;;A
+Jose Matheus Farias Albuquerque ;61079117016443;;70510593437;08/05/1998;Maria Jose De Oliveira Farias;Oper Injetoras Injetados ;26/12/2022;;M65 ;31;;;;;;;;;;;;;;A
+Jose Renan Ferreira Calado;61079117011646;;47602945468;03/05/1967;Iraci Barbosa Calado ;Executivo De Vendas Ii ;07/02/2023;;;31;;;;;;;;;;;;;;A
+Jose Ribeiro Dos Santos ;61079117010917;;62376977649;23/07/1967;Julia Araujo Dos Santos;Op Prensa 3Tur ;15/08/2021;;M171;31;;;;;;;;;;;;;;A
+Jose Roberto Bezerra Oliveira ;61079117030276;;01586304402;19/03/1989;Zulmira Bezerra Oliveira ;Operador Cd Dvv;28/10/2022;;M51 ;31;;;;;;;;;;;;;;A
+Jose Roberto Soares Dos Santos;61079117010917;;09452074680;13/12/1987;Maria De Fatima Soares Santos;Op Serigrafia 2ºt;21/01/2023;;;31;;;;;;;;;;;;;;A
+Jose Rodrigo Da Silva ;61079117016443;;08241212445;21/03/1988;Josefa Auta Da Silva ;Oper Injetoras ;09/02/2023;;;31;;;;;;;;;;;;;;A
+Jose Romero Da Silva Lima ;61079117016443;;05062046424;30/09/1984;Maria Jose Da Silva Lima ;Oper Corte/Mont/Acab (Ade;05/01/2018;;M510;31;;;;;;;;;;;;;;A
+Jose Romero Da Silva Nunes;61079117016443;;64608409468;14/01/1969;Severina Da Silva Nunes;Inspetor De Qualidade;07/07/2020;;C169;31;;;;;;;;;;;;;;A
+Jose Ronaldo Lino Da Silva;61079117016443;;92968996487;16/07/1973;Maura Lina Da Silva;Oper Prensa;09/11/2021;;;31;;;;;;;;;;;;;;A
+Jose Ronildo De Oliveira;61079117016443;;03528799471;23/06/1979;Expedita Maria F Oliveira;Oper Mistura ;01/06/2022;;M54 ;91;;;;;;;;;;;;;;A
+Jose Santos Barbosa ;61079117016443;;03209410437;06/09/1978;Maria Das Gracas Santos Barbosa;Oper Prensa;10/05/2022;;M75 ;31;;;;;;;;;;;;;;A
+Jose Terto Da Costa Junior;61079117016443;;12614550701;27/09/1990;Iraci De Lima Costa;Oper Prensa;25/08/2020;;M755;31;;;;;;;;;;;;;;A
+Jose Valter Da Silva;61079117030276;;56872461420;25/05/1967;Maria Do Socorro Silva ;Operador Cd Preparcao;01/05/2016;;;31;;;;;;;;;;;;;;A
+Jose Welton Dos Reis Queiroz;61079117010917;;06560317609;11/02/1984;Maria Goncalves De Queiroz Neto;Inspetor Qualidade ;19/08/2022;;M069;31;;;;;;;;;;;;;;A
+Jose Wilker Silva Sales ;61079117016443;;06710177483;04/09/1986;Maria Do Socorro Silva Sales ;Oper Serigrafia;19/09/2022;;S92 ;31;;;;;;;;;;;;;;A
+Jose Wilson Araujo De Oliveira;61079117030276;;81556853149;25/12/1973;Rosa Francisco De Araujo ;Operador Cd Dvv;31/01/2022;;B34 ;91;;;;;;;;;;;;;;A
+Joseane Matias Da Silva ;61079117016443;;07791711443;27/04/1989;Givanilda Matias Cardoso ;Oper Corte/Montagem/Acaba;07/11/2022;;;31;;;;;;;;;;;;;;A
+Josefa Cosme Da Silva ;61079117000440;;09341004462;30/05/1991;Maria Jose Barbosa Da Silva;Preparação Hav Mog_Operac;15/06/2016;;G822;31;;;;;;;;;;;;;;A
+Joseilton David Silva Cavalcante;61079117030276;;08071848450;02/08/1987;Maria Nataene Da Silva ;Operador Cd Dvv;01/09/2019;;M545;91;;;;;;;;;;;;;;A
+Josemar De Lima ;61079117016443;;02460036426;01/03/1977;Corina Morais De Lima;Anl Des Prod Pl;04/01/2023;;M51 ;31;;;;;;;;;;;;;;A
+Josenildo Defensor;61079117016443;;69227772472;06/03/1969;Matercia Maria Defensor;Serralheiro;21/07/2022;;F23 ;31;;;;;;;;;;;;;;A
+Josenildo Ferreira De Farias;61079117016443;;95276041415;09/07/1973;Marluce Ferreira De Farias ;Oper Injetoras ;21/06/2018;;M235;31;;;;;;;;;;;;;;A
+Josiane Da Silva Gomes;61079117014580;;01084049430;01/06/1981;Josefa Da Silva Bezerra;Oper. Mont. H.S1 2T;23/09/2022;;M758;31;;;;;;;;;;;;;;A
+Josilene De Lira Rocha;61079117030276;;02584147408;31/01/1977;Luzinete De Lira Rocha ;Operador Cd Dvv;27/11/2022;;S82 ;31;;;;;;;;;;;;;;A
+Josineide Medeiros;61079117016443;;91968895434;18/03/1969;Maria Do Carmo Medeiros;Oper Injetoras ;16/12/2022;;M75 ;31;;;;;;;;;;;;;;A
+Josuel Arimateia Sousa;61079117016443;;01661431461;04/01/1991;Jacinta De Fatima Rodrigues;Oper Mistura ;22/08/2021;;M751;31;;;;;;;;;;;;;;A
+Josyvaldo De Miranda Pessoa ;61079117025604;;82142688420;30/07/1971;Euridice De Miranda Pessoa ;Aux Acabamento 1T;10/10/2000;;M009;31;;;;;;;;;;;;;;A
+Jouberlania Maria De Lima ;61079117014580;;05967631402;25/07/1985;Severina Maria De Lima ;Oper. Mont. H.S 4 2 T;19/01/2023;;;31;;;;;;;;;;;;;;A
+Joze Benicio Alves Lisboa ;61079117014580;;01265906483;17/05/1983;Josefa Benecio Alves ;Oper Lider Mont. H.S1 1;03/11/2020;;M75 ;31;;;;;;;;;;;;;;A
+Jucilene Barbosa De Araujo;61079117016443;;04605932429;01/10/1981;Julia Barbosa;Oper Corte/Montagem/Acaba;15/12/2022;;G56 ;31;;;;;;;;;;;;;;A
+Julio Leonardo Pereira De Almeida ;61079117030276;;12542712441;20/11/2001;Maria Lucia Pereira Cunha De Almeida ;Operador Cd Dvv;13/12/2022;;K40 ;31;;;;;;;;;;;;;;A
+Jurahilk Fragoso Da Silva ;61079117016443;;04639270445;22/09/1983;Maria Das Gracas Silva ;Aux Eng Indl ;01/02/2023;;;31;;;;;;;;;;;;;;A
+Jusa Rodrigues Oliveira Zuba;61079117010917;;05698399638;24/08/1983;Anita Rodrigues De Brito ;Op Serigrafia 2ºt;01/01/2023;;M255;91;;;;;;;;;;;;;;A
+Juscileide Mendes Aquino Duraes ;61079117010917;;05012439686;26/01/1983;Deraldina Mendes Damacena;Op Customizacao Mto 1ºt;01/08/2019;;M76 ;91;;;;;;;;;;;;;;A
+Jussara Cardoso Da Silva;61079117010917;;06476342606;15/02/1984;Geralda Cardoso De Oliveira;Op Corte/Mont/Acab 3Tur;07/02/2023;;E66 ;31;;;;;;;;;;;;;;A
+Kelly Cristine Rodrigues Barroso;61079117010917;;07803609660;13/09/1989;Jucaria Aparecida Rodrigues Barroso;Op Serigrafia 2ºt;01/02/2022;;G56 ;91;;;;;;;;;;;;;;A
+Kelly Jussara Cardoso De Brito;61079117010917;;09669447631;21/12/1986;Juliana Cardoso Dos Santos ;Op Injetora 2Tur ;27/12/2022;;;31;;;;;;;;;;;;;;A
+Kelven Alves Domingos ;61079117016443;;13005953459;16/02/1998;Magna Alves Correia;Oper Injetoras Injetados ;16/12/2022;;S62 ;31;;;;;;;;;;;;;;A
+Keviny Rodrigues Pordeus;61079117016443;;05167254400;03/10/1997;Luciana Rodrigues Ferreira ;Oper Injetoras ;29/03/2022;;M511;31;;;;;;;;;;;;;;A
+Kleber Ferreira Junior;61079117014580;;69031533491;24/05/1971;Ivanete Ferreira Da Silva;Tec Seguranca Trabalho ;18/05/2021;;F411;31;;;;;;;;;;;;;;A
+Ladjane Ferreira Da Silva ;61079117016443;;02426921412;04/06/1969;Lindalva Ferreira De Brito ;Oper Corte/Mont/Acab (Ade;19/03/2022;;;31;;;;;;;;;;;;;;A
+Laerdan Charles De Brito Silva;61079117016443;;10604463405;18/08/1998;Ana De Brito Silva ;Oper Corte/Montagem/Acaba;15/12/2022;;M54 ;31;;;;;;;;;;;;;;A
+Laudijane Dos Santos Pessoa ;61079117014580;;03994329493;11/03/1982;Maria Jose Dos Santos;Oper. Mont. H.S 4 2 T;19/06/2015;;F322;31;;;;;;;;;;;;;;A
+Laudimere Ribeiro Da Silva;61079117014580;;03121694421;16/07/1977;Maria Das Dores R Da Silva ;Oper. Mont. H.S1 2T;01/05/2022;;F431;31;;;;;;;;;;;;;;A
+Laura Fernanda De Souza ;61079117010917;;85026093604;17/04/1976;Elizete De Souza ;Op Injetora 3Tur ;04/10/2022;;M255;31;;;;;;;;;;;;;;A
+Lazaro Acacio Santos;61079117010917;;09041042652;13/11/1982;Maria Aparecida Acacio Santos;Op Customizacao Mto 3ºt;01/09/2022;;;31;;;;;;;;;;;;;;A
+Leandro Felipe Alves De Souza ;61079117010917;;07249073605;29/04/1984;Ione Alves De Souza;Op Serigrafia 2ºt;01/09/2019;;M541;91;;;;;;;;;;;;;;A
+Leandro Jose Pereira Cabral Costa ;61079117016443;;71566829461;09/10/2000;Josefa Pereira Vieira Irma ;Oper Mistura ;04/01/2023;;S66 ;31;;;;;;;;;;;;;;A
+Leandro Velez Da Silva;61079117016443;;70339769416;29/06/1996;Lucia Velez Da Silva ;Oper Serigrafia;26/01/2021;;M501;31;;;;;;;;;;;;;;A
+Leonardo Adailvo De Souza ;61079117010917;;12452878693;10/03/1992;Maria Valdirene De Souza ;Op Corte/Mont/Acab 3Tur;01/03/2022;;K469;31;;;;;;;;;;;;;;A
+Leonardo Gomes Da Silva ;61079117010917;;11540455602;17/07/1992;Maria De Fatima Gomes Matias ;Op Prensa 1ºt;08/11/2022;;F321;31;;;;;;;;;;;;;;A
+Leonardo Ladislau Da Conceicao Filho;61079117010917;;10501099611;21/08/1991;Marcilene Rodrigues Da Conceicao ;Op Prensa 3Tur ;05/04/2022;;Z00 ;31;;;;;;;;;;;;;;A
+Leonildo Da Silva ;61079117025604;;02247061443;22/05/1975;Maria Da Lucia Da Silva;Oper Maq Transfer Silk 1T;27/12/2022;;S920;31;;;;;;;;;;;;;;A
+Lindenberg Pereira Cavalcante ;61079117016443;;10444503471;24/07/1996;Lindinalva Pereira Cavalcante;Oper Corte/Montagem/Acaba;26/07/2022;;M54 ;31;;;;;;;;;;;;;;A
+Linderman Arruda Sales Lisboa ;61079117016443;;10593727460;04/10/1992;Rosangela Sales Lisboa ;Oper Injetoras ;17/12/2022;;M23 ;31;;;;;;;;;;;;;;A
+Loise Ferreira;61079117016443;;71449205453;08/08/1965;Luci Santos Ferreira ;Oper Corte/Montagem/Acaba;04/05/2010;;;31;;;;;;;;;;;;;;A
+Lorena Cerioli Franzes;61079117010402;;42381614087;16/03/1953;Celina Rampon Cerioli;Operador Iii-Corte ;01/06/2022;;;31;;;;;;;;;;;;;;A
+Luana Soares Rodrigues;61079117010917;;11786608693;29/09/1993;Leonice Soares Pereira ;Op Customizacao Mto 1ºt;06/12/2022;;;31;;;;;;;;;;;;;;A
+Lucas Da Silva;61079117016443;;11687107408;18/09/1994;Maria Das Neves Silva;Oper Injetoras ;16/02/2018;;M51 ;31;;;;;;;;;;;;;;A
+Lucas Nunes Souza ;61079117010917;;11420496638;20/03/1996;Gloria Do Carmo Nunes Souza;Inspetor Qualidade 3º Tur;04/11/2022;;F411;31;;;;;;;;;;;;;;A
+Lucas Rafael De Brito Simoes;61079117016443;;70786310480;14/11/1997;Leidjane Ferreira De Brito ;Oper Mistura ;24/08/2022;;M51 ;31;;;;;;;;;;;;;;A
+Lucelia Gomes De Sousa;61079117016443;;03947207417;28/09/1978;Maria De Lourdes Sousa ;Oper Injetoras ;23/12/2022;;M75 ;31;;;;;;;;;;;;;;A
+Luciana Oliveira Do Nascimento;61079117014580;;03572088461;24/07/1982;Creuza Maria Oliveira Do Nasci ;Oper. Mont. H.S 4 2 T;17/04/2013;;M751;31;;;;;;;;;;;;;;A
+Luciano De Lima Elias ;61079117016443;;02768975443;25/12/1976;Maria De Queiroz ;Oper Injetoras ;13/10/2020;;M751;31;;;;;;;;;;;;;;A
+Luciano Dos Santos Souza;61079117010917;;01658335643;16/10/1983;Maria Odete De Souza ;Apontador Producao 3 Tur ;01/03/2022;;F322;31;;;;;;;;;;;;;;A
+Luciano Henrique Lima ;61079117010917;;12788237600;26/01/1994;Maria Lucia De Jesus Lima;Op Corte/Mont/Acab 1ºt ;14/11/2022;;R521;31;;;;;;;;;;;;;;A
+Luciano Pereira Batista ;61079117010917;;08426629601;23/04/1986;Vera Lucia Pereira Dos Santos;Op Corte/Mont/Acab 3Tur;01/01/2023;;;31;;;;;;;;;;;;;;A
+Lucidalva Alves Raimundo;61079117014580;;02901882455;16/11/1973;Maria Beatriz Alves Raimundo ;Oper. Mont. H.S3 1T;01/04/2019;;S641;91;;;;;;;;;;;;;;A
+Luciene Martins Da Silva;61079117014580;;03037617411;29/09/1979;Maria Do Carmo Conceicao Da Si ;Oper. Mont. H.S4 1T;05/09/2022;;F323;31;;;;;;;;;;;;;;A
+Lucilene Pinheiro Fernandes ;61079117014580;;04291345410;30/07/1984;Severina Pinheiro Da Silva ;Oper. Mont. H.S 4 2 T;27/01/2023;;M75 ;31;;;;;;;;;;;;;;A
+Lucilene Ribeiro Da Silva ;61079117014580;;01265620407;19/05/1982;Maria Terezinha Neves Da Silva ;Oper. Mont. H.S4 1T;09/08/2022;;M75 ;31;;;;;;;;;;;;;;A
+Lucineide Fernandes Da Paz;61079117014580;;02756220450;11/09/1978;Maria Da Conceicao De Lima ;Corte C11 1T ;06/11/2017;;;31;;;;;;;;;;;;;;A
+Lucivanio Tavares De Farias ;61079117016443;;08534559457;29/10/1988;Lenice Tavares De Farias ;Oper Mistura ;16/08/2022;;M51 ;31;;;;;;;;;;;;;;A
+Ludmila Visconte De Souza ;61079117010917;;11880156644;14/03/1994;Laudiene Auxiliadora Visconte De Souza ;Op Corte/Mont/Acab 3Tur;07/02/2023;;F322;31;;;;;;;;;;;;;;A
+Luis Henrique De Souza Alves;61079117016443;;12014715408;10/09/1998;Severina De Sousa Alves;Oper Corte/Montagem/Acaba;28/12/2022;;S91 ;31;;;;;;;;;;;;;;A
+Luiz Alves Felipe De Oliveira ;61079117016443;;70399468404;28/04/1970;Maria Das Neves Felipe ;Oper Serigrafia;17/12/2018;;;31;;;;;;;;;;;;;;A
+Luiz Carlos Ferreira Dos Santos ;61079117010917;;07320271605;02/07/1983;Luzia Ferreira Dos Santos;Op Prensa 2 Tur;01/02/2021;;Z540;91;;;;;;;;;;;;;;A
+Luiz Fernando Oliveira Mota ;61079117010917;;08549215678;08/09/1999;Margareth Fernandes De Oliveira;Op Mistura 3Tur;06/12/2022;;F411;31;;;;;;;;;;;;;;A
+Luiz Flavio Rodrigues Da Silva;61079117010917;;08398302623;17/08/1988;Maria Vania Da Fiuza Da Silva;Op Corte/Mont/Acab ;02/07/2021;;M511;31;;;;;;;;;;;;;;A
+Luiz Teodorio Pereira Santos;61079117010917;;10413903605;06/11/1989;Maria Da Gloria Pereira Santos ;Op Empilhadeira 1°T Nova ;02/04/2020;;;31;;;;;;;;;;;;;;A
+Madson Santos Silva ;61079117030276;;06082186427;22/03/1987;Maria Celia Santos Silva ;Operador Cd Operacao Mc;16/11/2022;;M54 ;31;;;;;;;;;;;;;;A
+Manuel Calbello Filho ;61079117027992;;81290373868;14/04/1955;Adelina Rodrigues Calbello ;Ast Administrativo - Sede;06/12/2018;;M544;31;;;;;;;;;;;;;;A
+Marcelo Damiao Dos Santos ;61079117014580;;30321005856;12/05/1981;Maria Da Penha Dos Santos;Operador Cd - 1°Turno;12/05/2017;;M751;31;;;;;;;;;;;;;;A
+Marcelo Fabiano Pereira Santana ;61079117010917;;05259435605;06/07/1983;Floriza Pereira Santana;Op Prensa 2 Tur;01/05/2022;;M255;31;;;;;;;;;;;;;;A
+Marcelo Honorio Da Silva;61079117016443;;12806003733;29/03/1992;Rita Honorio Da Silva;Operador De Cd ;21/12/2022;;S82 ;31;;;;;;;;;;;;;;A
+Marcia De Oliveira Guimaraes;61079117014580;;04716624455;01/11/1981;Maria De Lourdes De Oliveira ;Op Producao Afastados;20/01/2010;;M05 ;31;;;;;;;;;;;;;;A
+Marciele De Lima Silva;61079117014580;;09391015484;03/08/1992;Margarida De Lima Silva;Inspetor De Qualidade Fab;13/08/2018;;M17 ;31;;;;;;;;;;;;;;A
+Marcio Bezerra Da Silva ;61079117030276;;71681954419;08/08/1999;Claudimira Bezerra Da Silva;Operador Cd Operacao Mc;18/12/2022;;S83 ;31;;;;;;;;;;;;;;A
+Marcio Roberto Da Silva Rodrigues ;61079117028700;;08357726755;10/12/1977;Maria Aparecida Da Silva Rodrigues ;Vendedor - Concept Store ;18/10/2022;;F411;31;;;;;;;;;;;;;;A
+Marcos Antonio Da Silva ;61079117000440;;03031794494;21/06/1976;Severina Sabino Da Silva ;Montagem You_1ºt ;19/08/2022;;G551;31;;;;;;;;;;;;;;A
+Marcos Antonio Lucio Da Silva ;61079117030276;;03046218460;20/08/1978;Maria De Souza Silva ;Operador Cd Preparcao;03/08/2009;;;31;;;;;;;;;;;;;;A
+Marcos Rogerio De Lima;61079117014580;;01903244498;15/02/1976;Juraci De Melo Lima;Pan Stone 2;10/09/2022;;M479;31;;;;;;;;;;;;;;A
+Marcos Ruas Pereira ;61079117010917;;08356833620;03/03/1986;Diocleciano Pereira Dias ;Op Prensa 2 Tur;06/06/2017;;M709;31;;;;;;;;;;;;;;A
+Marcos Vinicius Rodrigues Coutinho De Freitas ;61079117010917;;02107133646;23/07/1997;Dorislene Sergia Coutinho;Op Mistura 2Tur;16/11/2021;;M545;31;;;;;;;;;;;;;;A
+Maria Amavel De Araujo;61079117014580;;60320567400;18/11/1968;Maria Da Penha Medeiros De Araujo;Corte C11 1T ;19/04/2016;;S701;31;;;;;;;;;;;;;;A
+Maria Camila Torquato Ferreira;61079117030276;;14216087400;11/01/2001;Maria De Fatima Torquato ;Operador Cd Dvv;19/01/2022;;;31;;;;;;;;;;;;;;A
+Maria Da Conceicao Alves Filha;61079117014580;;08025775470;18/08/1988;Maria Da Conceicao Alves ;Oper. Mont. H.S4 1T;01/01/2023;;G560;91;;;;;;;;;;;;;;A
+Maria Da Conceicao Avelino Rodrigues Ferreira ;61079117000440;;06415078445;08/12/1985;Maria Das Dores Avelino;Montagem You_1ºt ;26/08/2022;;;31;;;;;;;;;;;;;;A
+Maria Da Conceicao Ferreira Mendes;61079117010917;;06750272681;12/07/1979;Sebastiana Jose Ferreira ;Op Serigrafia 3ºt;02/06/2022;;M541;31;;;;;;;;;;;;;;A
+Maria Da Gloria Samuel Hardman;61079117014580;;06473476440;18/04/1987;Marinalva Samuel Hardman ;Oper. Mont. H.S 4 3T ;03/11/2022;;M75 ;31;;;;;;;;;;;;;;A
+Maria Da Luz Pereira Da Silva ;61079117014580;;12010052480;13/03/1995;Marinalva Pereira Da Silva ;Afastados Satelites Pb ;01/08/2022;;S86 ;91;;;;;;;;;;;;;;A
+Maria Das Neves Da Silva Dias ;61079117014580;;91044057491;29/07/1974;Maria Da Penha Silva ;Oper. Mont. H.S 4 2 T;01/04/2019;;G569;91;;;;;;;;;;;;;;A
+Maria De Fatima Da Cruz Caetano ;61079117014580;;05598837498;27/07/1982;Adesir Amaro Da Cruz ;Oper. Mont. H.S 4 2 T;01/04/2021;;M235;31;;;;;;;;;;;;;;A
+Maria Do Carmo Pinto Da Silva ;61079117030276;;02484367759;14/07/1971;Josefa Pinho Da Silva;Operador Cd Dvv;18/05/2021;;M751;31;;;;;;;;;;;;;;A
+Maria Do Socorro Apolinario Dos Santos;61079117030276;;39591913400;27/03/1963;Julia Vieira Batista ;Operador Cd Preparcao;01/12/2022;;S92 ;31;;;;;;;;;;;;;;A
+Maria Eduarda Da Silva;61079117000440;;70587733438;09/09/1997;Maria Luiza Da Silva ;Montagem You_1ºt ;03/12/2022;;;31;;;;;;;;;;;;;;A
+Maria Eliene Aparecida Alves Da Cruz;61079117010917;;00598859632;06/07/1974;Maria De Lourdes Da Silva Alves;Op Injetoras 1ºt ;01/03/2022;;M755;31;;;;;;;;;;;;;;A
+Maria Elisa Souza Santos;61079117010917;;14416658621;08/06/1999;Janete Aparecida Souza Santos;Op Customizacao Mto 1ºt;07/07/2021;;M511;31;;;;;;;;;;;;;;A
+Maria Fernanda Fernandes Da Silva Duraes;61079117010917;;02103488601;04/11/1999;Cleia Aparecida Fernandes Silva;Op Corte/Mont/Acab 3Tur;28/10/2022;;F411;31;;;;;;;;;;;;;;A
+Maria Goretti Fausto Dos Santos ;61079117014580;;03080569490;01/05/1976;Neusa Severina Dos Santos;Oper. Mont. H.S1 2T;31/01/2023;;;31;;;;;;;;;;;;;;A
+Maria Isabel Lourenco Da Silva;61079117014580;;03463072440;05/09/1978;Irene Ribeiro Da Costa ;Oper. Mont. H.S1 2T;03/11/2022;;M751;31;;;;;;;;;;;;;;A
+Maria Isabela Bezerra Da Silva;61079117014580;;09463295402;16/11/1993;Iolanda Bezerra Cabral ;Oper. Mont. H.S1 1T;04/08/2022;;T934;31;;;;;;;;;;;;;;A
+Maria Jose Da Costa ;61079117025604;;03187072410;09/05/1964;Maria Bernadete Viana;Aux Transfer Silk 1T ;05/07/2022;;;31;;;;;;;;;;;;;;A
+Maria Jose Matias Do Nascimento ;61079117014580;;01962052478;16/06/1976;Emerita Dantas Do Nascimento ;Afastados Satelites Pb ;05/03/2015;;M798;31;;;;;;;;;;;;;;A
+Maria Jose Mendes Vasconcelos ;61079117010917;;03856722688;19/08/1978;Elviro Mendes Moreira;Op Corte/Mont/Acab ;29/11/2022;;F411;31;;;;;;;;;;;;;;A
+Maria Jose Vieira De Souza Alves;61079117014580;;99308118420;21/05/1977;Maria Jose Vieira De Souza ;Oper. Mont. H.S4 1T;01/01/2019;;M79 ;91;;;;;;;;;;;;;;A
+Maria Patricia Clementino De Souza;61079117014580;;03091089428;10/02/1978;Severina Emilia Clementino ;Oper. Mont. H.S 4 2 T;19/10/2022;;F320;31;;;;;;;;;;;;;;A
+Maria Sandra Da Silva Fernandes ;61079117014580;;04168549402;25/07/1981;Maria Das Graças Da Silva Fern ;Oper. Mont. H.S 4 2 T;07/07/2015;;F322;31;;;;;;;;;;;;;;A
+Maria Sandra Da Silva Martins ;61079117014580;;04168549402;25/07/1981;Maria Das Graças Da Silva Fern ;Oper. Mont. H.S 4 2 T;07/07/2015;;F322;31;;;;;;;;;;;;;;A
+Maria Shirley Pereira De Araujo ;61079117010917;;07399207666;10/07/1981;Maria De Jesus Pereira De Araujo ;Op Customizacao Mto 1ºt;01/06/2022;;M658;91;;;;;;;;;;;;;;A
+Maria Silvaneide Ramos Pontes ;61079117010917;;69236640630;25/09/1971;Maria De Lourdes Ramos Pontes;Op Customizacao Mto 3ºt;19/08/2019;;R52 ;31;;;;;;;;;;;;;;A
+Maria Tatiana Santos De Oliveira;61079117016443;;06385754430;26/11/1986;Maria Da Paz Dos Santos;Oper Corte/Montagem/Acaba;14/01/2023;;G56 ;31;;;;;;;;;;;;;;A
+Marilene Soares De Almeida;61079117010917;;04552735616;30/04/1979;Maria Jose Soares Almeida;Op Customizacao Mto 1ºt;11/07/2020;;;31;;;;;;;;;;;;;;A
+Marinaldo Da Silva Soares ;61079117014580;;02456171403;28/12/1973;Maria Da Silva Soares;Oper Prep Prensa 1T;05/02/2020;;M75 ;91;;;;;;;;;;;;;;A
+Marinalva Dos Santos Freitas;61079117010917;;05968189630;20/12/1981;Dalva Dos Santos Freitas ;Op Corte/Mont/Acab ;22/11/2017;;M658;31;;;;;;;;;;;;;;A
+Marione De Souza Nunes;61079117016443;;05808872430;10/01/1986;Margarida De Souza Nunes ;Auxiliar De Programacao;01/04/2019;;M501;91;;;;;;;;;;;;;;A
+Marisa Francisco Pereira Da Silva ;61079117016443;;05080919426;27/12/1978;Maria Jose Pereira ;Oper Corte/Mont/Acab (Ade;11/07/2011;;;31;;;;;;;;;;;;;;A
+Marisa Pereira Da Silva Negreiros ;61079117016443;;05080919426;27/12/1978;Maria Jose Pereira ;Oper Corte/Mont/Acab (Ade;11/07/2011;;;31;;;;;;;;;;;;;;A
+Marlen De Carvalho Santos ;61079117010917;;03015899686;23/04/1976;Selma Eulalia De Carvalho Santos ;Op Mistura ;23/02/2022;;S723;31;;;;;;;;;;;;;;A
+Marlene Leal E Silva;61079117010917;;66299268620;23/03/1968;Maria Ferreira E Silva ;Op Customizacao Mto 1ºt;01/08/2022;;M755;91;;;;;;;;;;;;;;A
+Marlene Oliveira Versiani ;61079117010917;;03738109625;31/10/1977;Teodorica Marta De O Versiani;Op Customizacao Mto 3ºt;28/03/2022;;F32 ;31;;;;;;;;;;;;;;A
+Marley Diego Soares Olimpio ;61079117010917;;23041505860;28/09/1994;Maria Aparecida Soares Olimpio ;Op Mistura 3Tur;19/03/2022;;F41 ;31;;;;;;;;;;;;;;A
+Martinha Trajano Alves;61079117014580;;01114952451;14/12/1978;Maria Rosa Soares Da Silva ;Oper. Mont. H.S2 1T;29/12/2022;;M659;31;;;;;;;;;;;;;;A
+Matheus De Sales Pereira;61079117016443;;14660720403;25/02/2002;Lucielma Elias De Sales;Oper Mistura ;15/03/2022;;S83 ;31;;;;;;;;;;;;;;A
+Matheus Henrique Da Silva Ferreira;61079117010917;;12655365623;21/09/1994;Edilene Ferreira Da Silva;Op Mistura 1ºt ;02/08/2022;;M23 ;31;;;;;;;;;;;;;;A
+Mauro Ricardo Batista Silva ;61079117010917;;12626061603;10/06/1997;Vilma Aparecida Batista Silva;Op Corte/Mont/Acab 3Tur;13/09/2021;;M542;31;;;;;;;;;;;;;;A
+Max Wendell Fernandes Cavalcanti;61079117010917;;09597990601;10/12/1990;Maria Jose Fernandes Cavalcanti;Op Corte/Mont/Acab 3Tur;01/10/2022;;S836;91;;;;;;;;;;;;;;A
+Maxiel Da Silva Lima;61079117016443;;08955452411;19/11/1992;Maria Deodato Da Silva Lima;Oper Prensa;01/10/2022;;M54 ;91;;;;;;;;;;;;;;A
+Mayara Kelly Do Nascimento;61079117016443;;08022737429;07/03/1993;Maria Das Dores Do Nascimento;Oper Corte/Montagem/Acaba;28/11/2017;;;31;;;;;;;;;;;;;;A
+Maycon Adailton Rodrigues Oliveira;61079117010917;;11423637674;23/05/1992;Elaine Rodrigues Oliveira;Op Serigrafia 2ºt;12/10/2021;;;31;;;;;;;;;;;;;;A
+Mayke Da Silva Rodrigues;61079117010917;;12208889665;14/10/1992;Maria Aldete Barbosa Silva ;Op Injetoras 1ºt ;08/04/2022;;G562;31;;;;;;;;;;;;;;A
+Maykel Robert Ribeiro De Almeida;61079117010917;;05597989626;13/03/1983;Marcia Antonia Ribeiro De Almeida;Op Injetoras 1ºt ;24/09/2022;;M545;31;;;;;;;;;;;;;;A
+Maykw Jonath Gomes;61079117000440;;06714298412;08/11/1993;Maria Lucia Gomes;Blaque Hav Mog_Operaciona;23/12/2022;;S860;31;;;;;;;;;;;;;;A
+Miriam Acacio Da Silva;61079117010917;;96563257615;27/07/1971;Ramira Borges Da Silva ;Op Serigrafia;01/06/2022;;F321;91;;;;;;;;;;;;;;A
+Miriane Barbosa Da Silva;61079117010917;;19079938866;19/03/1977;Maria Calixta Da Silva ;Op Serigrafia 3ºt;18/01/2021;;Z54 ;31;;;;;;;;;;;;;;A
+Mitchel Giulliano Cordeiro Dos Santos ;61079117030276;;01245115464;09/03/1982;Luciene Cordeiro Dos Santos;Operador Cd Dvv;20/11/2016;;;31;;;;;;;;;;;;;;A
+Mizael Da Silva Cardoso ;61079117016443;;06418094417;18/11/1984;Maria Do Socorro Da Silva Cardoso;Oper Prensa;01/10/2022;;M65 ;91;;;;;;;;;;;;;;A
+Mizael Dutra Pinheiro ;61079117010917;;00545495318;25/08/1983;Maria Jose Pereira Dutra ;Operador Cd 3ºt;31/05/2021;;F192;31;;;;;;;;;;;;;;A
+Moacir Simplicio Do Nascimento;61079117014580;;79034047415;29/03/1971;Josefa Serafim Bezerra ;Oper. Mont. H.S 4 2 T;01/11/2022;;M65;91;;;;;;;;;;;;;;A
+Moises Abraao Arruda Das Merces ;61079117016443;;01376078490;22/08/1980;Joana Darc Arruda Das Merces ;Oper Corte/Montagem/Acaba;09/03/2018;;M541;91;;;;;;;;;;;;;;A
+Moises Mendes Pires ;61079117016443;;01646778448;04/08/1990;Francisca Mendes De Almeida;Oper Prensa;01/08/2022;;G56 ;91;;;;;;;;;;;;;;A
+Monica Oliveira Santos Souza;61079117010917;;07661212676;09/08/1984;Marilene Oliveira Santos ;Op Customizacao Mto 3ºt;30/10/2020;;H160;31;;;;;;;;;;;;;;A
+Nathalia Laysa Dos Reis Cheque;61079117028107;;40065655850;25/10/1992;Vera Lucia Dos Reis;Ger Loja Concept Store ;07/02/2023;;F411;31;;;;;;;;;;;;;;A
+Neemias Pires Cardoso ;61079117010917;;07666167628;27/12/1986;Celia Pires Felix Cardoso;Op Corte/Mont/Acab 3Tur;01/02/2023;;M750;91;;;;;;;;;;;;;;A
+Neiva Gomes Pereira ;61079117010917;;10934368678;10/01/1990;Maria Iva Pereira Santos ;Op Corte/Mont/Acab 2Tur;16/08/2022;;G560;31;;;;;;;;;;;;;;A
+Nelson Lima Miranda ;61079117010917;;04215674654;27/05/1980;Brigidia Lima Da Silva ;Op Corte/Mont/Acab 2Tur;28/02/2019;;Z00 ;31;;;;;;;;;;;;;;A
+Nelson Silva Da Costa ;61079117016443;;07118355780;30/01/1978;Suely Silva Da Costa ;Spv Producao ;01/07/2022;;N18 ;31;;;;;;;;;;;;;;A
+Noel Bento Da Silva ;61079117000440;;05444778475;21/11/1983;Alzira Maria Da Conceicao;Saint Tropez Mog_Operacio;27/11/2020;;M254;31;;;;;;;;;;;;;;A
+Oseas Joao Da Silva ;61079117025604;;05875333405;17/09/1986;Maria Xavier Da Silva;Oper Maq Transfer Silk 1T;10/10/2020;;X954;91;;;;;;;;;;;;;;A
+Oseias Filipe De Queiroz Almeida;61079117016443;;70531027422;03/06/2001;Jussara De Queiroz Almeida ;Oper Prensa;03/08/2022;;F14 ;31;;;;;;;;;;;;;;A
+Pamela Raissa Soares Souza De Jesus ;61079117010917;;12494253608;24/10/1992;Raquel Soares Pereira;Op Customizacao Mto 1ºt;21/04/2022;;F41 ;31;;;;;;;;;;;;;;A
+Patricio Mendes Soares;61079117010917;;08216555660;10/11/1984;Neocilda Mendes Soares ;Op Corte/Mont/Acab 2Tur;24/01/2023;;M255;31;;;;;;;;;;;;;;A
+Paula Aparecida Pinto Passos;61079117010917;;08509528675;19/03/1989;AlaidePinto Passos ;Op Customizacao Mto 1ºt;12/02/2023;;E66 ;31;;;;;;;;;;;;;;A
+Paulo Henrique Do Nascimento;61079117014580;;05585493493;20/05/1986;Maria Da Penha Da Silva;Anl Desenv Produto Jr;02/01/2014;;F41 ;31;;;;;;;;;;;;;;A
+Paulo Henrique Do Nascimento;61079117014580;;05585493493;20/05/1986;Maria Da Penha Da Silva;Anl Desenv Produto Jr;02/01/2014;;F41 ;31;;;;;;;;;;;;;;A
+Paulo Henrique Ferreira De Souza;61079117010917;;08829043613;04/11/1992;Iracy Ferreira Da Silva;Op Corte/Mont/Acab 2Tur;11/05/2022;;Z00 ;31;;;;;;;;;;;;;;A
+Paulo Januario De Vasconcelos Neto;61079117030276;;06035090451;19/01/1984;Teresa Matilde Lima De Sousa ;Operador Cd Dvv;17/12/2015;;;31;;;;;;;;;;;;;;A
+Paulo Jose De Oliveira;61079117016443;;07672352407;16/03/1984;Maria Das Dores Silva;Oper Prensa;01/10/2022;;M23 ;91;;;;;;;;;;;;;;A
+Paulo Roberto Da Silva Azevedo;61079117016443;;70601338448;27/11/2000;Rosangela Silva Lima ;Oper Corte/Montagem/Acaba;09/10/2022;;M65 ;31;;;;;;;;;;;;;;A
+Paulo Roberto Soares Gomes;61079117016443;;03346896439;11/04/1976;Ana Augusta Soares Gomes ;Oper Mistura ;01/05/2017;;;31;;;;;;;;;;;;;;A
+Pedro Goncalves De Lima ;61079117016443;;83574174772;15/07/1953;Antonia Barbosa Das Neves;Oper Corte/Mont/Acab (Ade;06/12/2007;;;31;;;;;;;;;;;;;;A
+Pedro Henrique Da Silva Ramos ;61079117016443;;07093706444;30/08/2001;Juciana Maria Da Silva ;Oper Corte/Montagem/Acaba;06/12/2022;;S83 ;31;;;;;;;;;;;;;;A
+Pedro Railton Barbosa Lima;61079117016443;;13188033494;28/06/1998;Josiane Railton Barbosa Lima ;Oper Corte/Montagem/Acaba;12/11/2022;;M51 ;31;;;;;;;;;;;;;;A
+Pedro Vinicius Luan Da Silva Vasconcelos;61079117016443;;70838094457;01/03/1999;MaristelaDa Silva;Oper Prensa;06/12/2022;;M75 ;31;;;;;;;;;;;;;;A
+Racire Geraldo Macedo Ferreira;61079117010917;;89308280600;05/02/1973;Iaci Alves Macedo Ferreira ;Op Injetora 3Tur ;26/07/2016;;;31;;;;;;;;;;;;;;A
+Radael Junior Dias Nogueira ;61079117010917;;08370463606;24/07/1985;Solange Dias Nogueira;Op Empilhadeira I 2ºturno;07/02/2023;;S93 ;31;;;;;;;;;;;;;;A
+Rafael Ferreira Dos Santos;61079117016443;;01774428407;12/01/2000;Ozita Ferreira Da Silva;Oper Prensa;08/12/2022;;M75 ;31;;;;;;;;;;;;;;A
+Ramon Martins Santos;61079117010917;;11497276675;28/09/1993;Cleonice Martins Santos;Op Corte/Mont/Acab 3Tur;01/10/2022;;F411;91;;;;;;;;;;;;;;A
+Raniel Silva Nascimento ;61079117016443;;70602349427;07/12/1998;Chelyane Do Nascimento Silva ;Oper Corte/Montagem/Acaba;21/09/2021;;M751;31;;;;;;;;;;;;;;A
+Regina Amaral Veloso;61079117010917;;12034362624;18/05/1995;Rosalia Barbosa Amaral ;Op Corte/Mont/Acab ;09/07/2021;;M654;31;;;;;;;;;;;;;;A
+Regina Aparecida Ferreira ;61079117010917;;05140546620;23/06/1977;Ivanete De Freitas Ferreira;Op Serigrafia 3ºt;22/03/2022;;M70 ;31;;;;;;;;;;;;;;A
+Regina Valeria De Oliveira Nascimento ;61079117025604;;07253963423;09/06/1985;Silvania Maria De Oliveira Nascimento;Oper Lider I ;11/01/2023;;Z98 ;31;;;;;;;;;;;;;;A
+Reginaldo Barbosa Genuino ;61079117016443;;10511721447;07/08/1990;MariaDas Dores Barbosa Genuino ;Oper Mistura ;22/01/2023;;;31;;;;;;;;;;;;;;A
+Reginaldo Fernandes Da Silva;61079117016443;;03304425462;09/09/1975;Maria Lindinalva Da Silva;Oper Prensa;25/01/2006;;;31;;;;;;;;;;;;;;A
+Reginaldo Gomes De Oliveira ;61079117010917;;06099938605;03/04/1983;Inez Gomes De Oliveira ;Mecanico ;19/11/2022;;B92 ;31;;;;;;;;;;;;;;A
+Reinaldo Paulino De Medeiros;61079117010917;;04319339606;21/07/1979;Januaria Paulina De Jesus;Op Mistura 2Tur;01/01/2022;;M545;91;;;;;;;;;;;;;;A
+Renan Feitosa Dos Santos;61079117016443;;08882999408;18/06/1988;Maria Do Socorro Feitosa Dos Santos;Oper Serigrafia;17/05/2012;;;31;;;;;;;;;;;;;;A
+Renata Kelly Donato De Araujo ;61079117016443;;01630394459;24/06/1991;Euclione Donato Da Silva ;Oper Corte/Montagem/Acaba;09/02/2023;;M63 ;31;;;;;;;;;;;;;;A
+Renato Da Silva Macedo;61079117016443;;10670422452;06/04/1994;Arlete Terto Da Silva;Oper Mistura ;02/01/2023;;M51 ;91;;;;;;;;;;;;;;A
+Renato De Lima Pereira Mattos ;61079117016443;;02837593486;06/10/1978;Wilma Auxiliadora Lima Mattos;Oper Corte/Montagem/Acaba;24/12/2022;;S92 ;31;;;;;;;;;;;;;;A
+Renato Jose Texeira ;61079117025604;;05944765429;28/10/1984;Elielza Firmina Da Silva Teixeira;Oper Maq Acabamento 1T ;15/04/2022;;;31;;;;;;;;;;;;;;A
+Rian Barreto De Brito ;61079117030276;;11528072421;11/09/1993;Iolanda Barreto De Brito ;Operador Cd Dvv;28/09/2022;;;31;;;;;;;;;;;;;;A
+Ricardo Da Silva Malheiros;61079117014580;;07511804403;06/12/1986;Cristina Pereira Da Silva;Oper Prep Prensa 1T;01/06/2019;;M751;91;;;;;;;;;;;;;;A
+Ricardo Gomes Da Silva;61079117016443;;03461427411;21/05/1978;Lindalva Gomes Da Silva;Mecanico Especializado ;21/06/2017;;;31;;;;;;;;;;;;;;A
+Rizangela Sulamita Goncalves De Souza Mendes;61079117010917;;08175856645;03/02/1983;Nildete Goncalves De Jesus De Souza;Op Corte/Mont/Acab ;05/10/2019;;M511;31;;;;;;;;;;;;;;A
+Robert Douglas Santos Carvalho;61079117010917;;05995905643;07/02/1981;Lucia Marcia Santos Dias ;Op Corte/Mont/Acab 3Tur;18/08/2022;;D43 ;31;;;;;;;;;;;;;;A
+Roberta Nogueira Santos ;61079117010917;;10510560636;14/02/1990;Maria Dos Anjos Nogueira Santos;Op Corte/Mont/Acab 2Tur;19/12/2022;;F411;31;;;;;;;;;;;;;;A
+Roberto Gomes Moreira ;61079117025604;;04375861460;16/12/1977;Severina Francisca Moreira ;Controlador De Processo 1;27/01/2022;;I42 ;31;;;;;;;;;;;;;;A
+Roberto Rodolfo De Santana;61079117025604;;09173827495;23/03/1991;Maria Lucia Freitas De Santana ;Aux Transfer Silk 1T ;14/01/2023;;Z540;31;;;;;;;;;;;;;;A
+Romeu Adamastor Da Silva;61079117016443;;07556084450;07/12/1984;Jacinta Margarida Alves Da Silva ;Oper Corte/Montagem/Acaba;01/08/2022;;F31 ;91;;;;;;;;;;;;;;A
+Ronaldo Medeiros Passim ;61079117030276;;44174810400;31/05/1960;Rita Barros Medeiros ;Operador Cd Preparcao;01/09/2009;;;91;;;;;;;;;;;;;;A
+Ronielito Pereira Almeida ;61079117016443;;10457965495;01/12/1994;Avani Pereira Almeida;Oper Mistura ;29/12/2022;;M54 ;31;;;;;;;;;;;;;;A
+Ronildo Alves Da Cunha;61079117010917;;03216078647;07/10/1976;Izabel Alves De Araujo Cunha ;Op Serigrafia 3ºt;16/07/2019;;M75 ;31;;;;;;;;;;;;;;A
+Rosangela Nunes De Aguiar Silva ;61079117010917;;07185962692;02/02/1983;Maria Helena Nunes DeAguiar;Op Customizacao Mto 2ºt;16/10/2022;;M754;31;;;;;;;;;;;;;;A
+Rosemi Gouveia De Sousa ;61079117016443;;03469340447;19/03/1979;Josefa Campos Gouveia De Sousa ;Oper Prensa;04/02/2023;;;31;;;;;;;;;;;;;;A
+Rosigila Katiane De Farias Lima ;61079117016443;;05509822481;06/05/1981;Severina Ana De Farias Nobrega ;Oper Serigrafia;02/01/2023;;M51 ;91;;;;;;;;;;;;;;A
+Rosilda Januario Da Silva ;61079117014580;;76904601434;25/08/1972;Josefa Januario Da Silva ;Oper. Mont. H.S2 1T;03/01/2023;;G560;31;;;;;;;;;;;;;;A
+Rosimeire Soares Silva Lopes;61079117010917;;03362709680;02/09/1973;Maria Nelcy Soares Silva ;Op Customizacao Mto 2ºt;01/11/2022;;F411;31;;;;;;;;;;;;;;A
+Rosivaldo De Mariz Costa Junior ;61079117016443;;01603145427;23/06/1989;Josineide Barros Da Silva Costa;Oper Corte/Montagem/Acaba;31/10/2020;;J111;31;;;;;;;;;;;;;;A
+Rozalia Martins De Sa ;61079117000440;;09931888423;11/11/1988;Maria Jose M Do Nascimento ;Preparação Hav Mog_Operac;22/02/2019;;I420;31;;;;;;;;;;;;;;A
+Roziano De Oliveira Brito ;61079117016443;;03873537478;09/02/1981;Maria Do Rozario D Brito ;Oper Prensa;28/04/2006;;;31;;;;;;;;;;;;;;A
+Rubens Kleiton Bezerra Da Costa ;61079117016443;;04433686433;20/11/1979;Severina Bezerra Da Costa;Oper Corte/Montagem/Acaba;26/11/2021;;N180;31;;;;;;;;;;;;;;A
+Ryan Samuel Pereira ;61079117010917;;70311302637;19/07/2001;Marcia Pereira De Jesus;Op Corte/Mont/Acab 1ºt ;07/02/2023;;S62 ;31;;;;;;;;;;;;;;A
+Sabrina Rodrigues Dos Santos;61079117030276;;01656458497;22/06/1992;Sandra Rodrigues Eller ;Operador Cd Dvv;24/07/2022;;F32 ;31;;;;;;;;;;;;;;A
+Sandra De Fatima Pereira Ruas Santos;61079117010917;;09939409605;06/05/1989;Geralda Pereira Ruas ;Operador Cd 3ºt;23/08/2022;;F411;31;;;;;;;;;;;;;;A
+Sandro Afonso Da Costa;61079117016443;;03413779451;27/06/1981;Maria De Fatima Pereira Da Costa ;Oper Prensa;01/11/2022;;M51 ;91;;;;;;;;;;;;;;A
+Sandro De Melo Da Silva ;61079117030276;;04657912470;30/04/1983;Josefa Izidorio De Melo;Operador Cd Dvv;08/03/2022;;I27 ;31;;;;;;;;;;;;;;A
+Santa Cleia Cardoso Aguiar;61079117010917;;06159900617;01/11/1980;Durvalina Cardoso Da Luz ;Op Customizacao Mto 1ºt;18/08/2021;;M797;31;;;;;;;;;;;;;;A
+Sergio Everton Silva Oliveira ;61079117016443;;17987307742;20/12/1997;Angela Maria Barbosa Silva Oliveira;Oper Serigrafia;21/12/2022;;M51 ;31;;;;;;;;;;;;;;A
+Severina Gomes Da Silva ;61079117014580;;00978330455;14/01/1978;Maria De Lourdes Da Silva;Oper. Mont. H.S 4 2 T;14/08/2020;;C18 ;31;;;;;;;;;;;;;;A
+Severino Do Ramo Lionel Da Silva;61079117016443;;02745457721;05/11/1970;Iracena Clemente Da Silva;Oper Injetoras ;24/01/2023;;Q40 ;31;;;;;;;;;;;;;;A
+Severino Feliciano De Lima Neto ;61079117016443;;10729696456;07/03/1990;Ana Maria Dos Santos Lima;Oper Mistura ;27/09/2022;;S83 ;31;;;;;;;;;;;;;;A
+Severino Jose Pinheiro Dantas ;61079117014580;;69012326400;15/05/1969;Izabel Lins Dantas ;Corte C11 1T ;19/01/2022;;;31;;;;;;;;;;;;;;A
+Sheila Fernandes Bento;61079117014580;;82711020444;27/10/1974;Celia Martins Fernandes;Oper. Mont. H.S 4 2 T;05/12/2018;;M75 ;91;;;;;;;;;;;;;;A
+Sidney Pereira Silva;61079117010917;;01181978602;01/08/1979;Elizabeth Pereira Silva;Op Corte/Mont/Acab ;01/08/2022;;M75 ;31;;;;;;;;;;;;;;A
+Silvanete Aparecida Gusmao;61079117010917;;71731636687;05/02/1973;Maria Terezinha Ferreira ;Costureira Prototipos;06/07/2022;;M751;31;;;;;;;;;;;;;;A
+Silvia Helena Da Cruz ;61079117027992;;26463155896;28/01/1977;Maria De Lourdes Da Cruz ;Operador I - 8 Horas ;01/10/2021;;;31;;;;;;;;;;;;;;A
+Silvio Ferreira De Oliveira ;61079117030276;;45108633491;16/08/1962;Carlinda Ferreira De Oliveira;Operador Cd Operacao Mc;25/05/2016;;;31;;;;;;;;;;;;;;A
+Silvio Teruo Yamaoka;61079117030276;;01652505423;25/03/1992;Laura Ursulino Da Silva;Conferente ;04/02/2023;;S82 ;31;;;;;;;;;;;;;;A
+Simone Marinho Da Silva ;61079117016443;;03526426457;03/10/1979;Severina Marinho Da Silva;Oper Corte/Mont/Acab (Ade;13/11/2020;;M431;31;;;;;;;;;;;;;;A
+Sinvaldo Ferreira Silva ;61079117010917;;85022667649;18/03/1971;Bonifacia Ferreira Silva ;Op Corte/Mont/Acab ;18/04/2021;;M751;31;;;;;;;;;;;;;;A
+Sonia De Jesus Santana;61079117010917;;06769744651;07/03/1981;Maria Francisca Rego ;Op Corte/Mont/Acab 2Tur;01/09/2022;;;91;;;;;;;;;;;;;;A
+Soraya Arruda Vicente Gomes ;61079117016443;;09200111793;23/01/1979;Nilzinez Francisca De Arruda ;Oper Lider Iii ;18/01/2023;;;31;;;;;;;;;;;;;;A
+StefanieRita Antunes Leal ;61079117025604;;13157343467;11/01/2001;Sandra Antunes Leal;Aux Acabamento 1T;21/12/2022;;S82 ;91;;;;;;;;;;;;;;A
+Suenia Feitosa De Sousa ;61079117016443;;85332917449;12/03/1970;Maria Auxiliadora F. De Sousa;Oper Serigrafia;10/04/2021;;M751;31;;;;;;;;;;;;;;A
+Suenya Kelly Da Silva ;61079117016443;;71367555493;18/03/2000;Maria Do Carmo Da Silva;Oper Corte/Montagem/Acaba;20/12/2022;;M65 ;31;;;;;;;;;;;;;;A
+Suerda Martins De Freitas ;61079117010917;;09124899607;09/06/1989;Natalina Martins De Freitas;Op Injetora 3Tur ;25/01/2022;;M75 ;31;;;;;;;;;;;;;;A
+Tania Maria Gomes De Andrade;61079117027992;;58032827404;20/01/1969;Maria Helena Gomes ;Aux Adm Vendas ;15/05/2010;;;31;;;;;;;;;;;;;;A
+Tatiane Gomes De Faria;61079117010917;;09295746643;15/11/1983;Berenita Gomes De Faria;Op Corte/Mont/Acab ;01/11/2022;;M542;31;;;;;;;;;;;;;;A
+Tatielle Pereira Pinto Damasceno;61079117010917;;09286040636;23/07/1994;Eliene Do Socorro Pereira Santos ;Op Customizacao Mto 2ºt;01/06/2022;;M75 ;31;;;;;;;;;;;;;;A
+Telma Lopes Fonseca Dias;61079117010917;;08481211630;27/07/1982;Maria Berenice Lopes Fonseca ;Op Serigrafia 2ºt;21/11/2022;;;31;;;;;;;;;;;;;;A
+Thalysson Jose Lourenco De Lima Silva ;61079117030276;;08343876466;30/01/1990;Lauriceia Vicente Lourenco De Lima ;Operador Cd Dvv;20/12/2022;;;31;;;;;;;;;;;;;;A
+Thaynara Muniz De Andrade ;61079117010917;;14043333633;02/05/1998;Cledilene Muniz De Oliveira;Op Serigrafia 1ºt;30/09/2022;;R55 ;31;;;;;;;;;;;;;;A
+Thaynara Targino Santana;61079117016443;;13760863442;18/10/1999;Maria Aparecida Targino Simplicio;Oper Corte/Montagem/Acaba;06/08/2022;;M54 ;31;;;;;;;;;;;;;;A
+Thercio Ricardo Santos Mendonca ;61079117016443;;10472014455;23/10/1994;Maria Valda Santos Mendonca;Oper Mistura ;08/12/2022;;M51 ;31;;;;;;;;;;;;;;A
+Thiago Aparecido Souza Almeida;61079117010917;;11266334610;13/10/1998;Clicia Carvalho De Souza ;Mecanico ;27/01/2023;;Z54 ;31;;;;;;;;;;;;;;A
+Thiago Batista Da Silva ;61079117010917;;07637410609;07/02/1985;Maria Beatriz Batista Silva;Op Serigrafia 3ºt;01/07/2022;;M549;91;;;;;;;;;;;;;;A
+Thiago Jose Oliveira Barros ;61079117016443;;13031951433;19/03/1999;Walquiria De Oliveira Santos ;Oper Corte/Montagem/Acaba;26/12/2022;;S92 ;31;;;;;;;;;;;;;;A
+Tiago Ferreira Lima ;61079117014580;;10780048466;31/01/1993;Maria Lucia Ferreira Lima;Oper. Mont. H.S3 1T;01/03/2019;;M751;91;;;;;;;;;;;;;;A
+Tuanne Raquel Jorge Ferreira;61079117014580;;08673839416;15/11/1991;Maria Leonor Silva Jorge ;Oper Mont Sandalias Hav. ;01/09/2020;;D25 ;31;;;;;;;;;;;;;;A
+Ulisses Barbosa De Castro ;61079117030276;;01368029400;25/12/1986;Audeci Barbosa De Castro ;Operador Cd Dvv;29/03/2022;;;31;;;;;;;;;;;;;;A
+Valdemir Lima Silva Junior;61079117016443;;06634897417;24/11/1987;Terezinha Da Silva ;Oper Serigrafia;19/11/2022;;J15 ;31;;;;;;;;;;;;;;A
+Valdemir Manoel Da Silva;61079117016443;;91971039420;02/07/1973;Maria Nazare Lopes Da Silva;Oper Injetoras ;01/03/2015;;;91;;;;;;;;;;;;;;A
+Valdeni Barbosa De Souza;61079117010917;;10993960693;04/08/1992;Eva Alves Barbosa De Souza ;Op Corte/Mont/Acab 3Tur;13/12/2022;;M796;31;;;;;;;;;;;;;;A
+Valdigles Do Ramo Silva ;61079117016443;;05527349423;25/11/1984;Severina Do Ramo Silva ;Oper Corte/Mont/Acab (Ade;01/12/2021;;R06 ;31;;;;;;;;;;;;;;A
+Valdileia Antunes Carvalho;61079117010917;;07546358647;14/02/1986;Delecida Maria De Jesus Antunes;Op Corte/Mont/Acab 3Tur;07/05/2022;;M54 ;31;;;;;;;;;;;;;;A
+Valdileia Antunes Carvalho De Melo;61079117010917;;07546358647;14/02/1986;Delecida Maria De Jesus Antunes;Op Corte/Mont/Acab 3Tur;07/05/2022;;M54 ;31;;;;;;;;;;;;;;A
+Vanderleia Pereira De Moura ;61079117016443;;00982532474;27/12/1965;Eurides Guilhermino Bastos Da Silva;Oper Corte/Montagem/Acaba;22/12/2022;;M17 ;31;;;;;;;;;;;;;;A
+Vanessa Alves Guedes;61079117010917;;11969264683;24/07/1996;Eunice Da Rocha Guedes ;Op Corte/Mont/Acab 2Tur;28/10/2022;;S660;31;;;;;;;;;;;;;;A
+Vanessa Dias Lopes Gomes;61079117010917;;07307630648;22/02/1983;Creuza Maria Dias;Op Customizacao Mto 2ºt;01/12/2021;;F321;91;;;;;;;;;;;;;;A
+Vaneusa Lourenco Da Silva Belo;61079117014580;;03523450470;19/02/1981;Margarida M Da Silva Lourenco;Oper. Mont. H.S1 1T;01/02/2019;;G560;91;;;;;;;;;;;;;;A
+Vania Aparecida Martins De Souza;61079117010917;;00789270641;08/06/1974;Maria Geralda Martins De Souza ;Op Corte/Mont/Acab ;29/10/2016;;M751;31;;;;;;;;;;;;;;A
+Veronica Almeida Noronha;61079117010917;;09297730639;29/10/1980;Helena Pereira De Araujo ;Op Corte/Mont/Acab 2Tur;28/02/2022;;F41 ;31;;;;;;;;;;;;;;A
+Victor De Oliveira Rodrigues;61079117010917;;01781461619;25/11/1992;Celia Rosa De Oliveira E Rodrigues ;Op Injetora 2Tur ;14/02/2023;;F32 ;31;;;;;;;;;;;;;;A
+Victor Eduardo Queiroz Lucena Oliveira;61079117016443;;09914715478;25/10/2000;Fabianne Queiroz Lucena Olivera;Oper Prensa;27/11/2022;;M75 ;31;;;;;;;;;;;;;;A
+Vinicius Pontes Lima;61079117016443;;11370052464;22/03/1996;Francinalva Ferreira Pontes Lima ;Oper Serigrafia;29/11/2022;;M51 ;31;;;;;;;;;;;;;;A
+Vinicius Silva Cardoso;61079117010917;;01915377641;05/08/1997;Jussara Silva Cardoso;Op Serigrafia 1ºt;02/08/2022;;M235;31;;;;;;;;;;;;;;A
+Vitoria Brito Da Silva;61079117014580;;01017484422;10/06/1977;Nair Felisbela Da Silva;Oper. Mont. H.S 4 2 T;16/07/2021;;M751;31;;;;;;;;;;;;;;A
+Vitoria Samyra Gomes Silva;61079117016443;;14380190412;17/05/2003;Pamela Ysmaela Gomes Da Silva;Oper Corte/Montagem/Acaba;27/09/2022;;;31;;;;;;;;;;;;;;A
+Viviane Da Silva Tavares;61079117014580;;01600366406;03/06/1990;Valdete Maria Da Silva ;Oper. Mont. Gaspea 1ºt ;04/11/2022;;M796;31;;;;;;;;;;;;;;A
+Viviane Rodrigues Goncalves ;61079117010917;;09910635623;23/12/1989;Maria Do Rosario Rodrigues Goncalves ;Op Customizacao Mto 3ºt;01/09/2022;;M654;91;;;;;;;;;;;;;;A
+Wagner Araujo ;61079117016443;;00738479411;28/06/1979;Maria Odete De Araujo;Mecanico Especializado ;31/12/2020;;M751;31;;;;;;;;;;;;;;A
+Wagner Do Nascimento Silva;61079117016443;;06205958414;12/07/1985;Gilvanete Do Nascimento Silva;Mecanico Especializado ;20/04/2022;;;31;;;;;;;;;;;;;;A
+Wallisson Lucas Soares Rocha;61079117010917;;12179411693;14/04/1995;Marilza Soares Rodrigues ;Op Corte/Mont/Acab 2Tur;07/01/2020;;S62 ;31;;;;;;;;;;;;;;A
+Wanderley Lopes Faria ;61079117010917;;86738437668;20/01/1972;Helena Lopes Faria ;Op Injetoras ;06/09/2017;;M511;31;;;;;;;;;;;;;;A
+Wanderson Dos Santos Alves;61079117010917;;09194378690;07/10/1987;Vaneide Aparecida Ferreira Dos Santos;Op Mistura 1ºt ;09/10/2022;;Z988;31;;;;;;;;;;;;;;A
+Wanderson Junior Laureano Amancio ;61079117016443;;05111526390;22/03/1993;Edilene Moura Laureano Amancio ;Oper Injetoras ;09/07/2022;;S46 ;31;;;;;;;;;;;;;;A
+Warley Teixeira Ferreira;61079117010917;;01729603637;24/03/1997;Terezinha Maria Ferreira ;Op Corte/Mont/Acab 2Tur;20/02/2022;;S633;31;;;;;;;;;;;;;;A
+Waulenia Da Silva Andrade Valentim;61079117000440;;08786182447;26/10/1987;Maria Do Socorro Silva Andrade ;Inspetor Qualidade Mogeir;07/02/2023;;K81 ;31;;;;;;;;;;;;;;A
+Welington De Melo Borges;61079117010917;;05586139693;15/05/1979;Ana Esteves De Melo;Op Mistura 3Tur;29/08/2022;;F313;31;;;;;;;;;;;;;;A
+Wellintan Constancia Gomes Alves;61079117010917;;08172296630;31/03/1987;Joaquina Maristela Gomes De Morais ;Op Customizacao Mto 1ºt;20/07/2022;;M77 ;31;;;;;;;;;;;;;;A
+Wendel Mariano Da Silva ;61079117016443;;70576115444;25/09/1997;Maria Do Socorro Mariano Da Silva;Oper Prensa;19/12/2022;;F41 ;31;;;;;;;;;;;;;;A
+Wesley De Oliveira;61079117028107;;38556265880;10/04/1990;Tereza Lira Dos Santos ;Ast Vendas ;29/09/2022;;J15 ;31;;;;;;;;;;;;;;A
+Widaiany Raynara De Albuquerque Souza ;61079117025604;;10902158430;03/06/2002;Renata De Cassia De Albuquerque Cabral Sales ;Aux Transfer Silk 1T ;08/12/2022;;Z54 ;31;;;;;;;;;;;;;;A
+Willian David Silva Pereira ;61079117016443;;70508853478;29/06/1996;Rosa De Lima Silva ;Oper Corte/Montagem/Acaba;08/01/2023;;S72 ;31;;;;;;;;;;;;;;A
+Willian Victor Dantas De Andrade;61079117016443;;70776821458;29/05/1998;Irlana Dantas Correia Da Costa ;Oper Prensa;01/07/2021;;M751;91;;;;;;;;;;;;;;A
+Wilson Pereira Da Silva ;61079117016443;;02173901451;02/12/1975;Inacio De Barros Silva ;Oper Prensa;18/12/2022;;H43 ;31;;;;;;;;;;;;;;A
+Yuri Ferreira Da Silva;61079117016443;;01755942443;12/05/1994;Marinalva Ferreira ;Bombeiro Industrial;22/12/2022;;S43 ;31;;;;;;;;;;;;;;A
+Zelia Maria Lira De Medeiros;61079117025604;;68486383404;30/01/1967;Edite Maria De Lira;Aux Acabamento 1T;01/08/2019;;G560;91;;;;;;;;;;;;;;A
