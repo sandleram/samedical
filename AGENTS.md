@@ -89,11 +89,11 @@ UI: portar o skeleton do `.ctp` (`#ribbon`, `jarviswidget`, `smart-form`). Sem B
 
 ### Banco de dados
 
+- **Não alterar o MySQL `samed` sem autorização explícita do usuário** (migrate/seed/dump/TRUNCATE). Testes só em `samed_testing`.
 - `.env` / `.env.example` — nunca commitar secrets
 - Conexão `mysql` padrão; conexão Proativa robô fica no roadmap
 - Schema de produção (estrutura): `database/schema/samed_pro_structure.sql`
-- Migrations: `2026_08_15_100000_create_samed_pro_tables.php` + views `report_*`
-- Preferir tabelas existentes; migrations só para gaps além do dump
+- Preferir tabelas existentes; migrations só para gaps **e só se o usuário autorizar**
 - ACL: coluna `perfil_modulo.permissao` (0–3)
 - Tenant em beneficiário: via `cliente_id` → `cliente.grupo_empresarial_id` (não há `grupo_empresarial_id` em `beneficiario`)
 

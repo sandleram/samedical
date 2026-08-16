@@ -1,0 +1,18 @@
+---
+description: Não alterar MySQL sem autorização explícita do usuário
+alwaysApply: true
+---
+
+# Banco — não mexer sem autorização
+
+O banco **`samed`** (Docker MySQL) é o dump operacional. **Não** alterar dados nem schema sem o usuário pedir **nesta conversa**.
+
+Proibido sem autorização explícita:
+
+- `migrate`, `migrate:fresh`, `migrate:refresh`, `db:seed`, `db:wipe`
+- importar dump, `DROP`/`TRUNCATE`/`DELETE`/`UPDATE` em massa
+- recriar volume Docker `samed_mysql_data`
+
+Permitido sem pedir: `php artisan test` só em **`samed_testing`** (PHPUnit).
+
+Dump de referência (não ler o SQL): `docs/dump/`.

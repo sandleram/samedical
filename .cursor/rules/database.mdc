@@ -8,7 +8,7 @@ alwaysApply: false
 
 Eloquent **somente** nos repos `Eloquent*Repository`. `app/Models\*` = adapter do schema legado — não injetar em Controller/UseCase.
 
-Tabelas singulares em português (`$table`). Preferir dump (`database/schema/samed_pro_structure.sql`); migration **só** para gap.
+Tabelas singulares em português (`$table`). Schema legado; **não** rodar migrate/seed/dump no banco `samed` sem o usuário autorizar.
 
 Tenant: receber `TenantScope`; aplicar `where` / `whereHas` no repo. Nem toda tabela tem `grupo_empresarial_id` (ex.: beneficiário via `cliente_id`).
 
