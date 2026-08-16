@@ -1,26 +1,11 @@
-# Review — mod-grupo_empresarial (Grupo Empresarial)
+# Review — mod-grupo_empresarial
 
-> **Onda:** B · **ACL key:** `grupo_empresarial`
+> **Onda:** B · **ACL:** `grupo_empresarial`
 
-## Code review — camadas
+- [x] Camadas Domain → Application → Infra → Interfaces
+- [x] Rotas Cake + `modulo:grupo_empresarial` + tela `selecione`
+- [x] Visual: jarviswidget + `smart-form form_ajax` + paginação Cake; add/show `well no-padding`
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\GrupoEmpresarialController` (thin)
-- [x] UseCases em `App\Application\GrupoEmpresarial`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentGrupoEmpresarialRepository`
-- [x] Binding registrado
-- [x] Blade BS3 / SmartAdmin
-- [x] ACL `middleware(\"modulo:grupo_empresarial\")`
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado (Onda B layered)
-
-### Feito
-- Port completo Domain → Application → Infrastructure → Interfaces
-- Shim Http deprecated
-- Rotas legado `/admin/grupo_empresarial`, `/view/{id}`, `/add/{id?}`
-
-### Diferido
-- Soft-delete em massa / parity JS legado completa
-- Unit tests com fake de repository (opcional)
+Diferido: exclusão em massa · dropdown Ações lista (Funcoes) em todas as linhas

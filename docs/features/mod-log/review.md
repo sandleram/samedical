@@ -1,26 +1,10 @@
-# Review — mod-log (Log)
+# Review — mod-log
 
-> **Onda:** B · **ACL key:** `log`
+> **Onda:** B · **ACL:** `log`
 
-## Code review — camadas
+- [x] Camadas · rotas Cake · listagem somente leitura (como Cake)
+- [x] Visual: jarviswidget + `form_ajax` + paginação Cake
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\LogController` (thin)
-- [x] UseCases em `App\Application\LogEntry`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentLogEntryRepository`
-- [x] Binding registrado
-- [x] Blade BS3 / SmartAdmin
-- [x] ACL `middleware(\"modulo:log\")`
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado (Onda B layered)
-
-### Feito
-- Port completo Domain → Application → Infrastructure → Interfaces
-- Shim Http deprecated
-- Rotas legado `/admin/log`, `/view/{id}`, `/add/{id?}`
-
-### Diferido
-- Soft-delete em massa / parity JS legado completa
-- Unit tests com fake de repository (opcional)
+Diferido: Ações dropdown (Cake também era sobretudo view)

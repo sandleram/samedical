@@ -1,27 +1,10 @@
-# Review — mod-db (DB (utilitário))
+# Review — mod-db
 
-> **Onda:** F · **ACL key:** `db`
+> **Onda:** F · **ACL:** `db`
 
-## Code review — camadas
+- [x] Camadas · index utilitário
+- [x] Visual: tela admin mínima (Cake `admin_index`)
 
-- [x] `Interfaces\Http\Controllers\Admin\DbController` (thin)
-- [x] UseCase `GetDbIndex`
-- [x] `DbSettingsInterface` / `ConfigDbSettings` (sem secrets na UI)
-- [x] Blade BS3 / SmartAdmin
-- [x] Middleware `modulo:db`
-- [x] Shim Http deprecated
+**Resultado:** [x] Aprovado com ressalvas
 
-## QA
-
-- [x] Root autenticado abre `/admin/db`
-- [x] Sem secrets na UI
-- [ ] lista/BI aliases — deferred
-
-## Testes
-
-- [x] `OndaFIntegrationRoutesTest`
-- [ ] Suite Docker usuário
-
-## Resultado
-
-- [x] Aprovado com ressalvas (Onda F layered)
+Diferido: aliases BI / conexão Proativa

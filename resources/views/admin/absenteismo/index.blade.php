@@ -7,7 +7,7 @@
             <div class="jarviswidget jarviswidget-color-blue" id="wid-id-absenteismo" data-widget-colorbutton="false" data-widget-editbutton="false" data-widget-deletebutton="false" data-widget-togglebutton="false">
                 <header><span class="widget-icon"><i class="fa fa-list"></i></span><h2>Todos Absenteísmo</h2></header>
                 <div class="row" style="padding: 10px 15px 0;">
-                    <form method="GET" action="{{ route('admin.absenteismo.index') }}" class="smart-form client-form" id="absenteismo-search-form">
+                    <form method="GET" action="{{ route('admin.absenteismo.index') }}" class="smart-form client-form form_ajax" id="absenteismo-search-form">
                         <div class="row">
                             <section class="col col-1"><label class="input"><input type="text" name="id_" value="{{ $search['id_'] ?? '' }}" placeholder="ID" class="input_login"></label></section>
                             <section class="col col-2"><label class="input"><input type="text" name="nome" value="{{ $search['nome'] ?? '' }}" placeholder="Nome" class="input_login"></label></section>

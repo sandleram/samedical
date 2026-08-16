@@ -1,39 +1,42 @@
 ---
-description: Controllers finos, FormRequests, UseCases e bindings Laravel
-globs: app/Interfaces/**,app/Application/**,routes/**,app/Http/**
+description: Controllers finos, UseCases, rotas e UI SmartAdmin
+globs: app/Interfaces/**,app/Application/**,routes/**,app/Http/**,resources/views/**
 alwaysApply: false
 ---
 
-# Laravel — Interfaces / Application / rotas
+# Laravel — Interfaces / Application / UI
 
-## Controllers
+## Controller
 
-Preferir `App\Interfaces\Http\Controllers\Admin\*`.  
-`App\Http\Controllers\Admin\*` só até o módulo ser migrado (adapter fino, sem regras novas).
+`App\Interfaces\Http\Controllers\Admin\*`. Shim `App\Http\Controllers\Admin\*` só até o port.
 
-Thin only: FormRequest → UseCase → view/redirect. Sem Eloquent no controller.
+FormRequest → UseCase → view/redirect. Sem Eloquent.
 
-## Validação
+## UseCase
 
-FormRequests em `App\Interfaces\Http\Requests\…`. Regras de input HTTP aqui; regras de **negócio** no Domain/UseCase.
+Verbo + substantivo (`ListBeneficiarios`, `SaveBeneficiario`). Depende de `*RepositoryInterface`, não de Model.
 
-## UseCases (`app/Application/**`)
+Binding no `AppServiceProvider`.
 
-- Nome: verbo + substantivo (`ListBeneficiarios`, `SaveBeneficiario`)
-- Dependem de `*RepositoryInterface` (Domain), não de Models
-- Orquestram Domain; não devolvem Eloquent Model para a view se o módulo já estiver portado (DTOs / arrays / entidades)
+## Rotas (espelho Cake)
 
-## Bindings
+`/admin/{controller}`, `/view/{id}`, `/add/{id?}` (add = create e edit). Middleware `auth` + tenant + `modulo:{controller}`.
 
-Registrar em service provider (ex. `AppServiceProvider`):
+ACL (`perfil_modulo.permissao`, legado AppController): **0** bloqueia · **1** lê (`index`/`view`) · **2** grava (`add`/`edit`) · **3** exclui. Root (`usuario.id == 1`) bypass perm=3.
 
-```php
-$this->app->bind(
-    BeneficiarioRepositoryInterface::class,
-    EloquentBeneficiarioRepository::class,
-);
+## UI (legado SmartAdmin / Bootstrap 3)
+
+Layout: `resources/views/layouts/admin.blade.php`. **Não** introduzir BS4/5.
+
+Skeleton obrigatório (copiar do `.ctp`):
+
+```
+#ribbon > .breadcrumb
+#widget-grid > .row > article.col-xs-12
+  .jarviswidget.jarviswidget-color-blue  (preservar id="wid-id-*")
+    header > .widget-icon + h2
+    form.smart-form.client-form  (filtros / cadastro)
+    table / widget-body
 ```
 
-## Rotas
-
-`routes/web.php`: prefixo `/admin`, middleware `auth` + tenant + `modulo:` conforme ACL. Controllers migrados apontam para `Interfaces\Http\…`.
+Preservar IDs, classes e hooks JS do `.ctp` (`form_ajax`, `input_login`, `*_mask`, `btn-ribbon`).

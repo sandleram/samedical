@@ -10,7 +10,7 @@
 - [x] Blade sanitizado (sem credenciais)
 - [x] Shim Http deprecated
 - [x] Feature test root
-- [ ] Smoke Docker
+- [x] Smoke Docker `php artisan test` (`OndaFIntegrationRoutesTest` `/admin/db`)
 
 ## Deferred
 

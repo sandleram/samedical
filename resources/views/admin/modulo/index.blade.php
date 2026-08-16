@@ -18,7 +18,7 @@
                     <form id="modulo-search-form"
                           method="GET"
                           action="{{ route('admin.modulo.index') }}"
-                          class="smart-form client-form">
+                          class="smart-form client-form form_ajax">
                         <div class="row">
                             <section class="col col-1">
                                 <label class="input">

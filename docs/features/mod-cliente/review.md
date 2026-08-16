@@ -1,26 +1,10 @@
-# Review — mod-cliente (Cliente)
+# Review — mod-cliente
 
-> **Onda:** B · **ACL key:** `cliente`
+> **Onda:** B · **ACL:** `cliente`
 
-## Code review — camadas
+- [x] Camadas · rotas Cake · tenant · `modulo:cliente`
+- [x] Visual: jarviswidget + `form_ajax` + paginação Cake; add/show `well no-padding`
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\ClienteController` (thin)
-- [x] UseCases em `App\Application\Cliente`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentClienteRepository`
-- [x] Binding registrado
-- [x] Blade BS3 / SmartAdmin
-- [x] ACL `middleware(\"modulo:cliente\")`
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado (Onda B layered)
-
-### Feito
-- Port completo Domain → Application → Infrastructure → Interfaces
-- Shim Http deprecated
-- Rotas legado `/admin/cliente`, `/view/{id}`, `/add/{id?}`
-
-### Diferido
-- Soft-delete em massa / parity JS legado completa
-- Unit tests com fake de repository (opcional)
+Diferido: exclusão em massa · Ações dropdown por linha

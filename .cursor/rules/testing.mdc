@@ -1,28 +1,18 @@
 ---
-description: Feature/unit tests PHPUnit — MySQL samed_testing e fakes
+description: Testes PHPUnit — fake de port antes do Domain no port Cake
 globs: tests/**
 alwaysApply: false
 ---
 
-# Testes (`tests/**`)
+# Testes
 
-## Tipos
+No port CakePHP: **escrever testes (passo 5) antes de implementar Domain**.
 
 | Tipo | Onde | Foco |
 |------|------|------|
-| Feature | `tests/Feature/` | HTTP (rotas admin, auth, ACL, smoke) |
-| Unit | `tests/Unit/` | UseCases / Domain com **fake** de `*RepositoryInterface` |
+| Unit | `tests/Unit/` | UseCase / Domain com **fake** de `*RepositoryInterface` |
+| Feature | `tests/Feature/` | HTTP admin, auth, ACL, smoke vs rotas legado |
 
-Não exija regras de negócio no controller para “ficar testável” — teste o UseCase com repo fake.
+Rodar no Docker: `docker compose exec app php artisan test` (`DB_DATABASE=samed_testing`).
 
-## Ambiente
-
-- PHPUnit: `phpunit.xml` força `DB_DATABASE=samed_testing`
-- Rodar no Docker do projeto (`docker compose exec app php artisan test` / `vendor/bin/phpunit`)
-- Não apontar testes para o DB de desenvolvimento `samed` sem necessidade
-
-## Boas práticas
-
-- Feature: login + sessão tenant quando a rota exige
-- Unit: fake in-memory do port Domain; asserts em resultado do UseCase
-- Evitar acoplar asserts a detalhes Eloquent internos do repo (testar contrato)
+Feature: login + sessão tenant. Unit: assert no resultado do UseCase, não em detalhes Eloquent.

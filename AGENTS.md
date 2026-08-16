@@ -53,11 +53,11 @@ samedical/
 | Autenticação | `Usuario` / `Auth\LoginController` |
 | Dashboard | `HomeController` |
 | Beneficiários | `Beneficiario` |
-| Afastados | `Afastado` (roadmap) |
-| Absenteísmo | `Absenteismo` (roadmap) |
-| Importação | `Importacao` (Onda E layered) |
-| BI / relatórios | `Bi`, `Relatorio` (Onda E layered; Excel/PDF deferred) |
-| MH Crítico | `MhCritico*` (roadmap) |
+| Afastados | `Afastado` |
+| Absenteísmo | `Absenteismo` |
+| Importação | `Importacao` (carga_*/Excel deferred) |
+| BI / relatórios | `Bi`, `Relatorio` (Excel/PDF deferred) |
+| MH Crítico | `MhCritico*` |
 | Cadastros base | `Cliente`, `Empresa`, `GrupoEmpresarial`, … |
 | Permissões | `Perfil`, `PerfilModulo`, `Modulo` |
 
@@ -65,57 +65,26 @@ Schema MySQL **legado** (tabelas singulares em português) é reutilizado via El
 
 ## Arquitetura Laravel deste projeto
 
-Camadas **Clean / Hexagonal** (obrigatório em módulos novos e refactors).
-
-| Fonte | Onde |
-|-------|------|
-| Narrativa / naming | `docs/architecture/layered.md` |
-| Regras Cursor (agent) | `.cursor/rules/` — `architecture`, `domain`, `laravel`, `database`, `testing`, `migration-cakephp` |
-
-Referência canônica de código: **Beneficiário**.
+DDD + Hexagonal + Clean. Narrativa: `docs/architecture/layered.md`. Rules: `.cursor/rules/`. Referência: **Beneficiário**.
 
 ```
-Request → routes/web.php
-       → Interfaces\Http\Controllers (fino: FormRequest + orquestração)
-       → Application\*UseCase
-       → Domain (entidade / regras / *RepositoryInterface)
-       → Infrastructure\Persistence\Eloquent (*Repository)
-       → Blade / Redirect
-                              ↓
-                 Middleware: auth, tenant, permission (rotas)
-                              ↓
-                 App\Support\Funcoes (helpers pontuais; preferir Domain puro)
+Blade (SmartAdmin / Bootstrap 3)
+  → Controller (Interfaces) → UseCase (Application)
+    → Domain (Entity, VO, Domain Service, Repository interface)
+      → Infrastructure (Eloquent, MySQL, APIs, Redis)
 ```
 
-### Dependências permitidas
+`Interfaces → Application → Domain` · `Infrastructure → Domain`. Domain sem Laravel. Controller: request → FormRequest → UseCase → view.
 
-```
-Interfaces → Application → Domain
-Infrastructure → Domain
-```
+Tenant/ACL: middleware nas rotas; `TenantScope` em Interfaces; filtro no repo — **não** no Domain.
 
-Domain **não** depende de Application, Infrastructure, Interfaces nem Laravel.
-
-### Regras duras das camadas
-
-1. **Nunca** colocar regras de negócio no Controller
-2. **Domain** não importa classes Laravel (sem Eloquent, Facades, `Request`, etc.)
-3. Interface de repositório em **Domain**; implementação em **Infrastructure**
-4. **Eloquent só** em Infrastructure (`app/Models` é adapter de persistência)
-5. Controllers finos: validar input (FormRequest em Interfaces), chamar UseCase, devolver view/response
-6. Preferir `App\Interfaces\Http\Controllers\…`; adapters em `App\Http\Controllers\Admin\*` só até o módulo ser migrado
-
-Tenant/ACL: middleware nas rotas; `TenantScope` montado na Interfaces e aplicado na Infrastructure — **não** no Domain.
-
-### Prefixo admin
-
-Rotas sob `/admin` com middleware de autenticação e tenant. Controllers migrados: `App\Interfaces\Http\Controllers\Admin`. Demais módulos ainda podem estar em `App\Http\Controllers\Admin` até o port.
+UI: portar o skeleton do `.ctp` (`#ribbon`, `jarviswidget`, `smart-form`). Sem Bootstrap 4/5.
 
 ### Autenticação e autorização
 
 - Guard session; model `Usuario`; campos `usuario` / `senha`
 - Senhas legadas MD5 são aceitas e **rehasheadas para bcrypt** no login
-- Perfis (root=1, admin=2, …) e permissões por módulo (`perfil_modulo.nivel`: 0–3)
+- Perfis (root=1, admin=2, …) e permissões por módulo (`perfil_modulo.permissao`: 0–3)
 - Tenant na sessão: `grupo_empresarial_id`, `cliente_id`
 
 ### Banco de dados
@@ -127,13 +96,6 @@ Rotas sob `/admin` com middleware de autenticação e tenant. Controllers migrad
 - Preferir tabelas existentes; migrations só para gaps além do dump
 - ACL: coluna `perfil_modulo.permissao` (0–3)
 - Tenant em beneficiário: via `cliente_id` → `cliente.grupo_empresarial_id` (não há `grupo_empresarial_id` em `beneficiario`)
-
-### Front admin
-
-- Layout: `resources/views/layouts/admin.blade.php`
-- Assets: `public/css/admin/`, `public/js/admin/`
-- **Não** introduzir Bootstrap 4/5 sem demanda explícita
-- Portar HTML/JS do legado preservando IDs/classes usados pelo JS
 
 ## Restrição para agentes de IA
 
@@ -155,14 +117,14 @@ docs/features/{nome-da-feature}/
 
 Template: `docs/features/_template/`.
 
-### Ordem recomendada
+### Ordem (port CakePHP)
 
-1. Ler este `AGENTS.md`
-2. Consultar `legacy/` se for portar comportamento
-3. Preencher `spec.md` → `plan.md`
-4. Implementar (diff mínimo)
-5. Atualizar `tasks.md` e validar `review.md`
-6. Smoke via Docker
+1. Analisar módulo Cake
+2. Documentar regras **deste** módulo no `spec.md`
+3. Definir entidades
+4. Definir UseCases
+5. Criar testes (fake de repository)
+6. Domain → 7. Infrastructure → 8. Controller → 9. View (skeleton `.ctp`) → 10. Validar contra Cake
 
 ### Ao receber uma demanda
 

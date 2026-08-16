@@ -18,7 +18,7 @@
                     <form id="usuario-search-form"
                           method="GET"
                           action="{{ route('admin.usuario.index') }}"
-                          class="smart-form client-form">
+                          class="smart-form client-form form_ajax">
                         <div class="row">
                             <section class="col col-1">
                                 <label class="input">
@@ -77,13 +77,12 @@
 
                 <div>
                     <div class="table-responsive" style="padding: 0 15px 15px;">
-                        <p style="margin-top:10px;">
-                            @if ($permissao >= 2)
-                                <a class="btn btn-success btn-sm" href="{{ route('admin.usuario.add') }}">
-                                    <i class="fa fa-plus"></i> Novo
-                                </a>
-                            @endif
-                        </p>
+                        @include('partials.admin.acoes_geral', [
+                            'permissao' => $permissao,
+                            'addRoute' => route('admin.usuario.add'),
+                            'novoLabel' => 'Novo Usuário',
+                            'context' => 'index',
+                        ])
 
                         <table class="table table-bordered table-striped">
                             <thead>
@@ -115,14 +114,11 @@
                                     <td>{{ optional($row->data_cadastro)->format('d/m/Y H:i') ?? '-' }}</td>
                                     <td>{{ (int) $row->status === 1 ? 'Ativo' : ((int) $row->status === 2 ? 'Excluído' : 'Inativo') }}</td>
                                     <td class="actions">
-                                        <a href="{{ route('admin.usuario.view', $row->id) }}" class="btn btn-xs btn-default" title="Ver">
-                                            <i class="fa fa-eye"></i>
-                                        </a>
-                                        @if ($permissao >= 2)
-                                            <a href="{{ route('admin.usuario.add', $row->id) }}" class="btn btn-xs btn-primary" title="Editar">
-                                                <i class="fa fa-edit"></i>
-                                            </a>
-                                        @endif
+                                        @include('partials.admin.acoes_lista', [
+                                            'permissao' => $permissao,
+                                            'viewRoute' => route('admin.usuario.view', $row->id),
+                                            'editRoute' => route('admin.usuario.add', $row->id),
+                                        ])
                                     </td>
                                 </tr>
                             @empty

@@ -18,7 +18,7 @@
                     <form id="log-search-form"
                           method="GET"
                           action="{{ route('admin.log.index') }}"
-                          class="smart-form client-form">
+                          class="smart-form client-form form_ajax">
                         <div class="row">
                             <section class="col col-1">
                                 <label class="input">

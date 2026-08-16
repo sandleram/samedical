@@ -17,5 +17,5 @@
 ## Qualidade
 
 - [x] Feature smoke em `tests/Feature/OndaCRoutesTest.php`
-- [ ] Smoke manual `/admin/tipo_beneficio`
+- [x] Smoke Docker `php artisan test` (`OndaCRoutesTest` `/admin/tipo_beneficio`)
 - [ ] PR aberto

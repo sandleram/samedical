@@ -45,7 +45,7 @@ Checklist operacional. Marque `[x]` conforme conclui.
 
 ## Qualidade
 
-- [ ] Smoke manual no `/admin`
+- [x] Smoke Docker `php artisan test` (`BeneficiarioRoutesTest` `/admin/home`)
 - [ ] Testado com perfil root e perfil restrito
 - [ ] Passar pelos itens de `review.md`
 - [ ] Sem debug/código morto

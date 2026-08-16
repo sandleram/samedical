@@ -1,36 +1,15 @@
 ---
-description: Regras da camada Domain — PHP puro, sem Laravel
+description: Domain PHP puro — entidades, VOs, ports
 globs: app/Domain/**
 alwaysApply: false
 ---
 
-# Domain (`app/Domain/**`)
+# Domain
 
-PHP puro. **Zero** dependência de framework.
+PHP puro. Zero Laravel.
 
-## Permitido
+**Permitido:** entidade, VO (`TenantScope`, criteria, `PagedResult`), domain service, `*RepositoryInterface`, exceção de domínio.
 
-- Entidades / aggregates
-- Value Objects (ex.: `TenantScope`, criteria, `PagedResult`)
-- Domain services / calculators (ex.: `ImcCalculator`)
-- Interfaces de repositório (`*RepositoryInterface`)
-- Exceções de domínio
+**Proibido:** `Illuminate\*`, Eloquent, `Request`, session, SQL/`$table`, `App\Models`, `App\Infrastructure`, `App\Interfaces`.
 
-## Proibido
-
-- `Illuminate\*`, Facades, Eloquent, `Request`, `Response`
-- Session, cookies, flash, middleware
-- Queries SQL / detalhes de tabela / `$table`
-- Imports de `App\Models\*`, `App\Infrastructure\*`, `App\Interfaces\*`
-
-## Persistência
-
-O Domain define **o quê** precisa persistir (ports). **Como** (Eloquent, joins, tenant `whereHas`) fica em Infrastructure.
-
-```php
-// ✅ Interface no Domain
-interface BeneficiarioRepositoryInterface { … }
-
-// ❌ Model Eloquent no Domain
-use App\Models\Beneficiario;
-```
+O Domain define **o quê** persistir. **Como** (Eloquent, joins, tenant) fica em Infrastructure.

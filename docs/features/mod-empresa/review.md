@@ -1,26 +1,10 @@
-# Review — mod-empresa (Empresa)
+# Review — mod-empresa
 
-> **Onda:** B · **ACL key:** `empresa`
+> **Onda:** B · **ACL:** `empresa`
 
-## Code review — camadas
+- [x] Camadas · rotas Cake · tenant · `modulo:empresa`
+- [x] Visual: jarviswidget + `form_ajax` + paginação Cake; add/show `well no-padding`
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\EmpresaController` (thin)
-- [x] UseCases em `App\Application\Empresa`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentEmpresaRepository`
-- [x] Binding registrado
-- [x] Blade BS3 / SmartAdmin
-- [x] ACL `middleware(\"modulo:empresa\")`
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado (Onda B layered)
-
-### Feito
-- Port completo Domain → Application → Infrastructure → Interfaces
-- Shim Http deprecated
-- Rotas legado `/admin/empresa`, `/view/{id}`, `/add/{id?}`
-
-### Diferido
-- Soft-delete em massa / parity JS legado completa
-- Unit tests com fake de repository (opcional)
+Diferido: exclusão em massa · Ações dropdown por linha

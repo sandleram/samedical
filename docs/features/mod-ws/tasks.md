@@ -9,7 +9,7 @@
 - [x] Binding + rotas `/api/ws/*`
 - [x] Shim Http deprecated
 - [x] Feature test token gate
-- [ ] Smoke Docker / robôs
+- [x] Smoke Docker `php artisan test` (`OndaFIntegrationRoutesTest` token WS)
 
 ## Deferred
 

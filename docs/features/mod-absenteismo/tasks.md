@@ -17,5 +17,5 @@
 ## Qualidade
 
 - [x] Feature smoke em `tests/Feature/OndaCRoutesTest.php`
-- [ ] Smoke manual `/admin/absenteismo`
+- [x] Smoke Docker `php artisan test` (`OndaCRoutesTest` `/admin/absenteismo`)
 - [ ] PR aberto

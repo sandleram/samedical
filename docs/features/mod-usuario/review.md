@@ -1,26 +1,11 @@
-# Review — mod-usuario (Usuario)
+# Review — mod-usuario
 
-> **Onda:** B · **ACL key:** `usuario`
+> **Onda:** B · **ACL:** `usuario`
 
-## Code review — camadas
+- [x] Controller thin `Interfaces` · Domain sem Laravel · Eloquent só no repo
+- [x] Rotas Cake `/admin/usuario`, `/view/{id}`, `/add/{id?}` · `modulo:usuario`
+- [x] Visual: `wid-id-11`, `smart-form form_ajax`, Ações dropdown (Funcoes menus), paginação Cake, add/show `well no-padding`
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\UsuarioController` (thin)
-- [x] UseCases em `App\Application\Usuario`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentUsuarioRepository`
-- [x] Binding registrado
-- [x] Blade BS3 / SmartAdmin
-- [x] ACL `middleware(\"modulo:usuario\")`
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado (Onda B layered)
-
-### Feito
-- Port completo Domain → Application → Infrastructure → Interfaces
-- Shim Http deprecated
-- Rotas legado `/admin/usuario`, `/view/{id}`, `/add/{id?}`
-
-### Diferido
-- Soft-delete em massa / parity JS legado completa
-- Unit tests com fake de repository (opcional)
+Diferido: exclusão em massa · JS `ajaxMsg` / `ck_delete`

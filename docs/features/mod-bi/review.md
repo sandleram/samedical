@@ -1,19 +1,10 @@
-# Review — mod-bi (BI)
+# Review — mod-bi
 
 > **Onda:** E · **ACL:** `bi`
 
-## Code review — camadas
+- [x] Camadas · rotas Cake (lista/iframe gerencial-medico-rh, index/view/add schema `bi`)
+- [x] Visual: jarviswidget + `form_ajax` + iframes SmartAdmin
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\BiController` (thin)
-- [x] UseCases em `App\Application\Bi`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentBiRepository`
-- [x] Binding registrado
-- [x] ACL `middleware("modulo:bi")`
-- [x] Shim Http deprecated
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado
-- Shipped: lista (UsuarioBi), gerencial/medico/rh (iframe), index/view/add no schema `bi`
-- Sem uso de conexão `proativa` neste módulo (conforme legado Cake) — connection permanece em `config/database.php` para Onda F / robô quando necessário
+Diferido: conexão `proativa` / robô · Ações dropdown

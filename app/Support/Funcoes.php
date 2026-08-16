@@ -298,6 +298,35 @@ class Funcoes
     /**
      * IMC simples (peso kg / altura m²), altura em metros.
      */
+    public static function formatCpf(?string $cpf): string
+    {
+        $digits = preg_replace('/\D+/', '', (string) $cpf) ?? '';
+        if (strlen($digits) !== 11) {
+            return (string) $cpf;
+        }
+
+        return substr($digits, 0, 3).'.'.substr($digits, 3, 3).'.'.substr($digits, 6, 3).'-'.substr($digits, 9, 2);
+    }
+
+    public static function formatCnpj(?string $cnpj): string
+    {
+        $digits = preg_replace('/\D+/', '', (string) $cnpj) ?? '';
+        if (strlen($digits) !== 14) {
+            return (string) $cnpj;
+        }
+
+        return substr($digits, 0, 2).'.'.substr($digits, 2, 3).'.'.substr($digits, 5, 3).'/'.substr($digits, 8, 4).'-'.substr($digits, 12, 2);
+    }
+
+    public static function idade(?\DateTimeInterface $nascimento): ?int
+    {
+        if (! $nascimento) {
+            return null;
+        }
+
+        return (new \DateTimeImmutable)->diff($nascimento)->y;
+    }
+
     public static function imc(?float $peso, ?float $alturaMetros): ?float
     {
         if ($peso === null || $alturaMetros === null || $peso <= 0 || $alturaMetros <= 0) {

@@ -1,26 +1,10 @@
-# Review — mod-afastado (Afastado)
+# Review — mod-afastado
 
-> **Onda:** C · **ACL key:** `afastado`
+> **Onda:** C · **ACL:** `afastado`
 
-## Code review — camadas
+- [x] Camadas · rotas Cake · tenant · `modulo:afastado`
+- [x] Visual: jarviswidget + `form_ajax` + paginação Cake; add/show `smart-form`
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\AfastadoController` (thin)
-- [x] UseCases em `App\Application\Afastado`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentAfastadoRepository`
-- [x] Binding registrado
-- [x] Blade BS3 / SmartAdmin
-- [x] ACL `middleware("modulo:afastado")`
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado (Onda C layered)
-
-### Feito
-- Port completo Domain → Application → Infrastructure → Interfaces
-- Shim Http deprecated
-- Rotas legado `/admin/afastado`, `/view/{id}`, `/add/{id?}`
-
-### Diferido
-- Soft-delete em massa / parity JS legado completa
-- Unit tests com fake de repository (opcional)
+Diferido: export Cake `index/1` · exclusão em massa · Ações dropdown · add a partir do beneficiário (`pass[0]` = beneficiario_id)

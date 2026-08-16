@@ -1,117 +1,36 @@
-# Spec — [Nome da feature]
+# Spec — [módulo]
 
-> Stack: PHP 8.4+ · Laravel · MySQL 8 · Blade (SmartAdmin/Bootstrap 3) · Docker / nginx
-
-## Contexto
-
-Por que essa feature existe? Qual problema de negócio resolve?
+> Onda: _ · ACL: `{controller}` · Legado: `legacy/app/Controller/{X}Controller.php`
 
 ## Objetivo
 
-Resultado esperado em 1–3 frases.
+Portar `{controller}` para `/admin/{controller}` com as mesmas telas e regras do Cake.
 
-## Escopo
+## Telas (`.ctp` → Blade)
 
-### Inclui
+| Cake | Blade | Rota |
+|------|-------|------|
+| `admin_index.ctp` | `admin/{x}/index.blade.php` | `/admin/{x}` |
+| `admin_view.ctp` | `show.blade.php` | `/view/{id}` |
+| `admin_add.ctp` | `add.blade.php` | `/add/{id?}` |
 
-- …
+Não inclui: redesign / BS4+ · alterar `legacy/`.
 
-### Não inclui
+## Regras deste módulo
 
-- …
-
-## Atores / perfis
-
-Quem usa? Mapear para os perfis do SAMED:
-
-| Perfil | ID | Escopo típico |
-|--------|----|---------------|
-| Root | 1 | Tudo (todas contas) |
-| Administrador | 2 | Cadastro e atualizações no GE |
-| TI | 3 | Cadastro e atualizações no GE |
-| Operador | 4 | Visualização (cliente selecionado) |
-| Auditoria | 5 | Relatórios (todos clientes) |
-| Backoffice | 6 | Relatórios (todos clientes) |
-| Cliente | 7 | Gerencial da própria empresa |
-
-- Perfis com acesso: …
-- Módulo / menu afetado (`Modulo.controller`): …
-
-## Regras de negócio
+(Só o que o Cake faz **neste** controller/model — ACL genérico já está nas rules.)
 
 1. …
-2. …
-
-## Fluxo principal
-
-1. Usuário acessa `/admin/{resource}`
-2. …
-3. …
-
-## Fluxos alternativos / erros
-
-- Se X acontecer → mensagem flash Y / redirect para …
-- Sessão expirada → redirect login
 
 ## Dados
 
-### Camadas (Clean / Hexagonal)
+| Tabela | Tenant |
+|--------|--------|
+| `{tabela}` | `grupo_empresarial_id` / `cliente_id` / via relação |
 
-| Camada | Artefatos esperados |
-|--------|---------------------|
-| Domain | Entidade/DTO + `*RepositoryInterface` |
-| Application | UseCases (`List*`, `Get*`, `Save*`, …) |
-| Infrastructure | `Eloquent*Repository` |
-| Interfaces | Controller fino + FormRequest |
+## Aceite
 
-Referência: `docs/architecture/layered.md` · vertical **Beneficiário**.
-
-### Models / tabelas envolvidas
-
-| Model (Eloquent) | Tabela | Uso |
-|------------------|--------|-----|
-| … | … | Persistência via Infrastructure apenas |
-
-### Campos novos ou alterados
-
-- Migration `…`: coluna `…` (tipo, nullable, default)
-- Preferir schema legado; migrations só para gaps
-
-### Escopo multi-tenant
-
-- Filtrar por `grupo_empresarial_id`? Sim / Não
-- Filtrar por `cliente_id`? Sim / Não
-- `TenantScope` + filtro na Infrastructure? Sim / Não
-
-### Integrações
-
-- [ ] Importação de planilha (Excel/CSV)
-- [ ] API REST (`routes/api.php`)
-- [ ] Job / Schedule (`app/Console`)
-- [ ] E-mail (Laravel Mail)
-- [ ] Geração PDF
-
-## Interface (admin)
-
-| Action | URL | Descrição |
-|--------|-----|-----------|
-| `index` | `/admin/{resource}` | Listagem |
-| `create`/`store` | `/admin/{resource}/create` | Cadastro |
-| `show` | `/admin/{resource}/{id}` | Detalhe |
-| … | … | … |
-
-Controller: `App\Interfaces\Http\Controllers\Admin\…`  
-Layout: `resources/views/layouts/admin.blade.php`
-
-## Critérios de aceite
-
-- [ ] …
-- [ ] …
-- [ ] …
-
-## Referências
-
-- Issue / ticket:
-- Controller/model de referência: …
-- Legado (se portar): `legacy/app/Controller/…`
-- Docs relacionadas:
+- [ ] Cada `.ctp` do inventário tem Blade equivalente
+- [ ] Rotas e ACL iguais ao Cake
+- [ ] Skeleton SmartAdmin (jarviswidget, smart-form, IDs/JS) preservado
+- [ ] Tenant aplicado no repo

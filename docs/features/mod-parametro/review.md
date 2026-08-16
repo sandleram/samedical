@@ -1,26 +1,10 @@
-# Review — mod-parametro (Parametro)
+# Review — mod-parametro
 
-> **Onda:** B · **ACL key:** `parametro`
+> **Onda:** B · **ACL:** `parametro`
 
-## Code review — camadas
+- [x] Camadas · rotas Cake · `modulo:parametro`
+- [x] Visual: jarviswidget + `form_ajax` + paginação Cake; add/show `well no-padding`
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\ParametroController` (thin)
-- [x] UseCases em `App\Application\Parametro`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentParametroRepository`
-- [x] Binding registrado
-- [x] Blade BS3 / SmartAdmin
-- [x] ACL `middleware(\"modulo:parametro\")`
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado (Onda B layered)
-
-### Feito
-- Port completo Domain → Application → Infrastructure → Interfaces
-- Shim Http deprecated
-- Rotas legado `/admin/parametro`, `/view/{id}`, `/add/{id?}`
-
-### Diferido
-- Soft-delete em massa / parity JS legado completa
-- Unit tests com fake de repository (opcional)
+Diferido: exclusão em massa · Ações dropdown por linha

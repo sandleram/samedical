@@ -1,26 +1,10 @@
-# Review — mod-absenteismo (Absenteísmo)
+# Review — mod-absenteismo
 
-> **Onda:** C · **ACL key:** `absenteismo`
+> **Onda:** C · **ACL:** `absenteismo`
 
-## Code review — camadas
+- [x] Camadas · rotas Cake · tenant · `modulo:absenteismo`
+- [x] Visual: jarviswidget + `form_ajax` + paginação Cake; add `smart-form`
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\AbsenteismoController` (thin)
-- [x] UseCases em `App\Application\Absenteismo`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentAbsenteismoRepository`
-- [x] Binding registrado
-- [x] Blade BS3 / SmartAdmin
-- [x] ACL `middleware("modulo:absenteismo")`
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado (Onda C layered)
-
-### Feito
-- Port completo Domain → Application → Infrastructure → Interfaces
-- Shim Http deprecated
-- Rotas legado `/admin/absenteismo`, `/view/{id}`, `/add/{id?}`
-
-### Diferido
-- Soft-delete em massa / parity JS legado completa
-- Unit tests com fake de repository (opcional)
+Diferido: exclusão em massa · Ações dropdown · JS legado completo

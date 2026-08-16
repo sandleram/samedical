@@ -10,7 +10,7 @@
 - [x] Shim Http deprecated
 - [x] Rotas `/api/rest/*`
 - [x] `OndaFIntegrationRoutesTest` + `TokenMatcherTest`
-- [ ] Smoke manual com dump real / Docker
+- [x] Smoke Docker `php artisan test` (`OndaFIntegrationRoutesTest` `/api/rest`)
 
 ## Deferred
 

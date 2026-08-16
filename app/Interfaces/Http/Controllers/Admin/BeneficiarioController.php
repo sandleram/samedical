@@ -2,9 +2,9 @@
 
 namespace App\Interfaces\Http\Controllers\Admin;
 
-use App\Application\Beneficiario\GetBeneficiario;
 use App\Application\Beneficiario\ListBeneficiarios;
 use App\Application\Beneficiario\PrepareBeneficiarioForm;
+use App\Application\Beneficiario\PrepareBeneficiarioShow;
 use App\Application\Beneficiario\SaveBeneficiario;
 use App\Application\Beneficiario\SaveBeneficiarioInput;
 use App\Domain\Beneficiario\Beneficiario;
@@ -29,7 +29,7 @@ class BeneficiarioController extends Controller
 {
     public function __construct(
         private readonly ListBeneficiarios $listBeneficiarios,
-        private readonly GetBeneficiario $getBeneficiario,
+        private readonly PrepareBeneficiarioShow $prepareShow,
         private readonly PrepareBeneficiarioForm $prepareForm,
         private readonly SaveBeneficiario $saveBeneficiario,
     ) {}
@@ -75,13 +75,15 @@ class BeneficiarioController extends Controller
 
     public function show(Request $request, int $id): View|RedirectResponse
     {
-        $beneficiario = $this->getBeneficiario->execute($id, $this->tenantScope());
+        $payload = $this->prepareShow->execute($id, $this->tenantScope());
 
-        if (! $beneficiario) {
+        if (! $payload) {
             return redirect()
                 ->route('admin.beneficiario.index')
                 ->with('status', 'Beneficiario Inexistente');
         }
+
+        $beneficiario = $payload['beneficiario'];
 
         if ($beneficiario->clienteId && (int) session('cliente_id') !== $beneficiario->clienteId) {
             session(['cliente_id' => $beneficiario->clienteId]);
@@ -93,6 +95,7 @@ class BeneficiarioController extends Controller
         return view('admin.beneficiario.show', [
             'title' => 'Beneficiário',
             'beneficiario' => $beneficiario,
+            'related' => $payload['related'],
             'alturaFmt' => $alturaFmt,
             'pesoFmt' => $pesoFmt,
             'firstName' => $nomeParts[0] ?? '',

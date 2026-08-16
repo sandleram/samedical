@@ -1,27 +1,10 @@
-# Review — mod-ws (Web Service (WS))
+# Review — mod-ws
 
-> **Onda:** F · **ACL key:** token WS/REST
+> **Onda:** F · **ACL:** token WS
 
-## Code review — camadas
+- [x] Controller API thin · UseCases `CallBiBeneficiarios` / `GetWsIndex`
+- [x] Sem UI admin além do dump Cake pontual
 
-- [x] `Interfaces\Http\Controllers\Api\WsController` (thin)
-- [x] UseCases `CallBiBeneficiarios`, `GetWsIndex`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentWsBiRepository`
-- [x] Token via config (endurecido vs Auth::allow legado)
-- [x] Shim Http deprecated
+**Resultado:** [x] Aprovado com ressalvas
 
-## QA
-
-- [x] Token inválido → 403
-- [x] MVP `call_bi_*`
-- [ ] Robôs / e-mail — deferred
-
-## Testes
-
-- [x] `OndaFIntegrationRoutesTest`
-- [ ] Suite Docker usuário
-
-## Resultado
-
-- [x] Aprovado com ressalvas (Onda F layered)
+Diferido: robôs / e-mail

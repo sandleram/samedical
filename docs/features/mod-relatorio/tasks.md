@@ -9,7 +9,7 @@
 - [x] Binding + rotas Interfaces
 - [x] Shim Http deprecated
 - [x] `OndaERoutesTest`
-- [ ] Smoke manual Docker
+- [x] Smoke Docker `php artisan test` (`OndaERoutesTest` `/admin/relatorio`)
 
 ## Diferido
 

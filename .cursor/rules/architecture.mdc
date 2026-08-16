@@ -1,50 +1,47 @@
 ---
-description: DDD + Hexagonal + Clean Architecture — camadas e dependências SAMED
+description: DDD + Hexagonal + Clean — camadas e dependências SAMED
 alwaysApply: true
 ---
 
-# Arquitetura SAMED (Clean / Hexagonal)
+# Arquitetura
 
-Detalhes: `docs/architecture/layered.md`. Referência canônica: **Beneficiário**.
+DDD + Hexagonal + Clean. Detalhes: `docs/architecture/layered.md`. Código de referência: **Beneficiário**.
 
-## Pastas
+```
+Blade (SmartAdmin / BS3)
+  → Controller (Interfaces)
+    → UseCase (Application)
+      → Domain (Entity, VO, Domain Service, Repository interface)
+        → Infrastructure (Eloquent, MySQL, APIs, Redis)
+```
 
 | Camada | Path | Papel |
 |--------|------|-------|
-| Domain | `app/Domain/` | Entidades, VOs, regras, `*RepositoryInterface` |
+| Domain | `app/Domain/` | Entidade, VO, regras, `*RepositoryInterface` |
 | Application | `app/Application/` | UseCases |
-| Infrastructure | `app/Infrastructure/` | Eloquent repos, adapters |
-| Interfaces | `app/Interfaces/` | Controllers finos, FormRequests |
+| Infrastructure | `app/Infrastructure/` | Eloquent, adapters |
+| Interfaces | `app/Interfaces/` | Controller fino, FormRequest |
 
-`app/Http/` e `app/Models/` = legado pré-camadas / adapters Eloquent — não expandir o padrão antigo.
+`app/Http/` e `app/Models/` = legado / adapter Eloquent — não expandir o padrão antigo.
 
-## Dependências permitidas (somente estas)
+## Dependências (somente estas)
 
 ```
-Interfaces  → Application
-Application → Domain
+Interfaces → Application → Domain
 Infrastructure → Domain
 ```
 
-- **Domain NÃO** depende de Laravel (`Illuminate\*`, Eloquent, Facades, `Request`, session).
-- Application **não** importa Eloquent Models nem Controllers.
-- Controllers **não** chamam Infrastructure/Eloquent direto.
+Domain **não** depende de Laravel. Application **não** importa Eloquent. Controller **não** chama Infrastructure.
 
-## Fluxo obrigatório
+## Controller (thin)
 
-```
-Controller → UseCase → Domain → RepositoryInterface → EloquentRepository (Infrastructure)
-```
+1. Receber request
+2. Validar (FormRequest)
+3. Chamar UseCase
+4. Devolver view / redirect / JSON
 
-## Controller (thin only)
-
-1. Receber request  
-2. Validar input (FormRequest)  
-3. Chamar UseCase  
-4. Devolver view / redirect / JSON  
-
-**Proibido:** regras de negócio, queries Eloquent, cálculos de domínio no controller.
+Sem regra de negócio, query ou cálculo no controller.
 
 ## Tenant / ACL
 
-Middleware nas rotas. `TenantScope` (VO em Domain) montado em Interfaces; filtro aplicado em Infrastructure — **nunca** lógica de tenant/session no Domain.
+Middleware nas rotas. `TenantScope` montado em Interfaces; filtro em Infrastructure — **nunca** no Domain.

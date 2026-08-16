@@ -1,19 +1,10 @@
-# Review — mod-relatorio (Relatório)
+# Review — mod-relatorio
 
 > **Onda:** E · **ACL:** `relatorio`
 
-## Code review — camadas
+- [x] Camadas · hub index + listagens (afastados/beneficiarios/atendimentos_pendentes) + telas gerencial/exportacao
+- [x] Visual: SmartAdmin / BS3 nas telas shipped; `*_down` usa placeholder `deferred`
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\RelatorioController` (thin)
-- [x] UseCases em `App\Application\Relatorio`
-- [x] Domain rows + `RelatorioRepositoryInterface` sem Laravel
-- [x] Eloquent só em `EloquentRelatorioRepository`
-- [x] Binding registrado
-- [x] ACL `middleware("modulo:relatorio")`
-- [x] Shim Http deprecated
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado com ressalvas — **prioridade entry points**
-- Shipped: index hub, listagens afastados/beneficiarios/atendimentos_pendentes, telas gerencial/exportacao/movimentações/fatura/sinistro
-- Deferred: todos `*_down` + geração PDF/Excel via curl/PHPExcel
+Diferido: todos `*_down` Excel/PDF (PHPExcel/curl do Cake)

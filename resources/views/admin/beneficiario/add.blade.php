@@ -25,6 +25,15 @@
                     <input type="hidden" name="id" value="{{ $beneficiario->id }}">
                 @endif
 
+                @include('partials.admin.acoes_geral', [
+                    'permissao' => $permissao,
+                    'addRoute' => route('admin.beneficiario.add'),
+                    'viewRoute' => $beneficiario ? route('admin.beneficiario.view', $beneficiario->id) : null,
+                    'indexRoute' => route('admin.beneficiario.index'),
+                    'novoLabel' => 'Novo Beneficiário',
+                    'context' => 'add',
+                ])
+
                 <header>
                     {{ $beneficiario ? 'Edição' : 'Cadastro' }} de Beneficiário
                     @if ($beneficiario)

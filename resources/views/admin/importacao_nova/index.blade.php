@@ -21,7 +21,7 @@
 
                 <div class="row" style="padding: 10px 15px 0;">
                     <form method="GET" action="{{ route('admin.importacao_nova.index') }}"
-                          id="importacao_nova-search-form" class="smart-form client-form">
+                          id="importacao_nova-search-form" class="smart-form client-form form_ajax">
                         <div class="row">
                             <section class="col col-1">
                                 <label class="input">

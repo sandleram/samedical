@@ -18,7 +18,7 @@
                     <form id="grupo_empresarial-search-form"
                           method="GET"
                           action="{{ route('admin.grupo_empresarial.index') }}"
-                          class="smart-form client-form">
+                          class="smart-form client-form form_ajax">
                         <div class="row">
                             <section class="col col-1">
                                 <label class="input">

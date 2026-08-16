@@ -1,30 +1,18 @@
 ---
-description: Eloquent só em Infrastructure; schema legado MySQL e tenant
+description: Eloquent só em Infrastructure; schema legado e tenant
 globs: app/Infrastructure/**,app/Models/**,database/**
 alwaysApply: false
 ---
 
 # Database / Infrastructure
 
-## Eloquent
+Eloquent **somente** nos repos `Eloquent*Repository`. `app/Models\*` = adapter do schema legado — não injetar em Controller/UseCase.
 
-- Eloquent **somente** em Infrastructure (repos `Eloquent*Repository`).
-- `app/Models\*` = adapters de persistência do schema legado — usados **dentro** dos repos, não injetados em Controllers/UseCases novos.
-- Tabelas singulares em português (`$table`); preferir schema existente.
+Tabelas singulares em português (`$table`). Preferir dump (`database/schema/samed_pro_structure.sql`); migration **só** para gap.
 
-## Migrations
+Tenant: receber `TenantScope`; aplicar `where` / `whereHas` no repo. Nem toda tabela tem `grupo_empresarial_id` (ex.: beneficiário via `cliente_id`).
 
-- Preferir tabelas do dump (`database/schema/samed_pro_structure.sql`).
-- Migration **só** para gaps além do schema legado.
-- Não reinventar colunas/tenant sem necessidade.
-
-## Tenant
-
-- Escopo típico: `cliente_id` → `cliente.grupo_empresarial_id`.
-- Nem toda tabela tem `grupo_empresarial_id` (ex.: beneficiário).
-- Receber `TenantScope` do Application; aplicar `where` / `whereHas` no repo Eloquent.
-
-## Naming
-
-- Interface: `App\Domain\…\{Aggregate}RepositoryInterface`
-- Impl: `App\Infrastructure\Persistence\Eloquent\Eloquent{Aggregate}Repository`
+```
+Domain\{Aggregate}RepositoryInterface
+  → Infrastructure\Persistence\Eloquent\Eloquent{Aggregate}Repository
+```

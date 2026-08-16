@@ -1,26 +1,10 @@
-# Review — mod-beneficio (Benefício)
+# Review — mod-beneficio
 
-> **Onda:** C · **ACL key:** `beneficio`
+> **Onda:** C · **ACL:** `beneficio`
 
-## Code review — camadas
+- [x] Camadas · rotas Cake · `modulo:beneficio`
+- [x] Visual: jarviswidget + `form_ajax` + paginação Cake; add/show `well no-padding`
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\BeneficioController` (thin)
-- [x] UseCases em `App\Application\Beneficio`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentBeneficioRepository`
-- [x] Binding registrado
-- [x] Blade BS3 / SmartAdmin
-- [x] ACL `middleware("modulo:beneficio")`
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado (Onda C layered)
-
-### Feito
-- Port completo Domain → Application → Infrastructure → Interfaces
-- Shim Http deprecated
-- Rotas legado `/admin/beneficio`, `/view/{id}`, `/add/{id?}`
-
-### Diferido
-- Soft-delete em massa / parity JS legado completa
-- Unit tests com fake de repository (opcional)
+Diferido: exclusão em massa · Ações dropdown

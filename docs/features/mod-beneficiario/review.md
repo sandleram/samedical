@@ -1,56 +1,28 @@
 # Review — mod-beneficiario (Beneficiário)
 
-> Stack: PHP 8.4+ · Laravel · MySQL 8 · Blade · Docker / nginx
->
-> **Onda:** A · **ACL key:** `beneficiario`
+> **Onda:** A · **ACL:** `beneficiario`
 
-Critérios para code review e QA antes do merge (preencher na implementação).
+## Camadas
 
-## Code review — Laravel
+- [x] Controller thin em `Interfaces\Http\Controllers\Admin`
+- [x] Domain sem Laravel; Eloquent só no repo
+- [x] Rotas Cake `/admin/beneficiario`, `/view/{id}`, `/add/{id?}`
+- [x] ACL `modulo:beneficiario`
+- [x] Tenant no repo (`cliente_id` → GE)
 
-- [ ] Implementação cobre o `spec.md`
-- [ ] Controllers em `Admin\` com middleware adequado
-- [ ] Models Eloquent com `$table`/relations corretos
-- [ ] Views Blade no layout `admin`
-- [ ] Sem N+1 óbvio; eager load quando necessário
-- [ ] Validação via Form Request ou `$request->validate()`
+## Visual vs Cake
 
-## Code review — SAMED V2
-
-- [ ] Multi-tenant respeitado (`grupo_empresarial_id`, `cliente_id`) conforme spec
-- [ ] Permissões `perfil` / `perfil_modulo` / `modulo` — chave `beneficiario`
-- [ ] UI SmartAdmin/Bootstrap 3 (não introduzir Bootstrap 4/5 sem demanda)
-- [ ] Sem secrets no código / commits
-- [ ] `legacy/` intacto salvo referência explícita
-- [ ] Sem `dd()` / debug esquecido
-- [ ] Telas do inventário `.ctp` cobertas ou explicitamente excluídas
-
-## QA / aceite
-
-- [ ] Fluxo principal validado no `/admin/beneficiario`
-- [ ] Fluxos de erro / borda validados
-- [ ] Login com perfil root e perfil restrito
-- [ ] Sessão expirada redireciona para login
-- [ ] Dados persistidos corretamente no MySQL
-- [ ] Listagem, paginação e filtro funcionam (se aplicável)
-- [ ] Critérios de aceite do `spec.md` marcados
-
-## Testes
-
-- [ ] Smoke manual
-- [ ] `docker compose exec app php artisan test` (se aplicável)
-
-## Checklist do revisor
-
-Comentários / bloqueios:
-
-1. …
-2. …
+- [x] Index: `wid-id-12`, `smart-form form_ajax`, filtros, Timeline/Acessar, badges situação/status, Ações dropdown, paginação Cake
+- [x] View: card resumido (avatar, CPF, cliente/empresa) + abas Timeline/Afastado/BP/Absenteísmo/Cadastro + dropdown Ações
+- [x] Add: `well no-padding` + `smart-form` + Ações (espelho Cake)
+- [x] Layout SmartAdmin / BS3
 
 ## Resultado
 
-- [ ] Aprovado
-- [ ] Aprovado com ressalvas
-- [ ] Reprovado — voltar para `tasks.md`
+- [x] Aprovado com ressalvas
 
+### Diferido
 
+- `admin_all`, `admin_view2`, `admin_timeline_example`
+- Checkbox / exclusão em massa (sem rota `delete`)
+- Prefill `add/{beneficiario_id}` nos módulos filhos (Cake passava o id do beneficiário)

@@ -16,7 +16,7 @@
             <h2>Todos BI</h2>
         </header>
         <div class="row" style="padding:10px 15px 0;">
-            <form method="GET" action="{{ route('admin.bi.index') }}" class="smart-form client-form" id="bi-search-form">
+            <form method="GET" action="{{ route('admin.bi.index') }}" class="smart-form client-form form_ajax" id="bi-search-form">
                 <div class="row">
                     <section class="col col-1">
                         <label class="input">

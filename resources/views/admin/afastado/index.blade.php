@@ -15,7 +15,7 @@
                 </header>
 
                 <div class="row" style="padding: 10px 15px 0;">
-                    <form method="GET" action="{{ route('admin.afastado.index') }}" class="smart-form client-form" id="afastado-search-form">
+                    <form method="GET" action="{{ route('admin.afastado.index') }}" class="smart-form client-form form_ajax" id="afastado-search-form">
                         <div class="row">
                             <section class="col col-1">
                                 <label class="input"><input type="text" name="id_" value="{{ $search['id_'] ?? '' }}" placeholder="ID" class="input_login"></label>

@@ -1,26 +1,10 @@
-# Review — mod-agendamento (Agendamento)
+# Review — mod-agendamento
 
-> **Onda:** C · **ACL key:** `agendamento`
+> **Onda:** C · **ACL:** `agendamento`
 
-## Code review — camadas
+- [x] Camadas · rotas Cake · tenant · `modulo:agendamento`
+- [x] Visual: jarviswidget + `form_ajax` + paginação Cake; add/show `smart-form`
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\AgendamentoController` (thin)
-- [x] UseCases em `App\Application\Agendamento`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentAgendamentoRepository`
-- [x] Binding registrado
-- [x] Blade BS3 / SmartAdmin
-- [x] ACL `middleware("modulo:agendamento")`
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado (Onda C layered)
-
-### Feito
-- Port completo Domain → Application → Infrastructure → Interfaces
-- Shim Http deprecated
-- Rotas legado `/admin/agendamento`, `/view/{id}`, `/add/{id?}`
-
-### Diferido
-- Soft-delete em massa / parity JS legado completa
-- Unit tests com fake de repository (opcional)
+Diferido: exclusão em massa · Ações dropdown · add a partir do beneficiário

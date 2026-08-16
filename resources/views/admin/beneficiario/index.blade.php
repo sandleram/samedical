@@ -14,30 +14,34 @@
                     <h2>Todos Beneficiários</h2>
                 </header>
 
-                <div class="row" style="padding: 10px 15px 0;">
+                <div class="row">
                     <form id="beneficiario-search-form"
                           method="GET"
                           action="{{ route('admin.beneficiario.index') }}"
-                          class="smart-form client-form">
+                          class="smart-form client-form form_ajax">
                         <div class="row">
                             <section class="col col-1">
                                 <label class="input">
                                     <input type="text" name="id_" value="{{ $search['id_'] ?? '' }}" placeholder="ID" class="input_login">
+                                    <b class="tooltip tooltip-top-right"><i class="fa fa-chevron-right txt-color-blueLight"></i> Entre com o Identificador</b>
                                 </label>
                             </section>
                             <section class="col col-1">
                                 <label class="input">
                                     <input type="text" name="cpf" value="{{ $search['cpf'] ?? '' }}" placeholder="CPF" class="cpf_mask input_login">
+                                    <b class="tooltip tooltip-top-right"><i class="fa fa-chevron-right txt-color-blueLight"></i> Entre com o CPF</b>
                                 </label>
                             </section>
                             <section class="col col-2">
                                 <label class="input">
                                     <input type="text" name="nome" value="{{ $search['nome'] ?? '' }}" placeholder="Nome" class="input_login">
+                                    <b class="tooltip tooltip-top-right"><i class="fa fa-chevron-right txt-color-blueLight"></i> Entre com o Nome</b>
                                 </label>
                             </section>
                             <section class="col col-2">
                                 <label class="input">
                                     <input type="text" name="nome_social" value="{{ $search['nome_social'] ?? '' }}" placeholder="Nome Social" class="input_login">
+                                    <b class="tooltip tooltip-top-right"><i class="fa fa-chevron-right txt-color-blueLight"></i> Entre com o Nome Social</b>
                                 </label>
                             </section>
                             <section class="col col-1">
@@ -48,6 +52,7 @@
                                         <option value="Inativo" @selected(($search['situacao'] ?? '') === 'Inativo')>Inativo</option>
                                     </select>
                                     <i></i>
+                                    <b class="tooltip tooltip-top-right"><i class="fa fa-chevron-right txt-color-blueLight"></i> Entre com o Status</b>
                                 </label>
                             </section>
                             <section class="col col-1">
@@ -58,47 +63,41 @@
                                         <option value="0" @selected((string) ($search['status'] ?? '') === '0')>Inativo</option>
                                     </select>
                                     <i></i>
+                                    <b class="tooltip tooltip-top-right"><i class="fa fa-chevron-right txt-color-blueLight"></i> Entre com o Status</b>
                                 </label>
                             </section>
                             <section class="col col-1">
                                 <button type="submit" class="btn btn-primary" style="padding: 4px 10px;">Filtrar</button>
                             </section>
                             <section class="col col-2">
-                                @php
-                                    $hasFilter = collect($search)->filter(fn ($v) => $v !== '' && $v !== null)->isNotEmpty();
-                                @endphp
-                                @if ($hasFilter)
-                                    <a href="{{ route('admin.beneficiario.index') }}">Limpar Filtros</a>
-                                @endif
+                                @include('partials.admin.filtro_limpar', ['search' => $search, 'clearUrl' => route('admin.beneficiario.index')])
                             </section>
                         </div>
                     </form>
                 </div>
 
                 <div>
-                    <div class="table-responsive" style="padding: 0 15px 15px;">
-                        <p style="margin-top:10px;">
-                            @if ($permissao >= 2)
-                                <a class="btn btn-success btn-sm" href="{{ route('admin.beneficiario.add') }}">
-                                    <i class="fa fa-plus"></i> Novo
-                                </a>
-                            @endif
-                        </p>
+                    <div class="table-responsive">
+                        @include('partials.admin.acoes_geral', [
+                            'permissao' => $permissao,
+                            'addRoute' => route('admin.beneficiario.add'),
+                            'novoLabel' => 'Novo Beneficiário',
+                            'context' => 'index',
+                        ])
 
                         <table class="table table-bordered table-striped">
                             <thead>
                             <tr>
                                 <th width="5">ID</th>
+                                <th width="10">Timeline</th>
                                 <th width="110">CPF</th>
                                 <th>Nome</th>
                                 <th>Nome Social</th>
-                                <th>Cliente</th>
+                                <th width="150">Data de Cadastro</th>
                                 <th>Situação</th>
                                 @if (in_array($perfil_id, $perfil_adm, true) || $permissao === 3)
                                     <th width="20">Status</th>
-                                    <th class="actions" width="80">Ações</th>
-                                @else
-                                    <th class="actions" width="60">Ações</th>
+                                    <th class="actions" width="20">Actions</th>
                                 @endif
                             </tr>
                             </thead>
@@ -106,33 +105,35 @@
                             @forelse ($beneficiarios as $row)
                                 <tr>
                                     <td>{{ $row->id }}</td>
-                                    <td>{{ $row->cpf }}</td>
+                                    <td>
+                                        <a href="{{ route('admin.beneficiario.view', $row->id) }}" class="btn btn-primary btn-xs">
+                                            <i class="fa fa-user"></i> Acessar
+                                        </a>
+                                    </td>
+                                    <td>{{ \App\Support\Funcoes::formatCpf($row->cpf) }}</td>
                                     <td>{{ $row->nome }}</td>
                                     <td>{{ $row->nome_social }}</td>
-                                    <td>{{ $row->cliente->nome ?? '-' }}</td>
-                                    <td>{{ $row->situacao }}</td>
+                                    <td>{{ $row->data_cadastro?->format('d/m/Y H:i') ?? '-' }}</td>
+                                    <td>@include('partials.admin.situacao_badge', ['situacao' => $row->situacao])</td>
                                     @if (in_array($perfil_id, $perfil_adm, true) || $permissao === 3)
-                                        <td>{{ (int) $row->status === 1 ? 'Ativo' : 'Inativo' }}</td>
+                                        <td>@include('partials.admin.status_badge', ['status' => $row->status])</td>
+                                        <td class="actions">
+                                            @include('partials.admin.acoes_lista', [
+                                                'permissao' => $permissao,
+                                                'viewRoute' => route('admin.beneficiario.view', $row->id),
+                                                'editRoute' => route('admin.beneficiario.add', $row->id),
+                                            ])
+                                        </td>
                                     @endif
-                                    <td class="actions">
-                                        <a href="{{ route('admin.beneficiario.view', $row->id) }}" class="btn btn-xs btn-default" title="Ver">
-                                            <i class="fa fa-eye"></i>
-                                        </a>
-                                        @if ($permissao >= 2)
-                                            <a href="{{ route('admin.beneficiario.add', $row->id) }}" class="btn btn-xs btn-primary" title="Editar">
-                                                <i class="fa fa-edit"></i>
-                                            </a>
-                                        @endif
-                                    </td>
                                 </tr>
                             @empty
                                 <tr>
-                                    <td colspan="8" class="text-center">Nenhum beneficiário encontrado.</td>
+                                    <td colspan="9" class="text-center">Nenhum registro encontrado.</td>
                                 </tr>
                             @endforelse
                             </tbody>
                         </table>
-
+                        <div class="note" style="margin:10px;">* O acesso ao dashboard só terá efeito sobre a empresa clicada se estiver deslogado!</div>
                         {{ $beneficiarios->links() }}
                     </div>
                 </div>

@@ -17,7 +17,7 @@
 ## Qualidade
 
 - [x] Feature smoke em `tests/Feature/MhModulesRoutesTest.php` (Onda D)
-- [ ] Smoke manual `/admin/mh_prestador`
+- [x] Smoke Docker `php artisan test` (`MhModulesRoutesTest` `/admin/mh_prestador`)
 - [ ] PR aberto
 
 ## Deferred

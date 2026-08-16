@@ -1,33 +1,39 @@
 ---
-description: Mapeamento CakePHP 2.x → camadas Laravel (port SAMED)
-globs: legacy/**,app/**,resources/views/**
+description: Port CakePHP 2.x — 10 passos, mapeamento e parity visual
+globs: legacy/**,app/**,resources/views/**,docs/features/**
 alwaysApply: false
 ---
 
-# Migração CakePHP → Laravel
+# Migração CakePHP
 
-`legacy/` é **referência** — não alterar sem pedido explícito. Portar comportamento, não copiar estrutura Cake.
+`legacy/` é referência — não alterar sem pedido. Começar pelo `spec.md` da feature.
+
+## 10 passos (nessa ordem)
+
+1. Analisar módulo Cake (Controller, Model, `.ctp`, ACL)
+2. Documentar regras de negócio no `spec.md` (só as **deste** módulo — não repetir ACL/perfis genéricos)
+3. Definir entidades / VOs
+4. Definir UseCases
+5. Criar testes (fake de repository)
+6. Implementar Domain
+7. Implementar Infrastructure
+8. Implementar Controller + FormRequest
+9. Migrar View (skeleton SmartAdmin do `.ctp`)
+10. Validar contra Cake (rotas, ACL, HTML/JS, tenant)
 
 ## Mapeamento
 
-| CakePHP 2.x | Laravel SAMED |
-|-------------|----------------|
-| Controller | `Interfaces\Http\Controllers\…` (thin) |
+| CakePHP 2.x | SAMED |
+|-------------|-------|
+| Controller | `Interfaces\Http\Controllers` (thin) |
 | Model | Domain Entity + `*RepositoryInterface` + Eloquent repo |
-| Component | Application UseCase / Domain Service |
+| Component | UseCase / Domain Service |
 | Behavior | Domain Service / Event / Infrastructure |
-| View (`.ctp`) | Blade + SmartAdmin / Bootstrap **3** |
-
-## Ao portar um módulo
-
-1. Ler `legacy/` + `docs/features/{mod}/` (spec/plan)
-2. Extrair regras do Model/Controller Cake → Domain / UseCase
-3. Controller Laravel só orquestra; FormRequest valida input
-4. Preservar IDs/classes HTML usados pelo JS legado
-5. ACL: `perfil_modulo`; tenant via `TenantScope` na Infrastructure
+| View `.ctp` | Blade — **mesmo** markup SmartAdmin/BS3 |
 
 ## Anti-padrões
 
 - Colar lógica Cake no Controller Laravel
-- Usar Model Eloquent como “Domain”
-- Introduzir Bootstrap 4/5 sem demanda
+- Eloquent como “Domain”
+- Bootstrap 4/5
+- Spec genérico (“Controller consulta Eloquent”) sem regra real do módulo

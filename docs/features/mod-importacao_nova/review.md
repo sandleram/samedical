@@ -1,24 +1,10 @@
-# Review — mod-importacao_nova (Importação Nova)
+# Review — mod-importacao_nova
 
 > **Onda:** E · **ACL:** `importacao_nova`
 
-## Code review — camadas
+- [x] Camadas · rotas Cake (index/add/import/view/reprocess)
+- [x] Visual: jarviswidget + `form_ajax` + paginação Cake
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\ImportacaoNovaController` (thin)
-- [x] UseCases em `App\Application\ImportacaoNova`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentImportacaoNovaRepository`
-- [x] Binding registrado
-- [x] ACL `middleware("modulo:importacao_nova")`
-- [x] Shim Http deprecated
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado com ressalvas
-- Entry points (index/add/view/import/validacao/status/processar_arquivo) layered
-- Processamento assíncrono completo (`processar_arquivo` worker / carga_*) **deferido** — reprocessar só reabre pending
-
-### Diferido
-
-- Job/worker de carga linha-a-linha
-- Unit tests com fake de repository (opcional)
+Diferido: processamento síncrono completo · exclusão em massa

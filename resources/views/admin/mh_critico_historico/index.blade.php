@@ -23,7 +23,7 @@
                     <form id="mh_critico_historico-search-form"
                           method="GET"
                           action="{{ route('admin.mh_critico_historico.index', $mh_critico_id) }}"
-                          class="smart-form client-form">
+                          class="smart-form client-form form_ajax">
                         <div class="row">
                             <section class="col col-1">
                                 <label class="input">

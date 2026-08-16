@@ -1,26 +1,10 @@
-# Review — mod-atendimento (Atendimento)
+# Review — mod-atendimento
 
-> **Onda:** C · **ACL key:** `atendimento`
+> **Onda:** C · **ACL:** `atendimento`
 
-## Code review — camadas
+- [x] Camadas · rotas Cake · tenant · `modulo:atendimento`
+- [x] Visual: jarviswidget + `form_ajax` + paginação Cake; add/show `smart-form`
 
-- [x] Controller em `App\Interfaces\Http\Controllers\Admin\AtendimentoController` (thin)
-- [x] UseCases em `App\Application\Atendimento`
-- [x] Domain sem Laravel
-- [x] Eloquent só em `EloquentAtendimentoRepository`
-- [x] Binding registrado
-- [x] Blade BS3 / SmartAdmin
-- [x] ACL `middleware("modulo:atendimento")`
+**Resultado:** [x] Aprovado com ressalvas
 
-## Resultado
-
-- [x] Aprovado (Onda C layered)
-
-### Feito
-- Port completo Domain → Application → Infrastructure → Interfaces
-- Shim Http deprecated
-- Rotas legado `/admin/atendimento`, `/view/{id}`, `/add/{id?}`
-
-### Diferido
-- Soft-delete em massa / parity JS legado completa
-- Unit tests com fake de repository (opcional)
+Diferido: exclusão em massa · Ações dropdown · timeline visual completa do `.ctp` element

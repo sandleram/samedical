@@ -1,33 +1,10 @@
-# Review — mod-blob (Blob (arquivos))
+# Review — mod-blob
 
-> **Onda:** F · **ACL key:** `blob` + always-allowed `blob/download`
+> **Onda:** F · **ACL:** `blob/download` always-allowed
 
-## Code review — camadas
+- [x] Download via UseCase · lookup `md5(id)` legado
+- [x] Sem telas CRUD (Cake também era download)
 
-- [x] `Interfaces\Http\Controllers\Admin\BlobController` (thin)
-- [x] UseCase `DownloadBlob`
-- [x] Domain `BlobFile` + `BlobRepositoryInterface`
-- [x] Eloquent só em Infrastructure
-- [x] Lookup `md5(id)` legado
-- [x] `blob/download` em `always_allowed_actions`
-- [x] Shim Http deprecated
+**Resultado:** [x] Aprovado com ressalvas
 
-## QA
-
-- [x] Guest → login
-- [x] Always-allowed helper
-- [ ] Download com blob real — smoke manual
-
-## Testes
-
-- [x] `OndaFIntegrationRoutesTest`
-- [x] `DownloadBlobTest`
-- [ ] Suite Docker usuário
-
-## Deferred
-
-- Upload / index / delete / `blob_action`
-
-## Resultado
-
-- [x] Aprovado com ressalvas (Onda F layered)
+Diferido: upload / index / delete / `blob_action`

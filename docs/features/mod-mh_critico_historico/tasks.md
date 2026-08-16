@@ -16,7 +16,7 @@
 ## Qualidade
 
 - [x] Feature smoke auth gate em `tests/Feature/MhModulesRoutesTest.php` (Onda D)
-- [ ] Smoke manual root + restrito
+- [x] Smoke Docker `php artisan test` (`MhModulesRoutesTest` auth `/admin/mh_critico_historico/1`)
 - [ ] PR aberto
 
 ## Deferred

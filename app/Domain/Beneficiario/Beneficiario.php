@@ -51,6 +51,8 @@ final class Beneficiario
         public readonly ?string $empresaRazaoSocial = null,
         public readonly ?string $empresaNome = null,
         public readonly ?string $grupoEmpresarialNome = null,
+        public readonly ?\DateTimeImmutable $dataCadastro = null,
+        public readonly ?string $empresaCnpj = null,
     ) {}
 
     /**
@@ -97,6 +99,7 @@ final class Beneficiario
             'valor_do_seguro' => $this->valorDoSeguro,
             'cod_matricula' => $this->codMatricula,
             'status' => $this->status,
+            'data_cadastro' => $this->dataCadastro,
             'cliente' => (object) [
                 'nome' => $this->clienteNome,
                 'grupoEmpresarial' => (object) ['nome' => $this->grupoEmpresarialNome],
@@ -104,6 +107,7 @@ final class Beneficiario
             'empresa' => (object) [
                 'razao_social' => $this->empresaRazaoSocial,
                 'nome' => $this->empresaNome,
+                'cnpj' => $this->empresaCnpj,
             ],
             default => null,
         };
