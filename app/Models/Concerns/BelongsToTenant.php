@@ -11,12 +11,12 @@ trait BelongsToTenant
         $grupoId = session('grupo_empresarial_id');
         $clienteId = session('cliente_id');
 
-        if ($grupoId) {
-            $query->where($this->getTable().'.grupo_empresarial_id', $grupoId);
-        }
-
         if ($clienteId) {
             $query->where($this->getTable().'.cliente_id', $clienteId);
+        } elseif ($grupoId) {
+            $query->whereHas('cliente', function (Builder $clienteQuery) use ($grupoId) {
+                $clienteQuery->where('grupo_empresarial_id', $grupoId);
+            });
         }
 
         return $query;

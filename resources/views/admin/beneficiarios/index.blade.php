@@ -40,7 +40,7 @@
                             <td>{{ $row->id }}</td>
                             <td>{{ $row->nome }}</td>
                             <td>{{ $row->cpf }}</td>
-                            <td>{{ $row->matricula }}</td>
+                            <td>{{ $row->cod_matricula }}</td>
                             <td>{{ $row->cliente->nome ?? '-' }}</td>
                             <td>{{ $row->empresa->nome ?? '-' }}</td>
                             <td>

@@ -25,7 +25,7 @@
                 <dt>CPF</dt>
                 <dd>{{ $beneficiario->cpf ?? '-' }}</dd>
                 <dt>Matrícula</dt>
-                <dd>{{ $beneficiario->matricula ?? '-' }}</dd>
+                <dd>{{ $beneficiario->cod_matricula ?? '-' }}</dd>
                 <dt>Nascimento</dt>
                 <dd>{{ $beneficiario->data_nascimento ?? '-' }}</dd>
                 <dt>Cliente</dt>
@@ -33,7 +33,7 @@
                 <dt>Empresa</dt>
                 <dd>{{ $beneficiario->empresa->nome ?? '-' }}</dd>
                 <dt>Grupo Empresarial</dt>
-                <dd>{{ $beneficiario->grupoEmpresarial->nome ?? '-' }}</dd>
+                <dd>{{ $beneficiario->cliente->grupoEmpresarial->nome ?? '-' }}</dd>
                 <dt>Status</dt>
                 <dd>{{ (int) $beneficiario->status === 1 ? 'Ativo' : 'Inativo' }}</dd>
             </dl>

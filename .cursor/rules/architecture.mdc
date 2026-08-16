@@ -1,0 +1,50 @@
+---
+description: DDD + Hexagonal + Clean Architecture — camadas e dependências SAMED
+alwaysApply: true
+---
+
+# Arquitetura SAMED (Clean / Hexagonal)
+
+Detalhes: `docs/architecture/layered.md`. Referência canônica: **Beneficiário**.
+
+## Pastas
+
+| Camada | Path | Papel |
+|--------|------|-------|
+| Domain | `app/Domain/` | Entidades, VOs, regras, `*RepositoryInterface` |
+| Application | `app/Application/` | UseCases |
+| Infrastructure | `app/Infrastructure/` | Eloquent repos, adapters |
+| Interfaces | `app/Interfaces/` | Controllers finos, FormRequests |
+
+`app/Http/` e `app/Models/` = legado pré-camadas / adapters Eloquent — não expandir o padrão antigo.
+
+## Dependências permitidas (somente estas)
+
+```
+Interfaces  → Application
+Application → Domain
+Infrastructure → Domain
+```
+
+- **Domain NÃO** depende de Laravel (`Illuminate\*`, Eloquent, Facades, `Request`, session).
+- Application **não** importa Eloquent Models nem Controllers.
+- Controllers **não** chamam Infrastructure/Eloquent direto.
+
+## Fluxo obrigatório
+
+```
+Controller → UseCase → Domain → RepositoryInterface → EloquentRepository (Infrastructure)
+```
+
+## Controller (thin only)
+
+1. Receber request  
+2. Validar input (FormRequest)  
+3. Chamar UseCase  
+4. Devolver view / redirect / JSON  
+
+**Proibido:** regras de negócio, queries Eloquent, cálculos de domínio no controller.
+
+## Tenant / ACL
+
+Middleware nas rotas. `TenantScope` (VO em Domain) montado em Interfaces; filtro aplicado em Infrastructure — **nunca** lógica de tenant/session no Domain.

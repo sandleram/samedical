@@ -17,52 +17,83 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        $grupo = GrupoEmpresarial::query()->firstOrCreate(
-            ['id' => 1],
-            ['nome' => 'Grupo Demo', 'status' => 1]
-        );
+        $now = now();
 
-        $perfilRoot = Perfil::query()->firstOrCreate(
-            ['id' => 1],
-            ['nome' => 'Root', 'descricao' => 'Acesso total', 'tipo' => 'root', 'status' => 1]
-        );
-
-        $cliente = Cliente::query()->firstOrCreate(
+        $grupo = GrupoEmpresarial::query()->updateOrCreate(
             ['id' => 1],
             [
-                'nome' => 'Cliente Demo',
-                'grupo_empresarial_id' => $grupo->id,
+                'nome' => 'Grupo Demo',
+                'data_cadastro' => $now,
                 'status' => 1,
             ]
         );
 
-        $empresa = Empresa::query()->firstOrCreate(
+        $perfilRoot = Perfil::query()->updateOrCreate(
+            ['id' => 1],
+            [
+                'nome' => 'Root',
+                'descricao' => 'Acesso total',
+                'tipo' => 1,
+                'usuario_criador' => 1,
+                'status' => 1,
+            ]
+        );
+
+        $cliente = Cliente::query()->updateOrCreate(
+            ['id' => 1],
+            [
+                'nome' => 'Cliente Demo',
+                'grupo_empresarial_id' => $grupo->id,
+                'data_cadastro' => $now,
+                'status' => 1,
+            ]
+        );
+
+        $empresa = Empresa::query()->updateOrCreate(
             ['id' => 1],
             [
                 'nome' => 'Empresa Demo LTDA',
                 'cnpj' => '00000000000191',
                 'cliente_id' => $cliente->id,
+                'data_cadastro' => $now,
                 'status' => 1,
             ]
         );
 
-        $home = Modulo::query()->firstOrCreate(
+        $home = Modulo::query()->updateOrCreate(
             ['controller' => 'home'],
-            ['nome' => 'Home', 'menu' => 'Home', 'icon' => 'fa-home', 'ordem' => 1, 'status' => 1]
+            [
+                'nome' => 'Home',
+                'menu' => 2,
+                'icon' => 'fa-home',
+                'order' => 1,
+                'usuario_id' => 1,
+                'status' => 1,
+            ]
         );
 
-        $beneficiario = Modulo::query()->firstOrCreate(
+        $beneficiarioModulo = Modulo::query()->updateOrCreate(
             ['controller' => 'beneficiario'],
-            ['nome' => 'Beneficiários', 'menu' => 'Beneficiários', 'icon' => 'fa-users', 'ordem' => 2, 'status' => 1]
+            [
+                'nome' => 'Beneficiários',
+                'menu' => 2,
+                'icon' => 'fa-users',
+                'order' => 2,
+                'usuario_id' => 1,
+                'status' => 1,
+            ]
         );
 
-        foreach ([$home, $beneficiario] as $modulo) {
-            PerfilModulo::query()->firstOrCreate(
+        foreach ([$home, $beneficiarioModulo] as $modulo) {
+            PerfilModulo::query()->updateOrCreate(
                 [
                     'perfil_id' => $perfilRoot->id,
                     'modulo_id' => $modulo->id,
                 ],
-                ['nivel' => 3]
+                [
+                    'permissao' => 3,
+                    'status' => 1,
+                ]
             );
         }
 
@@ -71,6 +102,7 @@ class DatabaseSeeder extends Seeder
             [
                 'id' => 1,
                 'nome' => 'Administrador',
+                'apelido' => 'Admin',
                 'senha' => Hash::make('admin123'),
                 'email' => 'admin@samed.local',
                 'perfil_id' => $perfilRoot->id,
@@ -79,11 +111,11 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
-        // Usuário legado com senha MD5 para validar upgrade no login
         User::query()->updateOrCreate(
             ['usuario' => 'legado'],
             [
                 'nome' => 'Usuário Legado',
+                'apelido' => 'Legado',
                 'senha' => md5('legado123'),
                 'email' => 'legado@samed.local',
                 'perfil_id' => $perfilRoot->id,
@@ -92,15 +124,17 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
-        Beneficiario::query()->firstOrCreate(
+        Beneficiario::query()->updateOrCreate(
             ['cpf' => '00000000000'],
             [
                 'nome' => 'Beneficiário Demo',
-                'matricula' => 'A001',
+                'cod_matricula' => 'A001',
                 'data_nascimento' => '1990-01-15',
                 'cliente_id' => $cliente->id,
                 'empresa_id' => $empresa->id,
-                'grupo_empresarial_id' => $grupo->id,
+                'usuario_criador_id' => 1,
+                'processo' => '1',
+                'vl_ambulatorio' => 1.00,
                 'status' => 1,
             ]
         );

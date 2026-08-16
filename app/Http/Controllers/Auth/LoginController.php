@@ -43,7 +43,7 @@ class LoginController extends Controller
             $user->save();
         }
 
-        Auth::login($user, $request->boolean('remember'));
+        Auth::login($user);
         $request->session()->regenerate();
 
         session([

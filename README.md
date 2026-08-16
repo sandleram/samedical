@@ -17,8 +17,11 @@ cp .env.example .env
 docker compose up -d --build
 docker compose exec app composer install
 docker compose exec app php artisan key:generate
-docker compose exec app php artisan migrate --seed
+docker compose exec app php artisan migrate:fresh --seed
 ```
+
+Schema de produção (estrutura): `database/schema/samed_pro_structure.sql`  
+Em ambientes que já tinham a migration piloto antiga, use `migrate:fresh` (apaga dados locais).
 
 | Serviço | URL / porta |
 |---------|-------------|
@@ -30,7 +33,6 @@ docker compose exec app php artisan migrate --seed
 ## Documentação
 
 - Guia do repositório: [`AGENTS.md`](AGENTS.md)
-- Fundação V2: [`docs/features/samed-v2-fundacao/`](docs/features/samed-v2-fundacao/)
 - Templates de feature: [`docs/features/_template/`](docs/features/_template/)
 
 ## Produção

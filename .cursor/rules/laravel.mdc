@@ -1,0 +1,39 @@
+---
+description: Controllers finos, FormRequests, UseCases e bindings Laravel
+globs: app/Interfaces/**,app/Application/**,routes/**,app/Http/**
+alwaysApply: false
+---
+
+# Laravel — Interfaces / Application / rotas
+
+## Controllers
+
+Preferir `App\Interfaces\Http\Controllers\Admin\*`.  
+`App\Http\Controllers\Admin\*` só até o módulo ser migrado (adapter fino, sem regras novas).
+
+Thin only: FormRequest → UseCase → view/redirect. Sem Eloquent no controller.
+
+## Validação
+
+FormRequests em `App\Interfaces\Http\Requests\…`. Regras de input HTTP aqui; regras de **negócio** no Domain/UseCase.
+
+## UseCases (`app/Application/**`)
+
+- Nome: verbo + substantivo (`ListBeneficiarios`, `SaveBeneficiario`)
+- Dependem de `*RepositoryInterface` (Domain), não de Models
+- Orquestram Domain; não devolvem Eloquent Model para a view se o módulo já estiver portado (DTOs / arrays / entidades)
+
+## Bindings
+
+Registrar em service provider (ex. `AppServiceProvider`):
+
+```php
+$this->app->bind(
+    BeneficiarioRepositoryInterface::class,
+    EloquentBeneficiarioRepository::class,
+);
+```
+
+## Rotas
+
+`routes/web.php`: prefixo `/admin`, middleware `auth` + tenant + `modulo:` conforme ACL. Controllers migrados apontam para `Interfaces\Http\…`.

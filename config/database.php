@@ -64,6 +64,31 @@ return [
             ]) : [],
         ],
 
+        /*
+        | Conexão Proativa / robô (legado default_pro_robo).
+        | Usada apenas por features BI / WS / DW — não é o default da app.
+        | Credenciais exclusivamente via DB_PROATIVA_* no .env.
+        */
+        'proativa' => [
+            'driver' => 'mysql',
+            'url' => env('DB_PROATIVA_URL'),
+            'host' => env('DB_PROATIVA_HOST', '127.0.0.1'),
+            'port' => env('DB_PROATIVA_PORT', '3306'),
+            'database' => env('DB_PROATIVA_DATABASE', 'desenvol_proativa_robo'),
+            'username' => env('DB_PROATIVA_USERNAME', 'root'),
+            'password' => env('DB_PROATIVA_PASSWORD', ''),
+            'unix_socket' => env('DB_PROATIVA_SOCKET', ''),
+            'charset' => env('DB_PROATIVA_CHARSET', env('DB_CHARSET', 'utf8mb4')),
+            'collation' => env('DB_PROATIVA_COLLATION', env('DB_COLLATION', 'utf8mb4_unicode_ci')),
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'strict' => true,
+            'engine' => null,
+            'options' => extension_loaded('pdo_mysql') ? array_filter([
+                Mysql::ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+            ]) : [],
+        ],
+
         'mariadb' => [
             'driver' => 'mariadb',
             'url' => env('DB_URL'),

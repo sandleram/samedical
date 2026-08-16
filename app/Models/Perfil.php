@@ -13,10 +13,23 @@ class Perfil extends Model
 
     protected $fillable = [
         'nome',
-        'descricao',
         'tipo',
+        'descricao',
+        'usuario_criador',
+        'data_cadastro',
+        'data_atualizacao',
         'status',
     ];
+
+    protected function casts(): array
+    {
+        return [
+            'tipo' => 'integer',
+            'status' => 'integer',
+            'data_cadastro' => 'datetime',
+            'data_atualizacao' => 'datetime',
+        ];
+    }
 
     public function perfilModulos(): HasMany
     {

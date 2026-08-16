@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Sinistro extends Model
+{
+    protected $table = 'sinistro';
+
+    public $timestamps = false;
+}

@@ -1,0 +1,33 @@
+---
+description: Mapeamento CakePHP 2.x → camadas Laravel (port SAMED)
+globs: legacy/**,app/**,resources/views/**
+alwaysApply: false
+---
+
+# Migração CakePHP → Laravel
+
+`legacy/` é **referência** — não alterar sem pedido explícito. Portar comportamento, não copiar estrutura Cake.
+
+## Mapeamento
+
+| CakePHP 2.x | Laravel SAMED |
+|-------------|----------------|
+| Controller | `Interfaces\Http\Controllers\…` (thin) |
+| Model | Domain Entity + `*RepositoryInterface` + Eloquent repo |
+| Component | Application UseCase / Domain Service |
+| Behavior | Domain Service / Event / Infrastructure |
+| View (`.ctp`) | Blade + SmartAdmin / Bootstrap **3** |
+
+## Ao portar um módulo
+
+1. Ler `legacy/` + `docs/features/{mod}/` (spec/plan)
+2. Extrair regras do Model/Controller Cake → Domain / UseCase
+3. Controller Laravel só orquestra; FormRequest valida input
+4. Preservar IDs/classes HTML usados pelo JS legado
+5. ACL: `perfil_modulo`; tenant via `TenantScope` na Infrastructure
+
+## Anti-padrões
+
+- Colar lógica Cake no Controller Laravel
+- Usar Model Eloquent como “Domain”
+- Introduzir Bootstrap 4/5 sem demanda

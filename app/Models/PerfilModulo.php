@@ -14,13 +14,19 @@ class PerfilModulo extends Model
     protected $fillable = [
         'perfil_id',
         'modulo_id',
-        'nivel',
+        'permissao',
+        'status',
+        'data_cadastro',
+        'data_atualizacao',
     ];
 
     protected function casts(): array
     {
         return [
-            'nivel' => 'integer',
+            'permissao' => 'integer',
+            'status' => 'integer',
+            'data_cadastro' => 'datetime',
+            'data_atualizacao' => 'datetime',
         ];
     }
 

@@ -20,6 +20,7 @@
     <script src="{{ asset('js/admin/bootstrap/bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/admin/plugin/jquery-validate/jquery.validate.min.js') }}"></script>
     <script src="{{ asset('js/admin/app.js') }}"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     @stack('scripts')
 </body>
 </html>
