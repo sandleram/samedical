@@ -1,0 +1,11 @@
+Onda	Escopo
+B
+Cadastros (usuário, GE, cliente, empresa…) — DONE (layered)
+C
+Operacionais (absenteísmo, afastado, agendamento…) — DONE (layered)
+D
+MH crítico — DONE (layered)
+E
+Importação / BI / Relatório — DONE (layered; carga_*/Excel *_down deferred)
+F
+REST / WS / Blob / DB — DONE (layered; robôs Proativa / blob upload / db BI-aliases deferred)

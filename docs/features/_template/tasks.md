@@ -1,6 +1,8 @@
 # Tasks — [Nome da feature]
 
 > Stack: PHP 8.4+ · Laravel · MySQL 8 · Blade · Docker / nginx
+>
+> Camadas: ver `docs/architecture/layered.md`
 
 Checklist operacional. Marque `[x]` conforme conclui.
 
@@ -16,18 +18,28 @@ Checklist operacional. Marque `[x]` conforme conclui.
 - [ ] Aplicar no ambiente local (`artisan migrate` se houver)
 - [ ] Validar rollback documentado
 
-## Model
+## Domain
 
-- [ ] Criar/alterar `app/Models/{Model}.php`
-- [ ] Relations e scopes de tenant
-- [ ] `$fillable` / casts
+- [ ] Entidade/DTO em `app/Domain/{X}/`
+- [ ] `*RepositoryInterface` (+ critérios / `TenantScope`)
+- [ ] Regras puras no Domain (sem Laravel)
 
-## Controller
+## Application
 
-- [ ] Criar/alterar `app/Http/Controllers/Admin/{Controller}.php`
-- [ ] Middleware auth + tenant + permission
-- [ ] Actions CRUD necessárias
-- [ ] Flash messages
+- [ ] UseCases (`List*`, `Get*`, `Save*`, …)
+- [ ] Input DTOs tipados
+
+## Infrastructure
+
+- [ ] `Eloquent*Repository` em `app/Infrastructure/Persistence/Eloquent/`
+- [ ] Model Eloquent em `app/Models` (só persistência)
+- [ ] Binding no `AppServiceProvider`
+
+## Interfaces (HTTP)
+
+- [ ] Controller fino em `app/Interfaces/Http/Controllers/Admin/`
+- [ ] FormRequest em `app/Interfaces/Http/Requests/`
+- [ ] Sem regras de negócio no Controller
 
 ## Views
 
@@ -37,19 +49,13 @@ Checklist operacional. Marque `[x]` conforme conclui.
 
 ## Config / infra
 
-- [ ] Rotas em `routes/web.php`
-- [ ] Permissões: `modulo` + `perfil_modulo`
-- [ ] Jobs/commands — se batch/cron
-- [ ] Assets em `public/` — se necessário
+- [ ] Rotas em `routes/web.php` → controller Interfaces
+- [ ] Middleware auth + tenant + permission
+- [ ] Entrada em `modulo` / `perfil_modulo` se novo menu
+- [ ] `.env.example` se nova config
 
-## Qualidade
+## Testes / review
 
-- [ ] Smoke manual no `/admin`
-- [ ] Testado com perfil root e perfil restrito
-- [ ] Passar pelos itens de `review.md`
-- [ ] Sem debug/código morto
-
-## Entrega
-
-- [ ] PR aberto com link para `docs/features/{nome}/`
-- [ ] Review aprovado
+- [ ] Smoke manual das actions
+- [ ] Preencher `review.md` (pass/fail)
+- [ ] Testes automatizados se existirem no projeto

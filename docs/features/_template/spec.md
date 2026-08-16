@@ -55,11 +55,22 @@ Quem usa? Mapear para os perfis do SAMED:
 
 ## Dados
 
+### Camadas (Clean / Hexagonal)
+
+| Camada | Artefatos esperados |
+|--------|---------------------|
+| Domain | Entidade/DTO + `*RepositoryInterface` |
+| Application | UseCases (`List*`, `Get*`, `Save*`, …) |
+| Infrastructure | `Eloquent*Repository` |
+| Interfaces | Controller fino + FormRequest |
+
+Referência: `docs/architecture/layered.md` · vertical **Beneficiário**.
+
 ### Models / tabelas envolvidas
 
-| Model | Tabela | Uso |
-|-------|--------|-----|
-| … | … | … |
+| Model (Eloquent) | Tabela | Uso |
+|------------------|--------|-----|
+| … | … | Persistência via Infrastructure apenas |
 
 ### Campos novos ou alterados
 
@@ -70,7 +81,7 @@ Quem usa? Mapear para os perfis do SAMED:
 
 - Filtrar por `grupo_empresarial_id`? Sim / Não
 - Filtrar por `cliente_id`? Sim / Não
-- Usar scopes Eloquent de tenant? Sim / Não
+- `TenantScope` + filtro na Infrastructure? Sim / Não
 
 ### Integrações
 
@@ -89,6 +100,7 @@ Quem usa? Mapear para os perfis do SAMED:
 | `show` | `/admin/{resource}/{id}` | Detalhe |
 | … | … | … |
 
+Controller: `App\Interfaces\Http\Controllers\Admin\…`  
 Layout: `resources/views/layouts/admin.blade.php`
 
 ## Critérios de aceite
